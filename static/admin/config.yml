@@ -12,6 +12,15 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "theme"
+    label: "Theme"
+    files:
+      - file: "src/theme/theme.json"
+        label: "Theme"
+        name: "theme"
+        fields:
+          - {label: "Primary Color", name: "primaryColor", widget: color}
+          - {label: "Secondary Color", name: "secondaryColor", widget: color}
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
