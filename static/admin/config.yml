@@ -12,6 +12,18 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "seo"
+    label: "SEO"
+    files:
+      - file: "src/SEO/SeoFromCms.json"
+        label: "SEO Tags"
+        name: "SEO"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Description", name: "description", widget: string}
+          - {label: "Author", name: "author", widget: string}
+          - {label: "URL", name: "url", widget: string}
+          - {label: "Keywords", name: "keywords", widget: list}
   - name: "theme"
     label: "Theme"
     files:
