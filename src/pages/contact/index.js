@@ -21,7 +21,7 @@ export default class Index extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
-    fetch('/', {
+    fetch('/api/users', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
@@ -29,7 +29,11 @@ export default class Index extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then((res) =>  {
+        navigate(form.getAttribute('action'))
+        console.log(res);
+      
+      })
       .catch((error) => alert(error))
   }
 
@@ -87,15 +91,16 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
+                  <label className="label" htmlFor={'mobile'}>
+                    Mobile
                   </label>
                   <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={'message'}
+                  <input
+                      className="input"
+                      type={'tel'}
+                      name={'mobile'}
                       onChange={this.handleChange}
-                      id={'message'}
+                      id={'mobile'}
                       required={true}
                     />
                   </div>

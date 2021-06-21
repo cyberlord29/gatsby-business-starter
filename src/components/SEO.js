@@ -9,7 +9,8 @@ export const SEO = ({title, description, keywords, image, url, author}) => {
     const metaTitle = title || SeoCms.title;
     const metaAuthor = author || SeoCms.author;
     const metaUrl = url || SeoCms.url;
-    const metaKeywords = keywords || ['business', 'portfolio', 'crypto', 'trading'];
+    const metaKeywords = keywords || SeoCms.keywords;
+    console.log(metaTitle, metaDescription, metaAuthor, metaUrl, metaKeywords);
 
     return <Helmet 
         title = {title}
