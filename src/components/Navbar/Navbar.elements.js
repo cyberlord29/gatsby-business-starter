@@ -1,27 +1,22 @@
 import styled from 'styled-components'
 import { Container } from '../../globalStyles';
-import {Link} from 'gatsby';
+import { Link } from 'gatsby';
 
 export const Nav = styled.nav`
     height: 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    margin-left: 15%;
+    margin-right: 15%;
 `;
 
-export const NavbarContainer = styled(Container)`
+export const NavbarContainer = styled.div`
     display: flex;
-    justify-content: space-between;
     height: 70px;
-    ${Container}
+    width: 100%;
 `;
 
-export const NavIcon = styled.img`
-    height: 60px;
+export const NavIconContainer = styled.div`
+    flex-basis: 50%;
     justify-self: flex-start;
     cursor: pointer;
     display: flex;
@@ -57,4 +52,13 @@ export const NavLink = styled(Link)`
     padding: 0.5rem 1rem;
     height: 100%;
 `;
+
+export const ActiveIcon = styled.div`
+    background-color: "#f05b5c";
+    width: 65px;
+    height: 65px;
+    border-radius: 1000px;
+    border-left: 50px solid white;
+    border-bottom: 50px solid white;
+            `;
 

@@ -7,7 +7,8 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import GlobalStyle from '../globalStyles'
 import IntroCard from '../components/IntroCard/IntroCard'
-
+import AboutUs from '../components/AboutUs/AboutUs'
+import Services from '../components/Services/Services'
 export const IndexPageTemplate = ({
   image,
   title,
@@ -17,7 +18,12 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-<IntroCard />
+  <div>
+    <IntroCard />
+    <AboutUs />
+    <Services />
+  </div>
+
 )
 
 IndexPageTemplate.propTypes = {

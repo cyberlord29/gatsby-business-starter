@@ -1,19 +1,27 @@
-import React from 'react'
-import {Nav, NavbarContainer, NavIcon, NavMenu, NavItem, NavLink} from './Navbar.elements'
-
+import React, {useState} from 'react'
+import {Nav, NavbarContainer, NavIconContainer, NavMenu, NavItem, NavLink, ActiveIcon} from './Navbar.elements'
+import { StaticImage }from 'gatsby-plugin-image'
 
 const Navbar = () => {
 
-   
+    const [selectedIndex, setselectedIndex] = useState(0);
+
+    const handlePageChange = (index) => {
+        setselectedIndex(index);
+    }
     return (
        <Nav>
            <NavbarContainer>
-             <NavIcon src = "https://cdn.dribbble.com/users/2328616/screenshots/11047882/media/9176c1eed2452a79deccf37316f06027.png?compress=1&resize=400x300" alt = "Logo"></NavIcon>
+             <NavIconContainer>
+                <StaticImage src="../../img/logo1.png" height = {60} width={70}/>
+            </NavIconContainer> 
              <NavMenu>
                  <NavItem>
                      <NavLink>
                          About Us
+                         {/* {selectedIndex == 0  ? <ActiveIcon /> : <div></div> } */}
                      </NavLink>
+                     
                  </NavItem>
                  <NavItem>
                      <NavLink>
