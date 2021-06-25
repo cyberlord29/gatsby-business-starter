@@ -22,7 +22,7 @@ export const ServicesCard = styled.div`
 
 export const ServicesTitle = styled.h2`
     line-height: 1.6;
-    width: 60%;
+    width: 70%;
     font-size: 2rem;
 `;
 
@@ -35,9 +35,9 @@ export const ServicesDescription = styled.div`
     grid-template-columns: auto auto auto;
 `;
 
-export const ServiceTypeContainer = styled.h5`
+export const ServiceTypeContainer = styled.div`
     display: flex;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 `;
 
