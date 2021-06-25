@@ -9,6 +9,7 @@ import GlobalStyle from '../globalStyles'
 import IntroCard from '../components/IntroCard/IntroCard'
 import AboutUs from '../components/AboutUs/AboutUs'
 import Services from '../components/Services/Services'
+import Awards from '../components/Awards/Awards'
 export const IndexPageTemplate = ({
   image,
   title,
@@ -22,6 +23,7 @@ export const IndexPageTemplate = ({
     <IntroCard />
     <AboutUs />
     <Services />
+    <Awards />
   </div>
 
 )
