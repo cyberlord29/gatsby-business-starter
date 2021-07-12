@@ -1,30 +1,33 @@
 import React from 'react'
-import { IntroCardContainer, IntroTitle, IntroRight, StatTitle, StatValue, StatContainer, StatsContainer, DescriptionContainer } from './IntroCard.element'
+import { IntroCardContainer, IntroTitle, IntroRight, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, WhiteButton, YellowButtonContainer, YellowButton } from './IntroCard.element'
 
 const IntroCard = () => {
     return (
         <IntroCardContainer>
-            <IntroTitle>
-                Architects with different approach
-            </IntroTitle>
-            <IntroRight>
-                <StatsContainer>
-                    <StatContainer>
-                        <StatValue>12</StatValue>
-                        <StatTitle>Years Experience</StatTitle>
-                    </StatContainer>
-                    <StatContainer>
-                        <StatValue>357</StatValue>
-                        <StatTitle>Properties Built</StatTitle>
-                    </StatContainer>
-                    <StatContainer>
-                        <StatValue>19</StatValue>
-                        <StatTitle>Awards Gained</StatTitle>
-                    </StatContainer>
-                </StatsContainer>
+            <IntroLeftContainer>
+                <IntroTitle>
+                    Become the best Delivery man
+                </IntroTitle>
                 <DescriptionContainer>
-                Founded in Copenhagen with offices worldwide, <b>Reflex</b> is a studio made up of a highly specialized team of architects, designers, engineers, thinkers and doers.
+                    50% of workers dont have access to health and safety resources. We're on fix them in a quick delivery time
                 </DescriptionContainer>
+                <ButtonsContainer>
+                    <WhiteButtonsContainer>
+                        <WhiteButton>
+                            Enter your address
+                        </WhiteButton>
+                        <WhiteButton>
+                            Zip code
+                        </WhiteButton>
+                    </WhiteButtonsContainer>
+                    <YellowButtonContainer>
+                        <YellowButton>
+                            Go to menus
+                        </YellowButton>
+                    </YellowButtonContainer>
+                </ButtonsContainer>
+            </IntroLeftContainer>
+            <IntroRight>
             </IntroRight>
         </IntroCardContainer>
     )

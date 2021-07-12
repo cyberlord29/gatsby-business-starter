@@ -7,52 +7,78 @@ export const IntroCardContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 4%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 `;
 
-export const IntroTitle = styled.h1`
+export const IntroLeftContainer = styled.div`
     display: flex;
-    flex-basis: 40%;
-    font-size: 4.5rem;
-    line-height: 1.2;
-`;
-
-export const IntroRight = styled.div`
-    display: flex;
-    justify-content: space-between;
     flex-basis: 50%;
     flex-direction: column;
 `;
 
-export const StatsContainer = styled.div`
-    margin-top: 5%;
-    width: 90%;
+export const IntroTitle = styled.h1`
     display: flex;
+    flex-basis: 50%;
+    font-size: 4rem;
+    line-height: 1.3;
 `;
 
-export const StatContainer = styled.div`
-    display: block;
-    width: 10%;
-    margin-right: 25%;
-`;
+export const IntroRight = styled.div`
 
-export const StatValue = styled.h2`
-    text-align: left;
-    color: #f05b5c;
-    font-size: 2.75rem;
-    display: block;
-`;
-
-export const StatTitle = styled.p`
-    text-align: left;
-    margin-top: 7px;
-    display: block;
-    line-height: 1.6;
 `;
 
 export const DescriptionContainer = styled.p`
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1.10rem;
-    width: 90%;
-    line-height: 1.5;
+    color: grey;
+    width: 75%;
+    line-height: 1.6;
+`;
+
+export const ButtonsContainer = styled.div`
+    width: 75%;
+`;
+
+export const WhiteButtonsContainer = styled.div`
+    display: flex;
+    
+`;
+
+export const YellowButtonContainer = styled.div`
+    margin-top: 20px;
+`;
+
+export const YellowButton = styled.button`
+    background-color: #ef9d3a;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #ef9d3a;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+    }
+`;
+
+export const WhiteButton = styled.button`
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #ef9d3a;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ef9d3a;
+    }
+
 `;

@@ -1,5 +1,16 @@
+
 import React, {useState} from 'react'
-import {Nav, NavbarContainer, NavIconContainer, NavMenu, NavItem, NavLink, ActiveIcon} from './Navbar.elements'
+import {
+    Nav, 
+    NavbarContainer, 
+    NavIconContainer,
+    NavMenu, NavItem, 
+    NavLink, ActiveIcon, 
+    NavButton, 
+    NavButtonContainer, 
+    IconLabelContainer, 
+    IconLabel
+} from './Navbar.elements'
 import { StaticImage }from 'gatsby-plugin-image'
 
 const Navbar = () => {
@@ -13,32 +24,30 @@ const Navbar = () => {
        <Nav>
            <NavbarContainer>
              <NavIconContainer>
-                <StaticImage src="../../img/logo1.png" height = {60} width={70}/>
+                <StaticImage src="../../img/logo2.png" height = {60} width={70}/>
+                <IconLabelContainer>
+                    <IconLabel>
+                        Dulcet
+                    </IconLabel>
+                </IconLabelContainer>
             </NavIconContainer> 
              <NavMenu>
                  <NavItem>
                      <NavLink>
-                         About Us
-                         {/* {selectedIndex == 0  ? <ActiveIcon /> : <div></div> } */}
-                     </NavLink>
-                     
-                 </NavItem>
-                 <NavItem>
-                     <NavLink>
-                         Services
+                         How it works
                      </NavLink>
                  </NavItem>
                  <NavItem>
                      <NavLink>
-                         Projects
-                     </NavLink>
-                 </NavItem>
-                 <NavItem>
-                     <NavLink>
-                         Awards
+                         Contact
                      </NavLink>
                  </NavItem>
              </NavMenu>
+             <NavButtonContainer>
+                <NavButton>
+                     Pricing
+                </NavButton>
+             </NavButtonContainer>
            </NavbarContainer>
 
        </Nav>
@@ -46,3 +55,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
