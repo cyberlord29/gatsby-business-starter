@@ -1,7 +1,4 @@
 import styled from 'styled-components'
-import { Container } from '../../globalStyles';
-import { Link } from 'gatsby';
-
 
 export const IntroCardContainer = styled.div`
     display: flex;
@@ -44,7 +41,6 @@ export const ButtonsContainer = styled.div`
 
 export const WhiteButtonsContainer = styled.div`
     display: flex;
-    
 `;
 
 export const YellowButtonContainer = styled.div`
@@ -79,6 +75,10 @@ export const WhiteButton = styled.button`
 
     &:hover {
         background-color: #ef9d3a;
+    }
+
+    &:last-child {
+        margin-right: 0;
     }
 
 `;

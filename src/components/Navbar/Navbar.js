@@ -1,30 +1,23 @@
 
-import React, {useState} from 'react'
+import React from 'react'
 import {
     Nav, 
     NavbarContainer, 
     NavIconContainer,
-    NavMenu, NavItem, 
-    NavLink, ActiveIcon, 
+    NavMenu, 
+    NavItem, 
+    NavLink, 
     NavButton, 
     NavButtonContainer, 
     IconLabelContainer, 
     IconLabel
 } from './Navbar.elements'
-import { StaticImage }from 'gatsby-plugin-image'
 
 const Navbar = () => {
-
-    const [selectedIndex, setselectedIndex] = useState(0);
-
-    const handlePageChange = (index) => {
-        setselectedIndex(index);
-    }
     return (
        <Nav>
            <NavbarContainer>
-             <NavIconContainer>
-                <StaticImage src="../../img/logo2.png" height = {60} width={70}/>
+             <NavIconContainer to = '/'>
                 <IconLabelContainer>
                     <IconLabel>
                         Dulcet
@@ -33,19 +26,21 @@ const Navbar = () => {
             </NavIconContainer> 
              <NavMenu>
                  <NavItem>
-                     <NavLink>
+                     <NavLink to="/how-it-works">
                          How it works
                      </NavLink>
                  </NavItem>
                  <NavItem>
-                     <NavLink>
+                     <NavLink to="/contact">
                          Contact
                      </NavLink>
                  </NavItem>
              </NavMenu>
              <NavButtonContainer>
                 <NavButton>
-                     Pricing
+                    <NavLink bold to="/pricing">
+                        Pricing
+                    </NavLink>
                 </NavButton>
              </NavButtonContainer>
            </NavbarContainer>

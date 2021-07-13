@@ -1,20 +1,20 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
-import { Navbar, Footer } from '../components'
+import useSiteMetadata from '../SiteMetadata';
+import { withPrefix } from 'gatsby';
+import { Navbar, Footer } from '../../components';
+import GlobalStyle from '../../globalStyles';
 
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div>
+      <GlobalStyle />
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-
         <link
           rel="apple-touch-icon"
           sizes="180x180"

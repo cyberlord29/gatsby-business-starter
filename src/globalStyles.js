@@ -24,7 +24,33 @@ export const Container = styled.div`
 
     }
 `;
-
-
-
+export const YellowButton = styled.button`
+    background-color: #ef9d3a;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #ef9d3a;
+    cursor: pointer;
+    &:hover {
+        background-color: white;
+    }
+`;
+export const WhiteButton = styled.button`
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 150px;
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #ef9d3a;
+    cursor: pointer;
+    color: #ef9d3a;
+    &:hover {
+        background-color: #ef9d3a;
+        color: white;
+    }
+`;
 export default GlobalStyle;

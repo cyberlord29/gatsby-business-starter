@@ -19,7 +19,7 @@ const MenuItems = [
     },
 ];
 
-const Menus = () => {
+const Menu = () => {
     return (
         <MenuContainer>
             <MenuCard>
@@ -45,4 +45,4 @@ const Menus = () => {
     )
 }
 
-export default Menus
+export default Menu
