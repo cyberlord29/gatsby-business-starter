@@ -1,10 +1,10 @@
 import React from 'react'
-import {Layout} from '../components/'
+import {ContactForm, Layout} from '../components/'
 
 const Contact = () => {
     return (
         <Layout>
-            Contact
+            <ContactForm />
         </Layout>
     )
 }

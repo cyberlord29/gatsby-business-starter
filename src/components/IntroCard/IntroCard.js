@@ -1,6 +1,6 @@
 import React from 'react'
-import { IntroCardContainer, IntroTitle, IntroRight, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, WhiteButton, YellowButtonContainer, YellowButton } from './IntroCard.element'
-
+import { IntroCardContainer, IntroTitle, IntroRight, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer } from './IntroCard.element'
+import { WhiteButton, YellowButton } from '../../globalStyles'
 const IntroCard = () => {
     return (
         <IntroCardContainer>
@@ -13,15 +13,15 @@ const IntroCard = () => {
                 </DescriptionContainer>
                 <ButtonsContainer>
                     <WhiteButtonsContainer>
-                        <WhiteButton>
+                        <WhiteButton maxWidth>
                             Enter your address
                         </WhiteButton>
-                        <WhiteButton>
+                        <WhiteButton maxWidth>
                             Zip code
                         </WhiteButton>
                     </WhiteButtonsContainer>
                     <YellowButtonContainer>
-                        <YellowButton>
+                        <YellowButton maxWidth>
                             Go to menus
                         </YellowButton>
                     </YellowButtonContainer>

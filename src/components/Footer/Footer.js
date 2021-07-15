@@ -27,7 +27,7 @@ const Footer = () => {
                 <AiOutlineTwitter />
             </SocialMediaContainer>
             <CopyrightContainer>
-                Company 2019 All rights reserved
+                Company 2021 All rights reserved
             </CopyrightContainer>
         </FooterContainer>
     )

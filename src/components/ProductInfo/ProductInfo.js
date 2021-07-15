@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { ProductInfoContainer, ProductImage, ProductCard, ProductTitle, ProductDescription, WhiteButton} from './ProductInfo.elements';
+import { ProductInfoContainer, ProductImage, ProductCard, ProductTitle, ProductDescription } from './ProductInfo.elements';
 
+import { WhiteButton } from '../../globalStyles';
 const ProductInfo = () => {
     return(
         <div>

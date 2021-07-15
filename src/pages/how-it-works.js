@@ -1,11 +1,11 @@
 import React from 'react'
-import {Layout} from '../components'
+import {Layout, HIWCard} from '../components'
 
 
 const HowItWorks = () => {
     return (
         <Layout>
-            How it works
+            <HIWCard />
         </Layout>
     )
 }

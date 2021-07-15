@@ -26,23 +26,10 @@ export const ProductTitle = styled.h1`
 
 export const ProductDescription = styled.p`
     margin-top: 50px;
+    margin-bottom: 20px;
     color: gray;
     line-height: 1.6;
 `;
 
-export const WhiteButton = styled.button`
-    background-color: white;
-    font-size: 1rem;
-    margin-top: 40px;
-    font-weight: 600;
-    width: 30%;
-    height: 50px;
-    border-radius: 100px;
-    border: 2px solid #ef9d3a;
-    cursor: pointer;
 
-    &:hover {
-        background-color: #ef9d3a;
-    }
-`;
 

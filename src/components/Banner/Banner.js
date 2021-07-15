@@ -1,5 +1,6 @@
 import React from 'react'
-import { BannerCard, BannerContainer, BannerDescription, BannerTitle, ButtonContainer, YellowButton } from './Banner.component'
+import { BannerCard, BannerContainer, BannerDescription, BannerTitle, ButtonContainer } from './Banner.component'
+import { YellowButton } from '../../globalStyles'
 
 const Banner = () => {
     return (
