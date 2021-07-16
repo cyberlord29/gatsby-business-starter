@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: santhoshivan23/gatsby-business-starter
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
@@ -33,21 +34,6 @@ collections:
         fields:
           - {label: "Primary Color", name: "primaryColor", widget: color}
           - {label: "Secondary Color", name: "secondaryColor", widget: color}
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-
   - name: "pages"
     label: "Pages"
     files:
@@ -56,25 +42,129 @@ collections:
         name: "Home"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: IntroCard, name: introCard, widget: object, fields:[{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Buttons, name: buttons, widget: object, fields : [{label: Button Text, name: buttonText, widget: string}, {label: Button Text, name: buttonText, widget: string}, {label: Button Text, name: buttonText, widget: string}]}]}
-          - {label: Features, name: features, widget: object, fields:[{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Feature Items, name: featureItems, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Image Path, name: imagePath, widget: string}]}]}
-        label: "About"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - {label: IntroCard, name: introCard, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Buttons, name: buttons, widget: object, fields : [{label: Button Text 1, name: buttonText1, widget: string}, {label: Button Text 2, name: buttonText2, widget: string}, {label: Button Text 3, name: buttonText3, widget: string}]}]}
+          - {
+              label: Features, 
+              name: features,
+              widget: object, 
+              fields: [
+                {label: Title, name: title, widget: string}, 
+                {label: Description, name: description, widget: string}, 
+                {label: Feature Items, name: featureItems, widget: object, 
+                      fields: [
+                        {
+                          label: Feature Item 1,
+                          name: item1,
+                          widget: object,
+                          fields : [
+                          {label: Title, name: title, widget: string}, 
+                          {label: Description, name: description, widget: string}, 
+                          {label: Image Path, name: imagePath, widget: string}
+                        ]
+                        },
+                        {
+                          label: Feature Item 2,
+                          name: item2,
+                          widget: object,
+                          fields : [
+                          {label: Title, name: title, widget: string}, 
+                          {label: Description, name: description, widget: string}, 
+                          {label: Image Path, name: imagePath, widget: string}
+                        ]
+                        },  
+                        {
+                          label: Feature Item 3,
+                          name: item3,
+                          widget: object,
+                          fields : [
+                          {label: Title, name: title, widget: string}, 
+                          {label: Description, name: description, widget: string}, 
+                          {label: Image Path, name: imagePath, widget: string}
+                        ]
+                        },                                          
+                      ]
+                }
+              ]
+            }
+          - {
+              label: Menu, 
+              name: menu,
+              widget: object, 
+              fields: [
+                {label: Title, name: title, widget: string}, 
+                {label: Description, name: description, widget: string}, 
+                {label: Menu Items, name: menuItems, widget: object, 
+                      fields: [
+                        {
+                          label: Menu Item 1,
+                          name: item1,
+                          widget: object,
+                          fields : [
+                          {label: Title, name: title, widget: string}, 
+                          {label: Description, name: description, widget: string}, 
+                          {label: Image Path, name: imagePath, widget: string}
+                        ]
+                        },
+                        {
+                          label: Menu Item 2,
+                          name: item2,
+                          widget: object,
+                          fields : [
+                          {label: Title, name: title, widget: string}, 
+                          {label: Description, name: description, widget: string}, 
+                          {label: Image Path, name: imagePath, widget: string}
+                        ]
+                        },  
+                        {
+                          label: Menu Item 3,
+                          name: item3,
+                          widget: object,
+                          fields : [
+                          {label: Title, name: title, widget: string}, 
+                          {label: Description, name: description, widget: string}, 
+                          {label: Image Path, name: imagePath, widget: string}
+                        ]
+                        },                                          
+                  ]
+                }
+              ]
+            }
+          - {
+            label: Product Info,
+            name: productInfo,
+            widget: object,
+            fields : [
+            {  
+              label: Product Info 1,
+              name: productInfo1,
+              widget: object,
+              fields: [
+                { label: Title, name: title, widget: string },
+                { label: Description, name: description, widget: string },
+                { label: Image Path, name: imagePath, widget: string },
+                { label: Button Text, name: buttonText, widget: string}
+              ]
+            },
+            {  
+              label: Product Info 2,
+              name: productInfo2,
+              widget: object,
+              fields: [
+                { label: Title, name: title, widget: string },
+                { label: Description, name: description, widget: string },
+                { label: Image Path, name: imagePath, widget: string },
+                { label: Button Text, name: buttonText, widget: string}
+              ]
+            },
+            ]
+          }
+          - {
+            label: "Banner",
+            name: "banner",
+            widget: "object",
+            fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string},
+              { label: Button Text, name: buttonText, widget: string },
+            ]
+          }
