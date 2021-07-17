@@ -84,5 +84,15 @@
       "quote": "Everything is awesome!",
       "author": "SS"
     }
+  ],
+  "featureItems": [
+    {
+      "title": "Eat good food",
+      "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them"
+    },
+    {
+      "title": "Best Quality",
+      "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them"
+    }
   ]
 }
