@@ -74,5 +74,15 @@
     "title": "Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others",
     "description": "Inspiration, special offers and you believe should be available for same day delivery when we launch Moon",
     "buttonText": "Get Started"
-  }
+  },
+  "testimonials": [
+    {
+      "quote": "Everything is awesome!",
+      "author": "Santhoshivan"
+    },
+    {
+      "quote": "Everything is awesome!",
+      "author": "SS"
+    }
+  ]
 }
