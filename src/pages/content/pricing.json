@@ -1,0 +1,48 @@
+{
+  "plans": [
+    {
+      "isFeatured": false,
+      "description": "For most businesses that want to optimize web queries",
+      "planName": "Intro",
+      "price": "19",
+      "cycle": "/ Month",
+      "perks": [
+        "All limited links",
+        "All limited links",
+        "All limited links",
+        "All limited links",
+        "All limited links"
+      ]
+    },
+    {
+      "planName": "Base",
+      "price": "29",
+      "cycle": "/ Month",
+      "description": "For most businesses that want to optimize web queries",
+      "isFeatured": false,
+      "perks": [
+        "All limited links",
+        "All limited links",
+        "All limited links",
+        "All limited links",
+        "All limited links"
+      ]
+    },
+    {
+      "planName": "All limited links",
+      "price": "39",
+      "cycle": "/ Month",
+      "description": "For most businesses that want to optimize web queries",
+      "isFeatured": true,
+      "perks": [
+        "All limited links",
+        "All limited links",
+        "All limited links",
+        "All limited links",
+        "All limited links"
+      ]
+    }
+  ],
+  "title": "Simple, transparent and flexible pricing",
+  "description": "No contracts, No surprise fees"
+}
