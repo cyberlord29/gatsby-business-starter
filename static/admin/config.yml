@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: santhoshivan23/gatsby-business-starter
-  branch: master
+  branch: stripe-site
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -41,51 +41,17 @@ collections:
         label: "Home Page"
         name: "Home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: IntroCard, name: introCard, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Buttons, name: buttons, widget: object, fields : [{label: Button Text 1, name: buttonText1, widget: string}, {label: Button Text 2, name: buttonText2, widget: string}, {label: Button Text 3, name: buttonText3, widget: string}]}]}
-          - {
-              label: Features, 
-              name: features,
-              widget: object, 
-              fields: [
-                {label: Title, name: title, widget: string}, 
-                {label: Description, name: description, widget: string}, 
-                {label: Feature Items, name: featureItems, widget: object, 
-                      fields: [
-                        {
-                          label: Feature Item 1,
-                          name: item1,
-                          widget: object,
-                          fields : [
-                          {label: Title, name: title, widget: string}, 
-                          {label: Description, name: description, widget: string}, 
-                          {label: Image Path, name: imagePath, widget: string}
-                        ]
-                        },
-                        {
-                          label: Feature Item 2,
-                          name: item2,
-                          widget: object,
-                          fields : [
-                          {label: Title, name: title, widget: string}, 
-                          {label: Description, name: description, widget: string}, 
-                          {label: Image Path, name: imagePath, widget: string}
-                        ]
-                        },  
-                        {
-                          label: Feature Item 3,
-                          name: item3,
-                          widget: object,
-                          fields : [
-                          {label: Title, name: title, widget: string}, 
-                          {label: Description, name: description, widget: string}, 
-                          {label: Image Path, name: imagePath, widget: string}
-                        ]
-                        },                                          
-                      ]
-                }
-              ]
-            }
+          - {minimize_collapsed: true, label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {minimize_collapsed: true, label: IntroCard, name: introCard, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Buttons, name: buttons, widget: object, fields : [{label: Button Text 1, name: buttonText1, widget: string}, {label: Button Text 2, name: buttonText2, widget: string}, {label: Button Text 3, name: buttonText3, widget: string}]}]}
+          - label: "Feature Items"
+            name: "featureItems"
+            minimize_collapsed: true
+            widget: "list"
+            min: 3
+            max: 3
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string }
           - {
               label: Menu, 
               name: menu,
