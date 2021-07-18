@@ -1,14 +1,15 @@
 import React from 'react'
 import { PricingBannerContainer, BannerTitle, BannerDescription } from './PricingBanner.elements'
 
-const PricingBanner = () => {
+const PricingBanner = (props) => {
+    const {title, description} = props
     return (
         <PricingBannerContainer>
             <BannerTitle>
-                Simple, transparent and flexible pricing
+                {title}
             </BannerTitle>
             <BannerDescription>
-                No contracts, No surprise fees
+                {description}
             </BannerDescription>
         </PricingBannerContainer>
     )

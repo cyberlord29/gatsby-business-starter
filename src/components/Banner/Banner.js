@@ -2,20 +2,21 @@ import React from 'react'
 import { BannerCard, BannerContainer, BannerDescription, BannerTitle, ButtonContainer } from './Banner.component'
 import { YellowButton } from '../../globalStyles'
 
-const Banner = () => {
+const Banner = (props) => {
+    const {title, description, buttonText} = props.data;
     return (
         <BannerContainer>
             <BannerCard>
                 <BannerTitle>
-                    Free unlimited delivery for 30 days!
+                    {title}
                 </BannerTitle>
                 <BannerDescription>
-                    Inspiration, special offers and you believe should be available for same day delivery when we launch Moon
+                    {description}
                 </BannerDescription>
             </BannerCard>
             <ButtonContainer>
                 <YellowButton>
-                    Get started!
+                    {buttonText}
                 </YellowButton>
             </ButtonContainer>
         </BannerContainer>

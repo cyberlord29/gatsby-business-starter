@@ -15,55 +15,11 @@ import {
 import { IoCheckmarkDoneCircle } from 'react-icons/io5'
 import { WhiteButton } from '../../globalStyles';
 
-const PricingCardsData = [
-    {
-        planName : 'Intro',
-        price: '$19',
-        cycle: '/ Month',
-        description: 'For most businesses that want to optimize web queries',
-        perks: [
-            'All limited links',
-            'Own analytics platform',
-            'Chat support',
-            'Optimize hashtags',
-            'Unlimited users'
-        ],
-        isFeatured: false,
-    },
-    {
-        planName : 'Base',
-        price: '$29',
-        cycle: '/ Month',
-        description: 'For most businesses that want to optimize web queries',
-        perks: [
-            'All limited links',
-            'Own analytics platform',
-            'Chat support',
-            'Optimize hashtags',
-            'Unlimited users'
-        ],
-        isFeatured: true,
-    },
-    {
-        planName : 'Popular',
-        price: '$39',
-        cycle: '/ Month',
-        description: 'For most businesses that want to optimize web queries',
-        perks: [
-            'All limited links',
-            'Own analytics platform',
-            'Chat support',
-            'Optimize hashtags',
-            'Unlimited users'
-        ],
-        isFeatured: false,
-    },
-];
-
-const PricingCards = () => {
+const PricingCards = (props) => {
+    const plans = props.data
     return (
     <PricingCardsContainer>
-        {PricingCardsData.map((pricingCard) => 
+        {plans.map((pricingCard) => 
         <PricingCard {...pricingCard.isFeatured ? "primary" : ""}> 
            <PricingPlanName>
                {pricingCard.planName}

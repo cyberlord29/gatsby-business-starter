@@ -1,28 +1,29 @@
 import React from 'react'
 import { IntroCardContainer, IntroTitle, IntroRight, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer } from './IntroCard.element'
 import { WhiteButton, YellowButton } from '../../globalStyles'
-const IntroCard = () => {
+const IntroCard = (props) => {
+    const { title, description, buttons } = props.data
     return (
         <IntroCardContainer>
             <IntroLeftContainer>
                 <IntroTitle>
-                    Become the best Delivery man
+                    {title}
                 </IntroTitle>
                 <DescriptionContainer>
-                    50% of workers dont have access to health and safety resources. We're on fix them in a quick delivery time
+                    {description}
                 </DescriptionContainer>
                 <ButtonsContainer>
                     <WhiteButtonsContainer>
                         <WhiteButton maxWidth>
-                            Enter your address
+                            {buttons.buttonText1}
                         </WhiteButton>
                         <WhiteButton maxWidth>
-                            Zip code
+                            {buttons.buttonText2}
                         </WhiteButton>
                     </WhiteButtonsContainer>
                     <YellowButtonContainer>
                         <YellowButton maxWidth>
-                            Go to menus
+                            {buttons.buttonText3}
                         </YellowButton>
                     </YellowButtonContainer>
                 </ButtonsContainer>

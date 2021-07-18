@@ -3,33 +3,35 @@ import React from 'react';
 import { ProductInfoContainer, ProductImage, ProductCard, ProductTitle, ProductDescription } from './ProductInfo.elements';
 
 import { WhiteButton } from '../../globalStyles';
-const ProductInfo = () => {
+const ProductInfo = (props) => {
+    const productInfo = props.data;
+    const [firstProduct, secondProduct] = productInfo;
     return(
         <div>
         <ProductInfoContainer>
             <ProductImage />
             <ProductCard>
                 <ProductTitle>
-                    Make the delicious food and order our app
+                    {firstProduct.title}
                 </ProductTitle>
                 <ProductDescription>
-                    Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others
+                    {firstProduct.description}
                 </ProductDescription>
                 <WhiteButton>
-                    Learn More
+                    {firstProduct.buttonText}
                 </WhiteButton>
             </ProductCard>
         </ProductInfoContainer>
         <ProductInfoContainer>
             <ProductCard>
                 <ProductTitle>
-                   Our support growth rate is awesome
+                   {secondProduct.title}
                 </ProductTitle>
                 <ProductDescription>
-                    Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others
+                    {secondProduct.description}
                 </ProductDescription>
                 <WhiteButton>
-                    Learn More
+                    {secondProduct.buttonText}
                 </WhiteButton>
             </ProductCard>
             <ProductImage />
