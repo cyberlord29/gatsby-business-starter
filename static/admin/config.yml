@@ -37,100 +37,154 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/content/content.json"
+      - file: "src/pages/content/home.json"
         label: "Home Page"
         name: "Home"
         fields:
-          - {minimize_collapsed: true, label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {minimize_collapsed: true, label: IntroCard, name: introCard, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: string}, {label: Buttons, name: buttons, widget: object, fields : [{label: Button Text 1, name: buttonText1, widget: string}, {label: Button Text 2, name: buttonText2, widget: string}, {label: Button Text 3, name: buttonText3, widget: string}]}]}
-          - label: "Feature Items"
-            name: "featureItems"
-            minimize_collapsed: true
+          - label: "IntroCard"
+            name: "introCard" 
+            widget: "object" 
+            fields: 
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+              - label: "Buttons"
+                name: "buttons"
+                widget: "object"
+                fields: 
+                  - label: "Button Text 1"
+                    name: "buttonText1"
+                    widget: "string" 
+                  - label: "Button Text 2"
+                    name: "buttonText2"
+                    widget: "string"
+                  - label: "Button Text 3"
+                    name: "buttonText3" 
+                    widget: "string"
+          - label: "Features"
+            name: "features"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                max: 3
+                min: 3
+                fields:
+                  - label: "Title"
+                    name: "title"
+                    widget: "string"
+                  - label: "Description"
+                    name: "description"
+                    widget: "string"
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                max: 3
+                min: 3
+                fields:
+                  - label: "Title"
+                    name: "title"
+                    widget: "string"
+                  - label: "Description"
+                    name: "description"
+                    widget: "string"
+          - label: "Product Info"
+            name: "productInfo"
+            widget: "list"
+            max: 2
+            min: 2
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+              - label: "Button Text"
+                name: "buttonText"
+                widget: "string"
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields: 
+              - label: "Title" 
+                name: "title" 
+                widget: "string"
+              - label: "Description" 
+                name: "description"
+                widget: "string"
+              - label: "Button Text" 
+                name: "buttonText"
+                widget: "string" 
+      - file: "src/pages/content/pricing.json"
+        label: "Pricing Page"
+        name: "pricing"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "string"
+          - label: "Plans"
+            name: "plans"
             widget: "list"
             min: 3
             max: 3
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: string }
-          - {
-              label: Menu, 
-              name: menu,
-              widget: object, 
-              fields: [
-                {label: Title, name: title, widget: string}, 
-                {label: Description, name: description, widget: string}, 
-                {label: Menu Items, name: menuItems, widget: object, 
-                      fields: [
-                        {
-                          label: Menu Item 1,
-                          name: item1,
-                          widget: object,
-                          fields : [
-                          {label: Title, name: title, widget: string}, 
-                          {label: Description, name: description, widget: string}, 
-                          {label: Image Path, name: imagePath, widget: string}
-                        ]
-                        },
-                        {
-                          label: Menu Item 2,
-                          name: item2,
-                          widget: object,
-                          fields : [
-                          {label: Title, name: title, widget: string}, 
-                          {label: Description, name: description, widget: string}, 
-                          {label: Image Path, name: imagePath, widget: string}
-                        ]
-                        },  
-                        {
-                          label: Menu Item 3,
-                          name: item3,
-                          widget: object,
-                          fields : [
-                          {label: Title, name: title, widget: string}, 
-                          {label: Description, name: description, widget: string}, 
-                          {label: Image Path, name: imagePath, widget: string}
-                        ]
-                        },                                          
-                  ]
-                }
-              ]
-            }
-          - {
-            label: Product Info,
-            name: productInfo,
-            widget: object,
-            fields : [
-            {  
-              label: Product Info 1,
-              name: productInfo1,
-              widget: object,
-              fields: [
-                { label: Title, name: title, widget: string },
-                { label: Description, name: description, widget: string },
-                { label: Image Path, name: imagePath, widget: string },
-                { label: Button Text, name: buttonText, widget: string}
-              ]
-            },
-            {  
-              label: Product Info 2,
-              name: productInfo2,
-              widget: object,
-              fields: [
-                { label: Title, name: title, widget: string },
-                { label: Description, name: description, widget: string },
-                { label: Image Path, name: imagePath, widget: string },
-                { label: Button Text, name: buttonText, widget: string}
-              ]
-            },
-            ]
-          }
-          - {
-            label: "Banner",
-            name: "banner",
-            widget: "object",
-            fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string},
-              { label: Button Text, name: buttonText, widget: string },
-            ]
-          }
+              - label: "Plan Name"
+                name: "planName"
+                widget: "string"
+              - label: "Price"
+                name: "price"
+                widget: "string"
+              - label: "Cycle"
+                name: "cycle"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+              - label: "Featured"
+                name: "isFeatured"
+                widget: "boolean"
+              - label: "Perks"
+                name: "perks"
+                widget: "list"
+                min: 5
+                max: 5
+                field: {label: "Perk", name: "perk", widget: "string"}
+      - file: "src/pages/content/how-it-works.json"
+        label: "How it works Page"
+        name: "how-it-works"
+        fields:
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+        
