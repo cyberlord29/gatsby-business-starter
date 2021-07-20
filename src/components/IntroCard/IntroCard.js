@@ -1,5 +1,5 @@
 import React from 'react'
-import { IntroCardContainer, IntroTitle, IntroRight, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer } from './IntroCard.element'
+import { IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer } from './IntroCard.element'
 import { WhiteButton, YellowButton } from '../../globalStyles'
 const IntroCard = (props) => {
     const { title, description, buttons } = props.data
@@ -28,8 +28,6 @@ const IntroCard = (props) => {
                     </YellowButtonContainer>
                 </ButtonsContainer>
             </IntroLeftContainer>
-            <IntroRight>
-            </IntroRight>
         </IntroCardContainer>
     )
 }

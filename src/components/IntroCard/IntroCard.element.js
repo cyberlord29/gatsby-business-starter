@@ -2,16 +2,22 @@ import styled from 'styled-components'
 
 export const IntroCardContainer = styled.div`
     display: flex;
-    justify-content: space-between;
     margin-top: 4%;
     margin-left: 10%;
     margin-right: 10%;
+    @media (max-width: 500px) {
+        width: 100%;
+    }
 `;
 
 export const IntroLeftContainer = styled.div`
     display: flex;
     flex-basis: 50%;
     flex-direction: column;
+
+    @media (max-width: 500px) {
+        width: 100%;
+    }
 `;
 
 export const IntroTitle = styled.h1`
@@ -19,11 +25,13 @@ export const IntroTitle = styled.h1`
     flex-basis: 50%;
     font-size: 4rem;
     line-height: 1.3;
+
+    @media (max-width: 500px) {
+        text-align: center;
+    }
 `;
 
-export const IntroRight = styled.div`
 
-`;
 
 export const DescriptionContainer = styled.p`
     display: block;

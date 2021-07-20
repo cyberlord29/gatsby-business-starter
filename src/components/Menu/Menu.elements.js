@@ -31,6 +31,9 @@ export const MenuItemsContainer = styled.div`
     width: 65%;
     margin: auto;
     padding-top: 20px;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
 export const MenuItem = styled.div`

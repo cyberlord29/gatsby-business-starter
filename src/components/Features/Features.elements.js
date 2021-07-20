@@ -31,9 +31,15 @@ export const FeatureItemsContainer = styled.div`
     width: 65%;
     margin: auto;
     padding-top: 20px;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
 export const FeatureItem = styled.div`
+    @media (max-width: 500px) {
+        margin-bottom: 30px;
+    }
 `;
 
 export const FeatureItemIllustration = styled.div`

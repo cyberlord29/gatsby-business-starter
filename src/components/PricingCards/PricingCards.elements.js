@@ -4,12 +4,19 @@ export const PricingCardsContainer = styled.div`
     display: flex;
     margin: 4% 15%;
     justify-content: space-between;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
 export const PricingCard = styled.div`
     ${props => props.isFeatured && css`
         background-color : black;
     `}
+    @media (max-width: 500px) {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 `;
 
 export const PriceContainer = styled.div`
@@ -36,6 +43,10 @@ export const PriceDescription = styled.div`
     width: 60%;
     line-height: 1.5;
     color: grey;
+    @media (max-width: 500px) {
+        text-align: center;
+        width: 100%;
+    }
 `;
 
 export const PerksContainer = styled.div`

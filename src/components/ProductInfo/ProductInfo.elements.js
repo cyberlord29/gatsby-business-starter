@@ -6,6 +6,9 @@ export const ProductInfoContainer = styled.div`
     margin-right: 15%;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
 export const ProductImage = styled.div`
@@ -13,10 +16,17 @@ export const ProductImage = styled.div`
     width: 50%;
     height: 500px;
     border: 2px solid orange;
+    @media (max-width: 500px) {
+        width: 100%;
+    }
 `;
 
 export const ProductCard = styled.div`
     width: 35%;
+    @media (max-width: 500px) {
+        width: 100%;
+        text-align: center;
+    }
 `;
 
 export const ProductTitle = styled.h1`
