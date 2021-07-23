@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: santhoshivan23/gatsby-business-starter
+  name: git-gateway
   branch: stripe-site
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'

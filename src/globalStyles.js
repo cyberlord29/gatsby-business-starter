@@ -9,8 +9,6 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-
-
 export const YellowButton = styled.button`
     background-color: #ef9d3a;
     font-weight: 600;
