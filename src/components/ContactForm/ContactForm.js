@@ -3,9 +3,25 @@ import { YellowButton } from '../../globalStyles'
 import { ContactLabel, Form, FormContainer, InputContainer, InputField, Label } from './ContactForm.elements'
 
 const ContactForm = () => {
+    const submitForm = async (e) => {
+        const { name, email, mobile } = e.target.elements;
+        let formData = {
+            name: name.value,
+            email: email.value,
+            mobile: mobile.value,
+        };
+        let response = await fetch("/api/users", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(formData),
+        });
+        alert(response);
+    };
     return (
         <FormContainer>
-            <Form>
+            <Form onSubmit = {submitForm}>
                 <ContactLabel>
                     Contact Us
                 </ContactLabel>
@@ -13,19 +29,19 @@ const ContactForm = () => {
                     <Label>
                         Full Name
                     </Label>
-                    <InputField />
+                    <InputField id="name"/>
                 </InputContainer>
                 <InputContainer>
                     <Label>
                         Email
                     </Label>
-                    <InputField />
+                    <InputField id="email"/>
                 </InputContainer>
                 <InputContainer>
                     <Label>
                         Mobile
                     </Label>
-                    <InputField />
+                    <InputField id="mobile"/>
                 </InputContainer>
                 <YellowButton wrap>Submit</YellowButton>
             </Form>
