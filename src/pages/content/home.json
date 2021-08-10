@@ -13,16 +13,19 @@
     "description": "This is the changed content! Yayay!!",
     "items": [
       {
+        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
+        "title": "Best Quality",
+        "image": "/img/howcuttingdo.jpeg"
+      },
+      {
+        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
+        "title": "Fastest Delivery",
+        "image": "/img/howcuttingdo.jpeg"
+      },
+      {
         "title": "Eat Good Food",
-        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them"
-      },
-      {
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Best Quality"
-      },
-      {
-        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Fastest Delivery"
+        "image": "/img/howcuttingdo.jpeg"
       }
     ]
   },
