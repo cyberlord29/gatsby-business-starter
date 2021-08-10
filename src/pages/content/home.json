@@ -20,12 +20,12 @@
       {
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
         "title": "Fastest Delivery",
-        "image": "/img/howcuttingdo.jpeg"
+        "image": "/static/img/Features/f2.jpg"
       },
       {
         "title": "Eat Good Food",
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "image": "/img/howcuttingdo.jpeg"
+        "image": "/static/img/Features/f3.jpeg"
       }
     ]
   },
@@ -35,15 +35,18 @@
     "items": [
       {
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Eat Good Food"
+        "title": "Eat Good Food",
+        "image": "/static/img/Menu/m1.jpeg"
       },
       {
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Best Quality"
+        "title": "Best Quality",
+        "image": "/static/img/Menu/m2.jpeg"
       },
       {
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Fastest Delivery"
+        "title": "Fastest Delivery",
+        "image": "/static/img/Menu/m3.jpeg"
       }
     ]
   },
@@ -51,12 +54,14 @@
     {
       "title": "Make the delicious food and order our app",
       "description": "Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others",
-      "buttonText": "Learn More"
+      "buttonText": "Learn More",
+      "image": "/static/img/ProductInfo/p1.jpeg"
     },
     {
       "title": "Our support growth rate is awesome",
       "description": "Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others",
-      "buttonText": "Learn More"
+      "buttonText": "Learn More",
+      "image": "/static/img/ProductInfo/p2.jpeg"
     }
   ],
   "banner": {
