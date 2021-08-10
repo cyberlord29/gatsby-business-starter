@@ -14,15 +14,19 @@ const Features = (props) => {
                 </FeatureDescription>
             </FeatureCard>
             <FeatureItemsContainer>
-                {items.map((item) => <FeatureItem>
-                    <FeatureItemIllustration />     
+                {items.map((item) => {
+                console.log("../.."+item.image);
+                return (<FeatureItem>
+                    <FeatureItemIllustration>
+                        <img src = {item.image}/>
+                    </FeatureItemIllustration>     
                     <FeatureItemTitle>
                         {item.title}
                     </FeatureItemTitle>
                     <FeatureItemDescription>
                         {item.description}
                     </FeatureItemDescription>
-                </FeatureItem>)}
+                </FeatureItem>)})}
             </FeatureItemsContainer>
         </FeatureContainer>
     )
