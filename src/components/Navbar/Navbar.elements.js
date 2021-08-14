@@ -88,15 +88,15 @@ export const NavButtonContainer = styled.div`
 export const NavButton = styled.button`
     background-color: white;
     font-size: 1rem;
-    color: #ef9d3a;
+    color: #007AFF;
     font-weight: bold;
     width: 100%;
     height: 50px;
     border-radius: 100px;
-    border: 2px solid #ef9d3a;
+    border: 2px solid #007AFF;
     cursor: pointer;
     &:hover {
-        background-color: #ef9d3a;
+        background-color: #007AFF;
     }
 `
 

@@ -1,37 +1,35 @@
 {
   "introCard": {
-    "title": "Become a funded trader",
-    "description": "50% of workers dont have access to health and safety resources. We're on fix them in a quick delivery time",
+    "title": "Become a Funded Trader",
+    "description": "Pass the evaluation and get funded upto $1,000,000 ",
     "buttons": {
-      "buttonText1": "Enter your address",
-      "buttonText2": "Zip code",
-      "buttonText3": "Go to menus"
+      "buttonText3": "Get Funded Now"
     }
   },
   "features": {
-    "title": "Why we are the best?",
-    "description": "This is the changed content! Yayay!!",
+    "title": "Evaluation Process",
+    "description": "3 stages of evaluation",
     "items": [
       {
-        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Best Quality",
+        "description": "The Phase 1 challenge is the first step of the Evaluation Process lasting 30 days. Prove your trading skills and discipline in observing the Trading Objectives.",
+        "title": "Basic Challenge",
         "image": "/static/img/Features/howcuttingdo.jpeg"
       },
       {
-        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
-        "title": "Fastest Delivery",
+        "description": "The Phase 2 challenge is the second step of the Evaluation Process. You need to succeed here to advance into the Verification stage lasting 60 days. Prove the consistency of your trading skills and adapt to your risk review by experts.",
+        "title": "Advanced Challenge",
         "image": "/static/img/Features/f2.jpg"
       },
       {
-        "title": "Eat Good Food",
-        "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
+        "title": "Get Funded",
+        "description": "You are becoming a trader of the FTMO Proprietary Trading firm. Trade responsibly and consistently and receive 70% of your profits. If you consistently generate profits on your FTMO Account, we can scale your account according to our Scaling Plan.",
         "image": "/static/img/Features/f3.jpeg"
       }
     ]
   },
   "menu": {
-    "title": "What's on the menu",
-    "description": "Draft your posts, coordinate with your and orchestrate your social media marketing campaigns everything",
+    "title": "Process Overview",
+    "description": "Different stages and parameters for the challenges",
     "items": [
       {
         "description": "It is simple we list your menu online, help you process orders, pick them up and deliver them",
@@ -52,21 +50,21 @@
   },
   "productInfo": [
     {
-      "title": "Make the delicious food and order our app",
-      "description": "Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others",
+      "title": "Track and Adapt",
+      "description": "Get access to our trade tracking and journaling application so you review your progress after every single trade and make sure you dont falter on the path to become a funded trader.",
       "buttonText": "Learn More",
       "image": "/static/img/ProductInfo/p1.jpeg"
     },
     {
-      "title": "Our support growth rate is awesome",
-      "description": "Get insider access to news around innovations, unique cooking techniques, culinary concepts and more regular enterprise is. Initially, the animal population was about chicken, cows, pigs and others",
+      "title": "Support throughout your journey to become a Funded Trader",
+      "description": "",
       "buttonText": "Learn More",
       "image": "/static/img/ProductInfo/p2.jpeg"
     }
   ],
   "banner": {
-    "title": "Free unlimited delivery for 30 days!",
-    "description": "Inspiration, special offers and you believe should be available for same day delivery when we launch Moon",
+    "title": "Free Trial 30 days!",
+    "description": "You can take a free trial with a demo account to get a feel of the process and challenges",
     "buttonText": "Get Started"
   }
 }

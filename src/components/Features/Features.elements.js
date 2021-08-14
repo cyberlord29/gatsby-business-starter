@@ -22,7 +22,6 @@ export const FeatureDescription = styled.div`
     margin: auto;
     padding-top: 10px;
     text-align: center;
-    width: 500px;
     color: grey;
 `;
 
@@ -45,7 +44,7 @@ export const FeatureItem = styled.div`
 export const FeatureItemIllustration = styled.div`
     border-radius: 100px;
     height: 200px;
-    border: 1px solid orange;
+    border: 1px solid #007AFF;
 
 `;
 

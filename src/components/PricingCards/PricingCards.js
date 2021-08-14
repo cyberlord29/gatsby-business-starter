@@ -33,7 +33,7 @@ const PricingCards = (props) => {
                {pricingCard.perks.map((perk) => 
                (
                <PerkContainer>
-                    <IoCheckmarkDoneCircle color = "#ef9d3a" />
+                    <IoCheckmarkDoneCircle color = "#007AFF" />
                    <Perk>
                    {perk}
                     </Perk> 

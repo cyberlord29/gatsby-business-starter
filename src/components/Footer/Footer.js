@@ -14,10 +14,10 @@ const Footer = () => {
     return (
         <FooterContainer>
              <NavIconContainer>
-                <StaticImage src="../../img/logo2.png" height = {60} width={70}/>
+                {/* <StaticImage src="../../img/logo2.png" height = {60} width={70}/> */}
                 <IconLabelContainer>
                     <IconLabel>
-                        Dulcet
+                        1000Plus Capital
                     </IconLabel>
                 </IconLabelContainer>
             </NavIconContainer> 
@@ -27,7 +27,7 @@ const Footer = () => {
                 <AiOutlineTwitter />
             </SocialMediaContainer>
             <CopyrightContainer>
-                Company 2021 All rights reserved
+                100PlusCapital 2021 All rights reserved
             </CopyrightContainer>
         </FooterContainer>
     )

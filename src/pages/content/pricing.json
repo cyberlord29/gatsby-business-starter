@@ -2,10 +2,10 @@
   "plans": [
     {
       "isFeatured": false,
-      "description": "For most businesses that want to optimize web queries",
+      "description": "",
       "planName": "Intro",
-      "price": "$19",
-      "cycle": "/ Month",
+      "price": "$190",
+      "cycle": "",
       "perks": [
         "All limited links",
         "All limited links",
@@ -16,9 +16,9 @@
     },
     {
       "planName": "Base",
-      "price": "$29",
-      "cycle": "/ Month",
-      "description": "For most businesses that want to optimize web queries",
+      "price": "$290",
+      "cycle": "",
+      "description": "",
       "isFeatured": false,
       "perks": [
         "All limited links",
@@ -30,9 +30,9 @@
     },
     {
       "planName": "Premium",
-      "price": "$39",
-      "cycle": "/ Month",
-      "description": "For most businesses that want to optimize web queries",
+      "price": "$390",
+      "cycle": "",
+      "description": "",
       "isFeatured": true,
       "perks": [
         "All limited links",

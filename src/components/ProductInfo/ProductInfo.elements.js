@@ -14,8 +14,7 @@ export const ProductInfoContainer = styled.div`
 export const ProductImage = styled.div`
     display: flex;
     width: 50%;
-    height: 500px;
-    border: 2px solid orange;
+    border: 2px solid #007AFF;
     @media (max-width: 500px) {
         width: 100%;
     }

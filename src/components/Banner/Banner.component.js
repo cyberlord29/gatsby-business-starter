@@ -3,8 +3,7 @@ import styled from 'styled-components';
 export const BannerContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 4% 25%; 
-    height: 100px;
+    margin: 10% 4%; 
 `;
 
 export const BannerCard = styled.div`
@@ -24,13 +23,13 @@ export const BannerDescription = styled.p`
 `;
 
 export const YellowButton = styled.button`
-    background-color: #ef9d3a;
+    background-color: #007AFF;
     font-size: 1rem;
     font-weight: 600;
     width: 150px;
     height: 50px;
     border-radius: 100px;
-    border: 2px solid #ef9d3a;
+    border: 2px solid #007AFF;
     cursor: pointer;
     &:hover {
         background-color: white;

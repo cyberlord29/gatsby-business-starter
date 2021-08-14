@@ -13,14 +13,6 @@ const IntroCard = (props) => {
                     {description}
                 </DescriptionContainer>
                 <ButtonsContainer>
-                    <WhiteButtonsContainer>
-                        <WhiteButton maxWidth>
-                            {buttons.buttonText1}
-                        </WhiteButton>
-                        <WhiteButton maxWidth>
-                            {buttons.buttonText2}
-                        </WhiteButton>
-                    </WhiteButtonsContainer>
                     <YellowButtonContainer>
                         <YellowButton maxWidth>
                             {buttons.buttonText3}

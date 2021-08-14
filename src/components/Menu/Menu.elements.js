@@ -22,14 +22,15 @@ export const MenuDescription = styled.div`
     margin: auto;
     padding-top: 10px;
     text-align: center;
-    width: 500px;
+
     color: grey;
 `;
 
 export const MenuItemsContainer = styled.div`
     display: flex;
-    width: 65%;
-    margin: auto;
+    margin: 4% 20%;
+    width: 80%;
+    overflow: scroll;
     padding-top: 20px;
     @media (max-width: 500px) {
         flex-direction: column;
@@ -42,7 +43,7 @@ export const MenuItem = styled.div`
 export const MenuItemIllustration = styled.div`
     border-radius: 10px;
     height: 200px;
-    border: 1px solid orange;
+    border: 1px solid #007AFF;
 
 `;
 

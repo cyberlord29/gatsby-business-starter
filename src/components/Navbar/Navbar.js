@@ -20,16 +20,11 @@ const Navbar = () => {
              <NavIconContainer to = '/'>
                 <IconLabelContainer>
                     <IconLabel>
-                        Dulcet
+                        1000Plus Capital
                     </IconLabel>
                 </IconLabelContainer>
             </NavIconContainer> 
              <NavMenu>
-                 <NavItem>
-                     <NavLink to="/how-it-works">
-                         How it works
-                     </NavLink>
-                 </NavItem>
                  <NavItem>
                      <NavLink to="/contact">
                          Contact

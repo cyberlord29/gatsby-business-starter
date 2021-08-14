@@ -16,10 +16,7 @@ const Features = (props) => {
             <FeatureItemsContainer>
                 {items.map((item) => {
                 console.log("../.."+item.image);
-                return (<FeatureItem>
-                    <FeatureItemIllustration>
-                        <img src = {item.image}/>
-                    </FeatureItemIllustration>     
+                return (<FeatureItem>   
                     <FeatureItemTitle>
                         {item.title}
                     </FeatureItemTitle>

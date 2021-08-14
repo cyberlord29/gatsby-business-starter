@@ -23,6 +23,7 @@ const ProductInfo = (props) => {
             </ProductCard>
         </ProductInfoContainer>
         <ProductInfoContainer>
+            <ProductImage />
             <ProductCard>
                 <ProductTitle>
                    {secondProduct.title}
@@ -34,7 +35,6 @@ const ProductInfo = (props) => {
                     {secondProduct.buttonText}
                 </WhiteButton>
             </ProductCard>
-            <ProductImage />
         </ProductInfoContainer>
         </div>
 

@@ -5,7 +5,7 @@ export const ContactLabel = styled.h2`
 `;
 
 export const FormContainer = styled.div`
-    margin: 4% 10%;
+    margin: 10% 15%;
 `;
 
 export const Form = styled.form`

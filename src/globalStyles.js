@@ -10,17 +10,17 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export const YellowButton = styled.button`
-    background-color: #ef9d3a;
+    background-color: #007AFF;
     font-weight: 600;
     color: white;
     width: 100px;
     height: 50px;
     border-radius: 25px;
-    border: 2px solid #ef9d3a;
+    border: 2px solid #007AFF;
     cursor: pointer;
     &:hover {
         background-color: white;
-        color: #ef9d3a;
+        color: #007AFF;
     }
     ${props => props.maxWidth && css`
         font-size: 1rem;
@@ -34,14 +34,14 @@ export const WhiteButton = styled.button`
     margin-right: 10px;
     height: 50px;
     border-radius: 25px;
-    border: 2px solid #ef9d3a;
+    border: 2px solid #007AFF;
     cursor: pointer;
-    color: #ef9d3a;
+    color: #007AFF;
     &:last-child {
         margin-right: 0;
     }
     &:hover {
-        background-color: #ef9d3a;
+        background-color: #007AFF;
         color: white;
     }
     ${props => props.maxWidth && css`
