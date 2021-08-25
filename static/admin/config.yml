@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: stripe-site
+  branch: ameen
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
