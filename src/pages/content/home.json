@@ -1,9 +1,11 @@
 {
   "introCard": {
-    "title": "Become a Funded Trader",
+    "title": "Become a 10x Funded Trader",
     "description": "Pass the evaluation and get funded upto $1,000,000 ",
     "buttons": {
-      "buttonText3": "Get Funded Now"
+      "buttonText3": "Get Funded Now",
+      "buttonText1": " ",
+      "buttonText2": " "
     }
   },
   "features": {
@@ -57,7 +59,7 @@
     },
     {
       "title": "Support throughout your journey to become a Funded Trader",
-      "description": "",
+      "description": "   ",
       "buttonText": "Learn More",
       "image": "/static/img/ProductInfo/p2.jpeg"
     }
