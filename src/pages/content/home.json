@@ -1,7 +1,7 @@
 {
   "introCard": {
-    "title": "Become a 10x Funded Trader",
-    "description": "Pass the evaluation and get funded upto $1,000,000 ",
+    "title": "Become a Funded Trader",
+    "description": "Pass the evaluation and get funded up to $2,000,000 ",
     "buttons": {
       "buttonText3": "Get Funded Now",
       "buttonText1": " ",
@@ -24,7 +24,7 @@
       },
       {
         "title": "Get Funded",
-        "description": "You are becoming a trader of the FTMO Proprietary Trading firm. Trade responsibly and consistently and receive 70% of your profits. If you consistently generate profits on your FTMO Account, we can scale your account according to our Scaling Plan.",
+        "description": "You are now a trader of the 1000 Plus capital Proprietary Trading firm. Trade responsibly and consistently and receive 70% of your profits. If you consistently generate profits on your 1000 Plus Account, we can scale your account according to our Scaling Plan.",
         "image": "/static/img/Features/f3.jpeg"
       }
     ]
