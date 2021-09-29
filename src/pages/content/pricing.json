@@ -7,7 +7,7 @@
       "price": "$450",
       "cycle": "  ",
       "perks": [
-        "Forex, Commodities, Indices, Crypto, Stocks, Bonds.",
+        "Forex, Commodities, Indices, Crypto, Stocks, Bonds",
         "Leverage up to 1:200",
         "Ability to hold Overnight and Weekends",
         "Ability to Trade Any News Events and any Instrument",
@@ -17,29 +17,29 @@
     {
       "planName": "$50,000",
       "price": "$650",
-      "cycle": "Leverage up to 1:200",
-      "description": "Leverage up to 1:200",
+      "cycle": " ",
+      "description": "One-time fee only",
       "isFeatured": false,
       "perks": [
-        "All limited links",
-        "All limited links",
-        "All limited links",
-        "All limited links",
-        "All limited links"
+        "Forex, Commodities, Indices, Crypto, Stocks, Bonds",
+        "Leverage up to 1:200",
+        "Ability to hold Overnight and Weekends",
+        "Ability to Trade Any News Events and any Instrument",
+        "Institutional Spreads"
       ]
     },
     {
       "planName": "$100,000",
       "price": "$950",
-      "cycle": "Leverage up to 1:200",
-      "description": "Leverage up to 1:200",
-      "isFeatured": true,
+      "cycle": " ",
+      "description": "One-time fee only",
+      "isFeatured": false,
       "perks": [
-        "All limited links",
-        "All limited links",
-        "All limited links",
-        "All limited links",
-        "All limited links"
+        "Forex, Commodities, Indices, Crypto, Stocks, Bonds",
+        "Leverage up to 1:200",
+        "Ability to hold Overnight and Weekends",
+        "Ability to Trade Any News Events and any Instrument",
+        "Institutional Spreads"
       ]
     }
   ],
