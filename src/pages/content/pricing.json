@@ -2,10 +2,10 @@
   "plans": [
     {
       "isFeatured": false,
-      "description": "",
-      "planName": "Intro",
-      "price": "$190",
-      "cycle": "",
+      "description": "Leverage up to 1:100",
+      "planName": "$25,000",
+      "price": "$450",
+      "cycle": "Leverage up to 1:200",
       "perks": [
         "All limited links",
         "All limited links",
@@ -15,10 +15,10 @@
       ]
     },
     {
-      "planName": "Base",
-      "price": "$290",
-      "cycle": "",
-      "description": "",
+      "planName": "$50,000",
+      "price": "$650",
+      "cycle": "Leverage up to 1:200",
+      "description": "Leverage up to 1:200",
       "isFeatured": false,
       "perks": [
         "All limited links",
@@ -29,10 +29,10 @@
       ]
     },
     {
-      "planName": "Premium",
-      "price": "$390",
-      "cycle": "",
-      "description": "",
+      "planName": "$100,000",
+      "price": "$950",
+      "cycle": "Leverage up to 1:200",
+      "description": "Leverage up to 1:200",
       "isFeatured": true,
       "perks": [
         "All limited links",
@@ -44,5 +44,5 @@
     }
   ],
   "title": "Simple, transparent and flexible pricing",
-  "description": "No contracts, No surprise fees"
+  "description": "No recurrent charges, no membership or other hidden fees. Moreover, the fee is automatically reimbursed to you with the first Profit Split."
 }
