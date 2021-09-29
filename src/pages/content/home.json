@@ -1,7 +1,7 @@
 {
   "introCard": {
     "title": "Become a Funded Trader",
-    "description": "Pass the evaluation and get funded up to $2,000,000 ",
+    "description": "Manage accounts up to $2,000,000 ",
     "buttons": {
       "buttonText3": "Get Funded Now",
       "buttonText1": " ",
@@ -13,13 +13,13 @@
     "description": "2 stages of evaluation",
     "items": [
       {
-        "description": "The Phase 1 challenge is the first step of the Evaluation Process lasting 30 days. Prove your trading skills and discipline in observing the Trading Objectives.",
-        "title": "Basic Challenge",
+        "description": "The Phase 1 assessment is the first step of the Evaluation. Prove your trading skills and discipline in observing the Trading Objectives. You have 30 days to complete this stage before moving to stage 2.",
+        "title": "PHASE 1. ASSESSMENT",
         "image": "/static/img/Features/howcuttingdo.jpeg"
       },
       {
-        "description": "The Phase 2 challenge is the second step of the Evaluation Process. You need to succeed here to advance into the Verification stage lasting 60 days. Prove the consistency of your trading skills and adapt to your risk review by experts.",
-        "title": "Advanced Challenge",
+        "description": "The second phase is to verify that you are a consistent trader before you receive funding. .",
+        "title": "PHASE 2. VERIFICATION",
         "image": "/static/img/Features/f2.jpg"
       },
       {
