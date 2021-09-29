@@ -3,7 +3,7 @@
     {
       "isFeatured": false,
       "description": "One-time fee only",
-      "planName": "$25,000",
+      "planName": "$25,000 ACCOUNT",
       "price": "$450",
       "cycle": "  ",
       "perks": [
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "planName": "$50,000",
+      "planName": "$50,000 ACCOUNT",
       "price": "$650",
       "cycle": " ",
       "description": "One-time fee only",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "planName": "$100,000",
+      "planName": "$100,000 ACCOUNT",
       "price": "$950",
       "cycle": " ",
       "description": "One-time fee only",
