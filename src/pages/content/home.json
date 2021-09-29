@@ -52,8 +52,8 @@
   },
   "productInfo": [
     {
-      "title": "Track and Adapt",
-      "description": "Get access to our trade tracking and journaling application so you review your progress after every single trade and make sure you dont falter on the path to become a funded trader.",
+      "title": "Account Analysis",
+      "description": "All trades are automatically stored in your own system, it allows you to analyze the performance of all past trades, your able to monitor your progress towards becoming a funded trader",
       "buttonText": "Learn More",
       "image": "/static/img/ProductInfo/p1.jpeg"
     },
