@@ -2,16 +2,16 @@
   "plans": [
     {
       "isFeatured": false,
-      "description": "Leverage up to 1:100",
+      "description": "One-time fee only",
       "planName": "$25,000",
       "price": "$450",
-      "cycle": "Leverage up to 1:200",
+      "cycle": "  ",
       "perks": [
-        "All limited links",
-        "All limited links",
-        "All limited links",
-        "All limited links",
-        "All limited links"
+        "Forex, Commodities, Indices, Crypto, Stocks, Bonds.",
+        "Leverage up to 1:200",
+        "Ability to hold Overnight and Weekends",
+        "Ability to Trade Any News Events and any Instrument",
+        "Institutional Spreads"
       ]
     },
     {
@@ -43,6 +43,6 @@
       ]
     }
   ],
-  "title": "Simple, transparent and flexible pricing",
+  "title": "SELECT ONE OF THE FOUR ACCOUNT OPTIONS",
   "description": "No recurrent charges, no membership or other hidden fees. Moreover, the fee is automatically reimbursed to you with the first Profit Split."
 }
