@@ -3,8 +3,8 @@
     {
       "isFeatured": false,
       "description": "One-time fee only",
-      "planName": "TRADE $25,000 ACCOUNT",
-      "price": "AND PAY $450",
+      "planName": "$25,000 ACCOUNT",
+      "price": "$450",
       "cycle": "  ",
       "perks": [
         "Forex, Commodities, Indices, Crypto, Stocks, Bonds",
@@ -44,5 +44,5 @@
     }
   ],
   "title": "SELECT ONE OF THE FOUR ACCOUNT OPTIONS",
-  "description": "No recurrent charges, no membership or other hidden fees. Moreover, the fee is automatically reimbursed to you with the first Profit Split."
+  "description": "No recurrent charges, no membership or other hidden fees. Moreover, the fee is automatically reimbursed to you with the first Profit Split"
 }
