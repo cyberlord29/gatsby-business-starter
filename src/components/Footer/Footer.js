@@ -15,6 +15,7 @@ import logo from '../../img/logo.png'
 const Footer = () => {
     return (
         <FooterContainer>
+             <div id="banner" style={{marginTop: "40px"}}/>
              <NavIconContainer>
                 {/* <StaticImage src="../../img/logo2.png" height = {60} width={70}/> */}
                 <IconLabelContainer>

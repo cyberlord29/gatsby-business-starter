@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const PricingBannerContainer = styled.div`
     text-align: center;
-    margin-top: 4%;
+    margin-top: 60px;
     @media (max-width: 500px) {
         margin-top: 30px;
         margin-bottom: 30px;

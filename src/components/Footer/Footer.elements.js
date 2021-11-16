@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
     text-align: center;
+    margin-bottom: 40px;
 `;
 
 export const NavIconContainer = styled.div`

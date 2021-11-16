@@ -1,15 +1,22 @@
 import React from 'react';
-
 import { ProductInfoContainer, ProductImage, ProductCard, ProductTitle, ProductDescription } from './ProductInfo.elements';
-
 import { WhiteButton } from '../../globalStyles';
+import dashboard from '../../img/dashboard.png'
+import progress from '../../img/progress.png'
+
 const ProductInfo = (props) => {
     const productInfo = props.data;
     const [firstProduct, secondProduct] = productInfo;
     return(
         <div>
         <ProductInfoContainer>
-            <ProductImage />
+            <ProductImage>
+            <img
+              src={dashboard}
+              height={425}
+            >
+            </img>
+            </ProductImage>
             <ProductCard>
                 <ProductTitle>
                     {firstProduct.title}
@@ -23,7 +30,13 @@ const ProductInfo = (props) => {
             </ProductCard>
         </ProductInfoContainer>
         <ProductInfoContainer>
-            <ProductImage />
+            <ProductImage>
+                <img
+                    src={progress}
+                    height={450}
+                >
+                </img>
+            </ProductImage>
             <ProductCard>
                 <ProductTitle>
                    {secondProduct.title}

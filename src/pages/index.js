@@ -10,6 +10,7 @@ const IndexPage = () => {
             <Menu data = {Content.menu}/>
             <ProductInfo data = {Content.productInfo}/>
             <Banner data = {Content.banner}/>
+            <div id="widget" style={{display: "flex", justifyContent: "center", marginTop: "60px"}}/>
         </Layout>
     )
 }

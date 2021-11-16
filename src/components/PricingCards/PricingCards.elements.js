@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const PricingCardsContainer = styled.div`
     display: flex;
-    margin: 4% 15%;
+    margin: 75px 50px;
     justify-content: space-between;
     @media (max-width: 500px) {
         flex-direction: column;
@@ -10,6 +10,7 @@ export const PricingCardsContainer = styled.div`
 `;
 
 export const PricingCard = styled.div`
+    width: 230px;
     ${props => props.isFeatured && css`
         background-color : black;
     `}
@@ -51,14 +52,13 @@ export const PriceDescription = styled.div`
 `;
 
 export const PerksContainer = styled.div`
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 32px;
 `;
 
 export const PerkContainer = styled.div`
     margin-top: 22px;
 `;
-
 
 export const Perk = styled.h4`
     font-weight: 500;
