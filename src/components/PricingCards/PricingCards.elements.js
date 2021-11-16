@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const PricingCardsContainer = styled.div`
     display: flex;
-    margin: 75px 50px;
+    margin: 75px 100px;
     justify-content: space-between;
     @media (max-width: 500px) {
         flex-direction: column;
