@@ -10,15 +10,14 @@ import {
     IconLabelContainer,
     IconLabel
 } from './Footer.elements'
+import logo from '../../img/logo.png'
+
 const Footer = () => {
     return (
         <FooterContainer>
              <NavIconContainer>
                 {/* <StaticImage src="../../img/logo2.png" height = {60} width={70}/> */}
                 <IconLabelContainer>
-                    <IconLabel>
-                        1000Plus Capital
-                    </IconLabel>
                 </IconLabelContainer>
             </NavIconContainer> 
             <SocialMediaContainer>
@@ -27,7 +26,13 @@ const Footer = () => {
                 <AiOutlineTwitter />
             </SocialMediaContainer>
             <CopyrightContainer>
-                100PlusCapital 2021 All rights reserved
+                <IconLabel>
+                    <img
+                        src={logo}
+                        height={50}
+                    >
+                    </img>
+                </IconLabel>
             </CopyrightContainer>
         </FooterContainer>
     )

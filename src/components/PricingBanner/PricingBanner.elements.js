@@ -15,6 +15,6 @@ export const BannerTitle = styled.h2`
 
 export const BannerDescription = styled.h3`
     margin-top: 10px;
-    color: grey
-
+    margin: 10px 35px;
+    color: grey;
 `;

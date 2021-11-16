@@ -23,13 +23,13 @@ export const BannerDescription = styled.p`
 `;
 
 export const YellowButton = styled.button`
-    background-color: #007AFF;
+    background-color: #0070ba;
     font-size: 1rem;
     font-weight: 600;
     width: 150px;
     height: 50px;
     border-radius: 100px;
-    border: 2px solid #007AFF;
+    border: 2px solid #0070ba;
     cursor: pointer;
     &:hover {
         background-color: white;

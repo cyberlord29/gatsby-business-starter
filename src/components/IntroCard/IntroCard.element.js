@@ -54,13 +54,13 @@ export const YellowButtonContainer = styled.div`
 `;
 
 export const YellowButton = styled.button`
-    background-color: #007AFF;
+    background-color: #0070ba;
     font-size: 1rem;
     font-weight: 600;
     width: 100%;
     height: 50px;
     border-radius: 100px;
-    border: 2px solid #007AFF;
+    border: 2px solid #0070ba;
     cursor: pointer;
 
     &:hover {
@@ -76,11 +76,11 @@ export const WhiteButton = styled.button`
     margin-right: 10px;
     height: 50px;
     border-radius: 100px;
-    border: 2px solid #007AFF;
+    border: 2px solid #0070ba;
     cursor: pointer;
 
     &:hover {
-        background-color: #007AFF;
+        background-color: #0070ba;
     }
 
     &:last-child {

@@ -4,7 +4,7 @@ import useSiteMetadata from '../SiteMetadata';
 import { withPrefix } from 'gatsby';
 import { Navbar, Footer } from '../../components';
 import GlobalStyle from '../../globalStyles';
-
+import "@fontsource/lato";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()

@@ -30,6 +30,7 @@ export const PricingPlanName = styled.div`
 export const Price = styled.div`
     display: inline;
     font-size: 3rem;
+    margin: 8px;
     font-weight: bold;
 `;
 

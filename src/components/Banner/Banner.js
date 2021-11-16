@@ -15,9 +15,11 @@ const Banner = (props) => {
                 </BannerDescription>
             </BannerCard>
             <ButtonContainer>
+                <a href="https://launchpad.londontradinginstitute.com" target="_blank">
                 <YellowButton>
-                    {buttonText}
+                  {buttonText}
                 </YellowButton>
+                </a>
             </ButtonContainer>
         </BannerContainer>
     )

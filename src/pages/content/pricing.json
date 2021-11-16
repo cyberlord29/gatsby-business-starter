@@ -41,6 +41,20 @@
         "Ability to Trade Any News Events and any Instrument",
         "Institutional Spreads"
       ]
+    },
+    {
+      "planName": "$200,000 ACCOUNT",
+      "price": "$1250",
+      "cycle": " ",
+      "description": "One-time fee only",
+      "isFeatured": false,
+      "perks": [
+        "Forex, Commodities, Indices, Crypto, Stocks, Bonds",
+        "Leverage up to 1:200",
+        "Ability to hold Overnight and Weekends",
+        "Ability to Trade Any News Events and any Instrument",
+        "Institutional Spreads"
+      ]
     }
   ],
   "title": "SELECT ONE OF THE FOUR ACCOUNT OPTIONS",

@@ -44,7 +44,7 @@ export const FeatureItem = styled.div`
 export const FeatureItemIllustration = styled.div`
     border-radius: 100px;
     height: 200px;
-    border: 1px solid #007AFF;
+    border: 1px solid #0070ba;
 
 `;
 

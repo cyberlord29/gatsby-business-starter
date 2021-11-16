@@ -12,7 +12,7 @@ import {
     IconLabelContainer, 
     IconLabel
 } from './Navbar.elements'
-
+import logo from '../../img/logo.png'
 const Navbar = () => {
     return (
        <Nav>
@@ -20,15 +20,19 @@ const Navbar = () => {
              <NavIconContainer to = '/'>
                 <IconLabelContainer>
                     <IconLabel>
-                        1000Plus Capital
+                        <img
+                        src={logo}
+                        height={50}
+                        >
+                        </img>
                     </IconLabel>
                 </IconLabelContainer>
             </NavIconContainer> 
              <NavMenu>
                  <NavItem>
-                     <NavLink to="/contact">
-                         Contact
-                     </NavLink>
+                        {/* <NavLink to="/contact">
+                            Contact
+                        </NavLink> */}
                  </NavItem>
              </NavMenu>
              <NavButtonContainer>

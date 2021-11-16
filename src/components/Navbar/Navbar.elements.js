@@ -18,6 +18,7 @@ export const NavIconContainer = styled(Link)`
     flex-basis: 60%;
     justify-self: flex-start;
     text-decoration: none;
+    align-items: center;
     cursor: pointer;
     display: flex;
 `;
@@ -88,15 +89,15 @@ export const NavButtonContainer = styled.div`
 export const NavButton = styled.button`
     background-color: white;
     font-size: 1rem;
-    color: #007AFF;
+    color: #0070ba;
     font-weight: bold;
     width: 100%;
     height: 50px;
     border-radius: 100px;
-    border: 2px solid #007AFF;
+    border: 2px solid #0070ba;
     cursor: pointer;
     &:hover {
-        background-color: #007AFF;
+        background-color: #0070ba;
     }
 `
 
