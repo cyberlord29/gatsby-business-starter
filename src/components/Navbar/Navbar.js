@@ -21,8 +21,8 @@ const Navbar = () => {
                 <IconLabelContainer>
                     <IconLabel>
                         <img
-                        src={logo}
-                        height={50}
+                            src={logo}
+                            height={50}
                         >
                         </img>
                     </IconLabel>
@@ -30,9 +30,9 @@ const Navbar = () => {
             </NavIconContainer> 
              <NavMenu>
                  <NavItem>
-                        {/* <NavLink to="/contact">
-                            Contact
-                        </NavLink> */}
+                    <NavLink to="/contact">
+                        Contact Us
+                    </NavLink>
                  </NavItem>
              </NavMenu>
              <NavButtonContainer>

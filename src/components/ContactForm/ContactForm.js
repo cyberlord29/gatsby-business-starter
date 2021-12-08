@@ -17,7 +17,7 @@ const ContactForm = () => {
             },
             body: JSON.stringify(formData),
         });
-        alert(response);
+        alert("Thank you for contacting us, someone will get back to you soon");
     };
     return (
         <FormContainer>

@@ -66,6 +66,14 @@ const Menu = (props) => {
                     <td><div>${size*5/100}</div></td>
                     <td><div>-</div></td>
                 </tr>
+                <tr>
+                    <td><div>Price</div></td>
+                    <td><div>
+                        {size===25000?'$450':size===50000?'$650':size===100000?'$950':'$1850'}
+                    </div></td>
+                    <td><div>$0</div></td>
+                    <td><div>$0</div></td>
+                </tr>
                 </table>
             </MenuItemsContainer>
         </MenuContainer>
