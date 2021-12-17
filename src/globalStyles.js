@@ -36,6 +36,7 @@ export const WhiteButton = styled.button`
     border-radius: 25px;
     border: 2px solid #0070ba;
     cursor: pointer;
+    margin: 5px 5px;
     color: ${props => !props.selected?'#0070ba':'white'};
     &:last-child {
         margin-right: 0;

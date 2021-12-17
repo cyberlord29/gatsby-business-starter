@@ -21,6 +21,7 @@ const Navbar = () => {
                 <IconLabelContainer>
                     <IconLabel>
                         <img
+                            className="icon"
                             src={logo}
                             height={50}
                         >

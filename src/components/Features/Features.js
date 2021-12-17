@@ -1,5 +1,6 @@
 import React from 'react'
 import { FeatureContainer, FeatureTitle, FeatureDescription, FeatureCard, FeatureItemsContainer, FeatureItemIllustration, FeatureItemTitle, FeatureItemDescription, FeatureItem} from './Features.elements'
+import one from '../../img/one.png'
 
 const Features = (props) => {
     const {title, description, items} = props.data;
@@ -16,7 +17,10 @@ const Features = (props) => {
             <FeatureItemsContainer>
                 {items.map((item) => {
                 console.log("../.."+item.image);
-                return (<FeatureItem>   
+                return (<FeatureItem>
+                    <FeatureItemIllustration>
+                        <img src = {one} height={170}/>    
+                    </FeatureItemIllustration> 
                     <FeatureItemTitle>
                         {item.title}
                     </FeatureItemTitle>

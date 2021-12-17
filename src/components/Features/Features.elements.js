@@ -36,16 +36,13 @@ export const FeatureItemsContainer = styled.div`
 `;
 
 export const FeatureItem = styled.div`
-    @media (max-width: 500px) {
-        margin-bottom: 30px;
-    }
+    margin-bottom: 15px;
 `;
 
 export const FeatureItemIllustration = styled.div`
-    border-radius: 100px;
-    height: 200px;
-    border: 1px solid #0070ba;
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 `;
 
 export const FeatureItemTitle = styled.h3`

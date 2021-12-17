@@ -204,4 +204,18 @@ collections:
               - label: "Description"
                 name: "description"
                 widget: "string"
+        - file: "src/pages/content/faq.json"
+          label: "FAQ page"
+          name: "faq"
+          fields:
+            - label: "Cards"
+              name: "cards"
+              widget: "list"
+              fields:
+                - label: "Title"
+                  name: "title"
+                  widget: "string"
+                - label: "Description"
+                  name: "description"
+                  widget: "string"
         

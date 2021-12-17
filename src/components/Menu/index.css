@@ -1,5 +1,6 @@
 table{
     box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
+    border: 1px solid black;
     border-radius: 20px;
     margin: 0;
 }
@@ -25,6 +26,7 @@ tr:nth-child(odd) td:first-child, .objectivesWrapper .avia-table-1 tr td:nth-chi
 
 td {
     padding-left: 10px;
+    min-width: 125px;
 }
 
 tr {
@@ -37,4 +39,46 @@ tr {
     align-items: center;
     justify-content: flex-end;
     margin: 30px 0px;
+}
+
+
+.scroll-arrow{
+    position: relative;
+    top: -50%;
+    right: -95%;
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .account-size-selection{
+        flex-direction: column;
+    }
+    .scroll-arrow{
+        position: relative;
+        top: -300px;
+        right: -95%;
+        display: revert;
+    }
+}
+
+td:first-child{
+    position: sticky;
+    left: 0px;
+    background-color: white;
+}
+
+th:first-child{
+    position: sticky;
+    left: 0px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .icon{
+      height: 14px;
+    }
+    .image{
+        height: 300px;
+    }
 }

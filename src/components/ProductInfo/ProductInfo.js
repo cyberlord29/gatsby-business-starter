@@ -12,6 +12,7 @@ const ProductInfo = (props) => {
         <ProductInfoContainer>
             <ProductImage>
             <img
+              className="image"
               src={dashboard}
               height={425}
             >
@@ -32,6 +33,7 @@ const ProductInfo = (props) => {
         <ProductInfoContainer>
             <ProductImage>
                 <img
+                    className="image"
                     src={progress}
                     height={450}
                 >
