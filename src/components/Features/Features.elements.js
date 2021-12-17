@@ -30,6 +30,7 @@ export const FeatureItemsContainer = styled.div`
     width: 90%;
     margin: auto;
     padding-top: 20px;
+    justify-content: center;
     @media (max-width: 500px) {
         flex-direction: column;
     }
@@ -43,6 +44,21 @@ export const FeatureItem = styled.div`
     width: 300px;
 `;
 
+export const FaqItemsContainer = styled.div`
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+`;
+
+export const FaqItem = styled.div`
+    margin: 15px 20px;
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+`;
+
 export const FeatureItemIllustration = styled.div`
     display: flex;
     justify-content: center;
@@ -52,10 +68,10 @@ export const FeatureItemIllustration = styled.div`
 export const FeatureItemTitle = styled.h3`
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
 `;
 
 export const FeatureItemDescription = styled.h5`
-    padding-top: 18px;
     text-align: center;
     width: 70%;
     margin: auto;

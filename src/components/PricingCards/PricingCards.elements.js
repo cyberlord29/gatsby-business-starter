@@ -6,17 +6,24 @@ export const PricingCardsContainer = styled.div`
     justify-content: space-between;
     @media (max-width: 500px) {
         flex-direction: column;
+        margin: 50px 30px;
     }
 `;
 
 export const PricingCard = styled.div`
     width: 230px;
+    margin: 15px 20px;
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
     ${props => props.isFeatured && css`
         background-color : black;
     `}
     @media (max-width: 500px) {
         text-align: center;
         margin-bottom: 30px;
+        margin: 15px 0px;
     }
 `;
 
