@@ -19,7 +19,7 @@ collections:
         label: "SEO Tags"
         name: "SEO"
         fields:
-          - {label: "Title", name: "title", widget: string}w
+          - {label: "Title", name: "title", widget: string}
           - {label: "Description", name: "description", widget: string}
           - {label: "Author", name: "author", widget: string}
           - {label: "URL", name: "url", widget: string}
@@ -218,4 +218,3 @@ collections:
               - label: "Description"
                 name: "description"
                 widget: "string"
-        
