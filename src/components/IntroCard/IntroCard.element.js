@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const IntroCardContainer = styled.div`
-    padding: 50px 20px;
+    padding: 70px 20px;
     background-color: black;
     color: white;
     margin-top: 20px;

@@ -27,7 +27,7 @@ export const FeatureDescription = styled.div`
 
 export const FeatureItemsContainer = styled.div`
     display: flex;
-    width: 65%;
+    width: 90%;
     margin: auto;
     padding-top: 20px;
     @media (max-width: 500px) {
@@ -36,7 +36,11 @@ export const FeatureItemsContainer = styled.div`
 `;
 
 export const FeatureItem = styled.div`
-    margin-bottom: 15px;
+    margin: 15px 20px;
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
 `;
 
 export const FeatureItemIllustration = styled.div`

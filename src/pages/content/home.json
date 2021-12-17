@@ -14,12 +14,12 @@
     "items": [
       {
         "description": "The Phase 1 assessment is the first step of the Evaluation. Prove your trading skills and discipline in observing the Trading Objectives. You have 30 days to complete this stage before moving to phase 2.",
-        "title": "PHASE 1. ASSESSMENT",
+        "title": "ASSESSMENT",
         "image": "/static/img/Features/one.png"
       },
       {
         "description": "The second phase is to verify that you are a consistent trader before you receive funding. Once you complete this phase, you will be qualified to become one of our traders.",
-        "title": "PHASE 2. VERIFICATION",
+        "title": "VERIFICATION",
         "image": "/static/img/Features/two.png"
       },
       {

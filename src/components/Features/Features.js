@@ -19,7 +19,7 @@ const Features = (props) => {
                 console.log("../.."+item.image);
                 return (<FeatureItem>
                     <FeatureItemIllustration>
-                        <img src = {one} height={170}/>    
+                        <img src = {one} height={120}/>    
                     </FeatureItemIllustration> 
                     <FeatureItemTitle>
                         {item.title}

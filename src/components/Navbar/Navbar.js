@@ -35,6 +35,11 @@ const Navbar = () => {
                         Contact Us
                     </NavLink>
                  </NavItem>
+                 <NavItem>
+                    <NavLink to="/faq">
+                        FAQ
+                    </NavLink>
+                 </NavItem>
              </NavMenu>
              <NavButtonContainer>
                 <NavButton>

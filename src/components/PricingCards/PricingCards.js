@@ -24,10 +24,10 @@ const PricingCards = (props) => {
            <PricingPlanName>
                {pricingCard.planName}
            </PricingPlanName>
-           <PriceContainer>
+           {/* <PriceContainer>
               <PriceCycle>{pricingCard.cycle}</PriceCycle>
-           </PriceContainer>
-           <PriceDescription>{pricingCard.description}</PriceDescription>
+           </PriceContainer> */}
+           {/* <PriceDescription>{pricingCard.description}</PriceDescription> */}
            <PerksContainer>
             {pricingCard.perks.map((perk) => 
                (
