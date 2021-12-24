@@ -22,7 +22,7 @@ const Menu = (props) => {
                 <MenuTitle>
                   {title}
                 </MenuTitle>
-                <MenuDescription>
+                <MenuDescription style={{color: "white"}}>
                   {description}
                 </MenuDescription>
             </MenuCard>

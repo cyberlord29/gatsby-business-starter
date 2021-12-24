@@ -8,8 +8,10 @@ export const MenuContainer = styled.div`
 export const MenuCard = styled.div`
     width: 100%;
     display: block;
+    background: black;
+    color: white;
     text-align: center;
-    padding-top: 30px;
+    padding: 30px 0px;
 `;
 
 export const MenuTitle = styled.h2`

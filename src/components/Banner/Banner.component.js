@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const BannerContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 10% 4%; 
+    padding: 7% 4%;
+    margin: 3% 0%;
+    color: white;
 `;
 
 export const BannerCard = styled.div`
