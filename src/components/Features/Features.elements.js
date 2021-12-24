@@ -56,7 +56,7 @@ export const FaqItem = styled.div`
     box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
     border-radius: 20px;
     padding: 20px;
-    width: 100%;
+    width: 75%;
 `;
 
 export const FeatureItemIllustration = styled.div`

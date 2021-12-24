@@ -6,6 +6,7 @@ export const BannerContainer = styled.div`
     padding: 7% 4%;
     margin: 3% 0%;
     color: white;
+    background: black;
 `;
 
 export const BannerCard = styled.div`
@@ -21,7 +22,7 @@ export const BannerTitle = styled.h2`
 export const BannerDescription = styled.p`
     width: 90%;
     line-height: 1.6;
-    color: grey;
+    color: white;
 `;
 
 export const YellowButton = styled.button`
