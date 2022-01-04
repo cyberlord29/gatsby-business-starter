@@ -17,6 +17,15 @@ const FAQ = () => {
             <FaqItemsContainer style={{display:"flex", flexDirection: "column", alignItems: "center"}}>
                 {Content.faq.questions.map((item,i) => {
                 const show = item.title===""
+                if(item.category){
+                  return(
+                    <FaqItem style={{boxShadow: "none"}}>
+                      <FeatureItemTitle style={{fontSize: "28px", boxShadow: "none"}}>
+                        {item.category}
+                      </FeatureItemTitle>
+                    </FaqItem>
+                  )
+                }
                 return (<FaqItem style={{marginBottom: "20px", position: "relative"}}> 
                   {!show && <FeatureItemTitle 
                     onClick={()=> toggle(i)}
