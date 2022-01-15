@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: ameen
+  branch: ltg
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -218,3 +218,4 @@ collections:
               - label: "Description"
                 name: "description"
                 widget: "markdown"
+            

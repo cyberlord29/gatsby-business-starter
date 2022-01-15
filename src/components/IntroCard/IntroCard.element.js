@@ -1,40 +1,63 @@
 import styled from 'styled-components'
 
 export const IntroCardContainer = styled.div`
-    padding: 70px 20px;
-    background-color: black;
-    color: white;
-    margin-top: 20px;
-    padding-left: 10%;
+    background-color: #F7F9FF;
+    color: #132B4C;
+    padding-left: 5%;
     display: flex;
+    width: 100%;
     @media (max-width: 500px) {
         width: 100%;
     }
+    height: 500px;
 `;
 
 export const IntroLeftContainer = styled.div`
     display: flex;
+    width: 100%;
     flex-direction: column;
-    flex-basis: 50%;
     @media (max-width: 500px) {
         width: 100%;
         flex-basis:80%;
     }
 `;
 
+export const InputField = styled.input`
+    display: block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    padding: 10px 12px;
+    width: 50%;
+    margin-top: 10px;
+    height: 50px;
+`;
+
+export const Button = styled.button`
+    background: #FFAB00 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    margin-top: 10px;
+    height: 50px;
+    padding: 0px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+`;
+
+
 export const IntroTitle = styled.h1`
     display: flex;
-    flex-basis: 60%;
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.3;
 `;
 
 export const DescriptionContainer = styled.p`
     display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 1.10rem;
-    color: white;
+    font-size: 20px;
+    color: #132B4C;
     line-height: 1.6;
 `;
 

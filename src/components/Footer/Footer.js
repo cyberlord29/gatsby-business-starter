@@ -10,7 +10,7 @@ import {
     IconLabelContainer,
     IconLabel
 } from './Footer.elements'
-import logo from '../../img/logo.png'
+import logo from '../../img/logo.svg'
 
 const Footer = () => {
     return (

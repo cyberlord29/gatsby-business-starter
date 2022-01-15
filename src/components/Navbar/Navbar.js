@@ -12,7 +12,7 @@ import {
     IconLabelContainer, 
     IconLabel
 } from './Navbar.elements'
-import logo from '../../img/logo.png'
+import logo from '../../img/logo-h.svg'
 const Navbar = () => {
     return (
        <Nav>
@@ -31,23 +31,48 @@ const Navbar = () => {
             </NavIconContainer> 
              <NavMenu>
                  <NavItem>
-                    <NavLink to="/contact">
-                        Contact Us
+                    <NavLink to="/courses">
+                        Courses
                     </NavLink>
                  </NavItem>
                  <NavItem>
-                    <NavLink to="/faq">
-                        FAQ
+                    <NavLink to="/about">
+                        About
+                    </NavLink>
+                 </NavItem>
+                 <NavItem>
+                    <NavLink to="/about">
+                        Events
+                    </NavLink>
+                 </NavItem>
+                 <NavItem>
+                    <NavLink to="/about">
+                        Free Resources
+                    </NavLink>
+                 </NavItem>
+                 <NavItem>
+                    <NavLink to="/about">
+                        Indicators
+                    </NavLink>
+                 </NavItem>
+                 <NavItem>
+                    <NavLink to="/about">
+                        Funding
+                    </NavLink>
+                 </NavItem>
+                 <NavItem>
+                    <NavLink to="/about">
+                        Free Consultation
                     </NavLink>
                  </NavItem>
              </NavMenu>
-             <NavButtonContainer>
+             {/* <NavButtonContainer>
                 <NavButton>
                     <NavLink bold to="/pricing">
                         Pricing
                     </NavLink>
                 </NavButton>
-             </NavButtonContainer>
+             </NavButtonContainer> */}
            </NavbarContainer>
 
        </Nav>

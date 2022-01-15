@@ -4,8 +4,8 @@ import { Link } from 'gatsby';
 export const Nav = styled.nav`
     height: 60px;
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0px 10px;
+    background-color: #F7F9FF;
 `;
 
 export const NavbarContainer = styled.div`
@@ -28,7 +28,7 @@ export const IconLabelContainer = styled.div`
 `;
 
 export const IconLabel = styled.h5`
-    padding-left: 10px;
+    padding-left: 20px;
     padding-top: 20px;
     color: black;
     font-size: 1.3rem;
@@ -40,7 +40,7 @@ export const NavMenu = styled.ul`
     width: 100%;
     align-items: center;
     list-style: none;
-    text-align: center;
+    justify-content: right;
     margin-right: 0;
 `;
 
@@ -53,12 +53,13 @@ export const NavItem = styled.li`
 `;
 
 export const NavLink = styled(Link)`
+    color: #132b4c;
     display: flex;
+    font-size: 1rem;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    color: grey;
     width: 100%;
 
     &:active {
@@ -87,7 +88,7 @@ export const NavButtonContainer = styled.div`
 
 
 export const NavButton = styled.button`
-    background-color: white;
+    background-color: #f7f9ff;
     font-size: 1rem;
     color: #0070ba;
     font-weight: bold;

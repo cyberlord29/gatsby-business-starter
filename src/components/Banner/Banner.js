@@ -1,10 +1,10 @@
 import React from 'react'
-import { BannerCard, BannerContainer, BannerDescription, BannerTitle, ButtonContainer } from './Banner.component'
+import { BannerCard, BannerContainer, BannerDescription, BannerTitle } from './Banner.component'
 import { YellowButton } from '../../globalStyles'
-import { ContactLabel, Form, FormContainer, InputContainer, InputField, Label } from '../ContactForm/ContactForm.elements'
+import { Form, FormContainer, InputContainer, InputField, Label } from '../ContactForm/ContactForm.elements'
 
 const Banner = (props) => {
-    const {title, description, buttonText} = props.data;
+    const {title, description} = props.data;
     return (
         <BannerContainer>
             <BannerCard>

@@ -5,7 +5,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: "League Spartan";
+    font-weight: 800;
+    letter-spacing: 0.7px;
 }
 `;
 
@@ -47,5 +49,12 @@ export const WhiteButton = styled.button`
     }
     ${props => props.maxWidth && css`
         width: 100%;`};
+`;
+
+export const Underline = styled.div`
+    height: 6px;
+    background: #172647;
+    border-radius: 4px;
+    width: 80%;
 `;
 export default GlobalStyle;

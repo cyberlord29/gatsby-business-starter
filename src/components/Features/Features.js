@@ -2,7 +2,7 @@ import React from 'react'
 import { FeatureContainer, FeatureTitle, FeatureDescription, FeatureCard, FeatureItemsContainer, FeatureItemIllustration, FeatureItemTitle, FeatureItemDescription, FeatureItem} from './Features.elements'
 import one from '../../img/one.png'
 import two from '../../img/two.png'
-import logo from '../../img/logo.png'
+import logo from '../../img/logo.svg'
 const Features = (props) => {
     const {title, description, items} = props.data;
     return (
