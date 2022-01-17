@@ -5,7 +5,7 @@ import andy1 from '../../img/andy1.png'
 import andy2 from '../../img/andy2.png'
 import middlesex from '../../img/middlesex.jpeg'
 
-import { Banner, Header, Button, AboutContainer } from './About.element'
+import { Banner, AboutContainer } from './About.element'
 import { FlexContainer } from '../../globalStyles'
 
 const About = (props) => {
