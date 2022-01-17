@@ -18,6 +18,15 @@ export const IntroLeftContainer = styled.div`
     flex-direction: column;
 `;
 
+export const IntroLeftContainerHeader = styled.div`
+    display: flex;
+    padding: 2rem 7rem;
+    flex-basis: 50%;
+    @media (max-width: 500px) {
+        padding: 4rem 3rem;
+    }
+`;
+
 export const FeatureItem = styled.div`
   position: relative;
   top: -50px;

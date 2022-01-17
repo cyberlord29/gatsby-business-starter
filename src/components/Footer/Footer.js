@@ -13,6 +13,7 @@ import {
     IconLabel,
     Banner
 } from './Footer.elements'
+import { FlexContainer } from '../../globalStyles';
 
 const Footer = () => {
     return (
@@ -70,10 +71,11 @@ const Footer = () => {
                     <div style={{fontSize: "16px", textAlign: "start"}}>
                         By continuing to use our site you agree to our privacy policy. Click here to read our refund policy.                    
                     </div>
-                    <div style={{fontSize: "12px", textAlign: "start", marginTop: "20px"}}>
+                    <FlexContainer style={{fontSize: "12px", textAlign: "start", marginTop: "20px", alignItems: "center"}}>
                     Investors’ capital is at risk. Market investment products involve the use of leverage and may result in losses that exceed initial deposit. They may not be suitable for everyone.
                     <SocialMediaContainer>
                         <img
+                            style={{marginLeft: "30px"}}
                             src={facebook}
                             height={50}
                             >
@@ -84,7 +86,7 @@ const Footer = () => {
                             >
                         </img>
                     </SocialMediaContainer> 
-                    </div>
+                    </FlexContainer>
                 </div>
           
             </Banner>

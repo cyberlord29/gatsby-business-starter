@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {  Button, InputField, IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer, FeatureItem } from './IntroCard.element'
+import {  Button, InputField, IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer, FeatureItem, IntroLeftContainerHeader } from './IntroCard.element'
 import landing from '../../img/landing.png'
 import axios from 'axios';
 import { navigate } from "gatsby"
@@ -18,7 +18,7 @@ const IntroCard = (props) => {
     }
     return (
         <IntroCardContainer>
-            <IntroLeftContainer style={{padding: "3rem 3rem", flexBasis: "50%"}}>
+            <IntroLeftContainerHeader>
                 <div>
                 <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
                     A Trader’s Life Can Get Lonely.
@@ -37,7 +37,7 @@ const IntroCard = (props) => {
                     {'Meet Like-Minded Members and Learn Faster.'}
                 </DescriptionContainer>
                 </div>
-            </IntroLeftContainer>
+            </IntroLeftContainerHeader>
             <IntroLeftContainer className="" style={{flexBasis: "50%"}}>
                 <div style={{width: "100%"}}>
                     <img
