@@ -29,7 +29,7 @@ const Navbar = () => {
                     </IconLabel>
                 </IconLabelContainer>
             </NavIconContainer> 
-             <NavMenu>
+             <NavMenu className="no-mobile">
                  <NavItem>
                     <NavLink to="/courses">
                         Courses
@@ -53,11 +53,6 @@ const Navbar = () => {
                  <NavItem>
                     <NavLink to="/about">
                         Indicators
-                    </NavLink>
-                 </NavItem>
-                 <NavItem>
-                    <NavLink to="/about">
-                        Funding
                     </NavLink>
                  </NavItem>
                  <NavItem>

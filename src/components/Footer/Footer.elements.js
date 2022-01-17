@@ -11,12 +11,25 @@ export const NavIconContainer = styled.div`
     display: flex;
 `;
 
+export const Banner = styled.div`
+  background-color: #172647;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  padding: 40px 90px;
+  font-size: 36px;
+  @media (max-width: 500px) {
+    padding: 40px 40px;
+  }
+}
+`;
+
 export const IconLabelContainer = styled.div`
     display: flex;
 `;
 
 export const SocialMediaContainer = styled.div`
-    justify-content: space-between;
     display: flex;
     margin: auto;
     padding-top: 20px;

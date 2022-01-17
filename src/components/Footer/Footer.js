@@ -1,39 +1,94 @@
 import React from 'react'
-import {FaLinkedinIn, FaFacebookF} from 'react-icons/fa';
-import {AiOutlineTwitter} from 'react-icons/ai'
 import { StaticImage } from 'gatsby-plugin-image';
+import facebook from '../../img/facebook.png'
+import like from '../../img/like.png'
+import love from '../../img/love.png'
+import youtube from '../../img/youtube.png'
 import { 
     FooterContainer, 
     SocialMediaContainer,
     CopyrightContainer,
     NavIconContainer,
     IconLabelContainer,
-    IconLabel
+    IconLabel,
+    Banner
 } from './Footer.elements'
-import logo from '../../img/logo.svg'
 
 const Footer = () => {
     return (
         <FooterContainer>
-             <div id="banner" style={{marginTop: "40px"}}/>
+             {/* <div id="banner" style={{marginTop: "40px"}}/> */}
              <NavIconContainer>
                 {/* <StaticImage src="../../img/logo2.png" height = {60} width={70}/> */}
                 <IconLabelContainer>
                 </IconLabelContainer>
             </NavIconContainer> 
-            <SocialMediaContainer>
-                <FaLinkedinIn />
-                <FaFacebookF />
-                <AiOutlineTwitter />
-            </SocialMediaContainer>
+            <Banner style={{height: "10px", padding: "0px", backgroundColor: "#FFAB00"}}></Banner>
+            <Banner style={{fontSize: "14px"}}>
+                <div style={{display: "flex", flexDirection:"column", cursor: "pointer"}}>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        About
+                    </div>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        Courses
+                    </div>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        Free Resources
+                    </div>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        Events
+                    </div>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        Indicators
+                    </div>
+                </div>
+                <div style={{display: "flex", justifyContent: "flex-end", width: "100%"}}>
+                    <div style={{display: "flex", flexDirection:"column"}}>
+                        <div style={{fontSize: "16px", textAlign: "end"}}>
+                            London Trading Institute
+                        </div>
+                        <div style={{fontSize: "16px", textAlign: "end", marginBottom: "10px"}}>
+                            info@londontradinginstitute.com
+                        </div>
+                        <div style={{fontSize: "12px", textAlign: "end"}}>
+                            35 New Broad Street
+                        </div>
+                        <div style={{fontSize: "12px", textAlign: "end"}}>
+                            London
+                        </div>
+                        <div style={{fontSize: "12px", textAlign: "end"}}>
+                            EC2M 1 NH
+                        </div>
+                    </div> 
+                </div>
+            </Banner>
+            <Banner style={{backgroundColor: "#0F1C38"}}>
+                <div style={{display: "flex", flexDirection: "column"}}>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        @2022 London Trading Institute | In order to improve your browsing experience London Trading Institute, uses cookies on this site.
+                    </div>
+                    <div style={{fontSize: "16px", textAlign: "start"}}>
+                        By continuing to use our site you agree to our privacy policy. Click here to read our refund policy.                    
+                    </div>
+                    <div style={{fontSize: "12px", textAlign: "start", marginTop: "20px"}}>
+                    Investors’ capital is at risk. Market investment products involve the use of leverage and may result in losses that exceed initial deposit. They may not be suitable for everyone.
+                    <SocialMediaContainer>
+                        <img
+                            src={facebook}
+                            height={50}
+                            >
+                        </img>
+                        <img style={{marginLeft: "30px"}}
+                            src={youtube}
+                            height={50}
+                            >
+                        </img>
+                    </SocialMediaContainer> 
+                    </div>
+                </div>
+          
+            </Banner>
             <CopyrightContainer>
-                <IconLabel>
-                    <img
-                        src={logo}
-                        height={50}
-                    >
-                    </img>
-                </IconLabel>
             </CopyrightContainer>
         </FooterContainer>
     )

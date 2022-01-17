@@ -1,6 +1,6 @@
 import React from 'react'
 import { Banner, CoursesContainer, Header, Button, CourseItem } from './Courses.elements'
-import { Underline } from '../../globalStyles'
+import { FlexContainer, Underline } from '../../globalStyles'
 import view from '../../img/view.jpg'
 import time from '../../img/time.jpg'
 import learn from '../../img/learn.jpg'
@@ -55,8 +55,8 @@ const Courses = (props) => {
             <Banner>
                 Learn what it really takes to become a Professional Trader and you’ll begin to see the markets on a whole new level.
             </Banner>
-            <div style={{padding: "75px"}}>
-                <Header>
+            <div style={{padding: "10px 5% 70px"}}>
+                <Header style={{display: "flex"}}>
                     <div>
                         <div>
                             Our Popular Courses
@@ -67,11 +67,11 @@ const Courses = (props) => {
                         ALL COURSES
                     </Button>
                 </Header>
-                <div style={{ display: "flex", justifyContent: "space-around"}}>
+                <FlexContainer style={{ display: "flex"}}>
                     <Course title="Crypto Like a Pro"/>
                     <Course title="Associate Trader Programme"/>
                     <Course title="Crypto Like a Pro Trading System"/>
-                </div>
+                </FlexContainer>
             </div>
         </CoursesContainer>
     )

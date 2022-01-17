@@ -3,24 +3,39 @@ import styled from 'styled-components'
 export const IntroCardContainer = styled.div`
     background-color: #F7F9FF;
     color: #132B4C;
-    padding-left: 5%;
     display: flex;
-    width: 100%;
+    flex-basis: 80%;
+    ustify-content: center;
+    align-items: center;
     @media (max-width: 500px) {
         width: 100%;
+        flex-direction: column;
     }
-    height: 500px;
 `;
 
 export const IntroLeftContainer = styled.div`
     display: flex;
-    width: 100%;
     flex-direction: column;
-    @media (max-width: 500px) {
-        width: 100%;
-        flex-basis:80%;
-    }
 `;
+
+export const FeatureItem = styled.div`
+  position: relative;
+  top: -50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  border: none;
+  justify-content: center;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-right: 5%;
+  padding: 10px;
+  font-size: 14px;
+`;
+
 
 export const InputField = styled.input`
     display: block;

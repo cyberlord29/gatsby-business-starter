@@ -1,0 +1,10 @@
+.no-mobile{
+   
+}
+
+@media (max-width: 500px) {
+ .no-mobile{
+    width: 100%;
+    flex-direction: column;
+ }
+}

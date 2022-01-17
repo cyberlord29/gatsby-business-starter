@@ -9,7 +9,6 @@ export const Banner = styled.div`
   height: 275px;
   color: white;
   text-align: center;
-  padding: 90px 20px;
   font-size: 36px;
 `;
 
@@ -25,25 +24,5 @@ export const AboutContainer = styled.div`
   border-radius: 12px;
   width: 80%;
   margin: 0 10%;
-  top: -200px;
-`;
-
-export const Header = styled.div`
-  padding: 40px 20px;
-  font-size: 24px;
-  display: flex;
-  justify-content: space-between;
-`;
-
-export const Button = styled.button`
-  background: #FFAB00 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  border-radius: 4px;
-  border: none;
-  margin-top: 10px;
-  height: 30px;
-  cursor: pointer;
-  padding: 0px 10px;
-  color: white;
-  font-weight: bold;
+  top: -50px;
 `;

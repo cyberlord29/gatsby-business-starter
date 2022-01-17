@@ -3,6 +3,8 @@ export {default as Footer} from './Footer/Footer';
 export {default as IntroCard} from './IntroCard/IntroCard';
 export {default as Courses} from './Courses/Courses';
 export {default as About} from './About/About';
+export {default as Booking} from './Booking/Booking';
+export {default as Testimonial} from './Testimonial/Testimonial';
 export {default as Features} from './Features/Features';
 export {default as Menu} from './Menu/Menu';
 export {default as ProductInfo} from './ProductInfo/ProductInfo';

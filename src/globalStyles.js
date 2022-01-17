@@ -9,6 +9,14 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 800;
     letter-spacing: 0.7px;
 }
+.no-mobile{
+    display: inherit;
+}
+@media (max-width: 500px) {
+ .no-mobile{
+    display: none;
+ }
+}
 `;
 
 export const YellowButton = styled.button`
@@ -28,6 +36,14 @@ export const YellowButton = styled.button`
         font-size: 1rem;
         width: 100%;`};
 `;
+
+export const Header = styled.div`
+  padding: 40px 20px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+`;
+
 export const WhiteButton = styled.button`
     background-color: ${props => props.selected?'#0070ba':'white'};
     font-size: 1rem;
@@ -49,6 +65,14 @@ export const WhiteButton = styled.button`
     }
     ${props => props.maxWidth && css`
         width: 100%;`};
+`;
+
+export const FlexContainer = styled.div`
+    display: flex;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
 export const Underline = styled.div`
