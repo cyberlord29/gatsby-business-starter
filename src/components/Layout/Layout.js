@@ -12,17 +12,20 @@ const TemplateWrapper = ({ children }) => {
   useEffect(() => {
 
     //trustpilot
-    const script = document.createElement('script');
-    script.src = '//widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js';
-    script.async = true;
-    document.getElementById('trustpilot').appendChild(script)
+    if (document.getElementById("banner")) {
+      const script = document.createElement('script');
+      script.src = '//widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js';
+      script.async = true;
+      document.getElementById('trustpilot').appendChild(script)
 
-    //calendly
-    const calendlyScript = document.createElement('script');
-    calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
-    calendlyScript.async = true;
-    document.getElementById('trustpilot').appendChild(calendlyScript)
-
+      //calendly
+      // if (document.getElementById("calendly")) {
+      const calendlyScript = document.createElement('script');
+      calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
+      calendlyScript.async = true;
+      document.getElementById('trustpilot').appendChild(calendlyScript)
+    }
+    // }
     if (document.getElementById("banner")) {
       const script = document.createElement('script');
       script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'

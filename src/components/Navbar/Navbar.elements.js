@@ -58,7 +58,7 @@ export const NavLink = styled(Link)`
     font-size: 1rem;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem 0.5rem 3rem;
     height: 100%;
     width: 100%;
 

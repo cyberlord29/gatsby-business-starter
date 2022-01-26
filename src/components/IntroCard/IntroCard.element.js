@@ -20,7 +20,7 @@ export const IntroLeftContainer = styled.div`
 
 export const IntroLeftContainerHeader = styled.div`
     display: flex;
-    padding: 2rem 7rem;
+    padding: 3rem 7rem;
     flex-basis: 50%;
     @media (max-width: 500px) {
         padding: 4rem 3rem;
@@ -45,6 +45,21 @@ export const FeatureItem = styled.div`
   font-size: 14px;
 `;
 
+export const FeatureItemLarge = styled.div`
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 270px;
+  padding: 50px;
+  margin: 20px 0px;
+  align-items: center;
+  font-size: 14px;
+`;
 
 export const InputField = styled.input`
     display: block;

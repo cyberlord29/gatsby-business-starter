@@ -17,7 +17,7 @@ const Booking = (props) => {
     }
 
     return (
-        <div style={{backgroundColor: "#F7F9FF", padding: "5%"}}>
+        <div id="booking-box" style={{backgroundColor: "#F7F9FF", padding: "5%"}}>
           <Banner style={{ height: "auto", borderRadius: "6px" }}>
           <div style={{display: "flex",flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
           <div style={{ marginBottom: "20px" }}>

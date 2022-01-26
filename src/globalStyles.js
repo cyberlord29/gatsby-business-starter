@@ -75,8 +75,53 @@ export const FlexContainer = styled.div`
     }
 `;
 
+export const Card = styled.div`
+  display: flex;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  padding: 8px;
+  margin-top: 50px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+`;
+
+export const RDiv = styled.div`
+    padding: 2rem 7rem;
+    background-color: #F7F9FF;
+    @media (max-width: 500px) {
+        padding: 2rem 1rem;
+    }
+`;
+
+export const ModalContainer = styled.div`
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 6px;
+    top: 0px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    z-index: 99;
+`;
+
+export const Modal = styled.div`
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+    z-index: 99;
+    border: 2px solid #FFAB00;
+    opacity: 100%;
+`;
+
 export const Underline = styled.div`
-    height: 6px;
+    height: 3px;
     background: #172647;
     border-radius: 4px;
     width: 80%;

@@ -13,6 +13,7 @@ import {
     IconLabel
 } from './Navbar.elements'
 import logo from '../../img/logo-h.svg'
+import { Button } from '../Courses/Courses.elements'
 const Navbar = () => {
     return (
        <Nav>
@@ -41,23 +42,25 @@ const Navbar = () => {
                     </NavLink>
                  </NavItem>
                  <NavItem>
-                    <NavLink to="/about">
+                    <NavLink to="/events">
                         Events
                     </NavLink>
                  </NavItem>
-                 <NavItem>
+                 {/* <NavItem>
                     <NavLink to="/about">
                         Free Resources
                     </NavLink>
-                 </NavItem>
+                 </NavItem> */}
                  <NavItem>
-                    <NavLink to="/about">
+                    <NavLink to="/indicators">
                         Indicators
                     </NavLink>
                  </NavItem>
                  <NavItem>
-                    <NavLink to="/about">
-                        Free Consultation
+                    <NavLink to="/">
+                            <Button onClick={() => window.document.getElementById('booking-box').scrollIntoView()} style={{marginTop: "0px", padding: "5px 10px"}}>
+                            Free Consultation
+                        </Button>
                     </NavLink>
                  </NavItem>
              </NavMenu>

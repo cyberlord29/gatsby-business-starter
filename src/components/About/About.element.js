@@ -4,9 +4,9 @@ export const BannerCard = styled.div`
     flex-basis: 60%;
     margin-left: 30px;
 `;
+
 export const Banner = styled.div`
   background-color: #172647;
-  height: 275px;
   color: white;
   text-align: center;
   padding: 90px 20px;
@@ -26,6 +26,11 @@ export const AboutContainer = styled.div`
   width: 80%;
   margin: 0 10%;
   top: -200px;
+`;
+
+export const AboutContainerAboutPage = styled.div`
+  border-radius: 12px;
+  paddingLeft: 20px;
 `;
 
 export const Header = styled.div`
