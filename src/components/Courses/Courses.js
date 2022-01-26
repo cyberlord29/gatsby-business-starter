@@ -4,16 +4,19 @@ import { FlexContainer, Underline } from '../../globalStyles'
 import view from '../../img/view.jpg'
 import time from '../../img/time.jpg'
 import learn from '../../img/learn.jpg'
+import { navigate } from 'gatsby'
+import clp from '../../img/clp.jpg'
 
 const Course = ({title}) => {
     return (
-        <CourseItem>
-            <div style={{height: "180px", width: "330px", border: "1px solid"}}>
-                {/* <img
-                    src={null}
+        <CourseItem onClick={()=>navigate('/crypto-like-a-pro')}>
+            <div style={{height: "185px"}}>
+                <img
+                    src={clp}
                     alt="course"
+                    height={"100%"}
                 >
-                </img> */}
+                </img>
             </div>
             <div style={{padding: "12px 0px"}}>
                 {title}
@@ -63,11 +66,11 @@ const Courses = (props) => {
                         </div>
                         <Underline width={10}/>
                     </div>
-                    <Button>
+                    {/* <Button>
                         ALL COURSES
-                    </Button>
+                    </Button> */}
                 </Header>
-                <FlexContainer style={{ display: "flex"}}>
+                <FlexContainer>
                     <Course title="Crypto Like a Pro"/>
                     <Course title="Associate Trader Programme"/>
                     <Course title="Crypto Like a Pro Trading System"/>

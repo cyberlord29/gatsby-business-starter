@@ -74,13 +74,13 @@ const Testimonial = () => {
                         <div style={{textAlign: "center", fontSize: "24px"}}>
                             Here's what people say
                         </div>
-<div id="trustpilot" className="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5d5379337341e9000183edcc" data-style-height="24px" data-style-width="100%" data-theme="light">
-  <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">Trustpilot</a>
-</div>
-<div style={{marginTop: "5px"}}>Reviews 94&bull;Excellent</div>
-<a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
-<img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
-</a>
+                    <div id="trustpilot" className="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5d5379337341e9000183edcc" data-style-height="24px" data-style-width="100%" data-theme="light">
+                    <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">Trustpilot</a>
+                    </div>
+                    <div style={{marginTop: "5px"}}>Reviews 94&bull;Excellent</div>
+                    <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
+                    <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
+                    </a>
                     </div>
             </AboutContainer>
         </div>

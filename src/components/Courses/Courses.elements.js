@@ -14,6 +14,55 @@ export const Banner = styled.div`
   }
 `;
 
+
+export const CourseBanner = styled.div`
+  background-color: #172647;
+  color: white;
+  margin: 20px 0px;
+  text-align: center;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  @media (max-width: 500px) {
+    font-size: 18px;
+  }
+`;
+
+export const Navbar = styled.div`
+  display: flex;
+  background: #F7F9FF;
+  align-items: center;
+  justify-content: center;
+`
+
+export const NavItem = styled.div`
+  padding: 0px 1rem;
+  cursor: pointer;
+  margin-bottom: 7px;
+  z-index: 100;
+`;
+
+export const Underline = styled.div`
+    height: 5px;
+    background: #172647;
+    border-radius: 4px;
+    width: 100%;
+`;
+
+export const CourseContainer = styled.div`
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #17264717, 0px 3px 6px #00000029;
+  padding: 40px 0px;
+  margin: 0rem 7rem;
+  position: relative;
+  top: -10px;
+  @media (max-width: 500px) {
+    margin: 0rem 1rem;
+  }
+`;
+
 export const CoursesContainer = styled.div`
   background-color: #F7F9FF;
 `;
@@ -41,12 +90,12 @@ export const Button = styled.button`
 export const CourseItem = styled.div`
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 4px;
   border: none;
   background-color: white;
-  width: 350px;
-  padding: 8px;
-  margin-top: 20px;
-  margin-right: 50px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
 `;

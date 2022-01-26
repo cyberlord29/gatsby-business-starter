@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
     text-align: center;
-    margin-bottom: 40px;
 `;
 
 export const NavIconContainer = styled.div`
@@ -38,7 +37,6 @@ export const SocialMediaContainer = styled.div`
 
 export const CopyrightContainer = styled.p`
     color: grey;
-    margin-top: 20px;
 `;
 
 export const IconLabel = styled.h5`

@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, {useState} from 'react'
 import {
     Nav, 
     NavbarContainer, 
@@ -14,9 +14,19 @@ import {
 } from './Navbar.elements'
 import logo from '../../img/logo-h.svg'
 import { Button } from '../Courses/Courses.elements'
+import { ModalContainer, Modal } from '../../globalStyles'
+import Booking from '../Booking/Booking'
+
 const Navbar = () => {
+    const [show, toggleModal]  = useState(false)
+
     return (
        <Nav>
+               { show && <ModalContainer>
+     <Modal>
+        <Booking lone></Booking>
+     </Modal>
+ </ModalContainer>}
            <NavbarContainer>
              <NavIconContainer to = '/'>
                 <IconLabelContainer>
@@ -58,7 +68,7 @@ const Navbar = () => {
                  </NavItem>
                  <NavItem>
                     <NavLink to="/">
-                            <Button onClick={() => window.document.getElementById('booking-box').scrollIntoView()} style={{marginTop: "0px", padding: "5px 10px"}}>
+                            <Button style={{padding: "5px 10px", marginTop: "0px"}} onClick={() =>{toggleModal(true)}}>
                             Free Consultation
                         </Button>
                     </NavLink>

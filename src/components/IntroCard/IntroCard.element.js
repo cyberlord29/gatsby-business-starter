@@ -86,16 +86,33 @@ export const Button = styled.button`
     font-weight: bold;
 `;
 
+export const ButtonSecondary = styled.button`
+    background: transparent;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    border: 1px solid #FFAB00;
+    margin-top: 10px;
+    height: 40px;
+    padding: 5px 10px;
+    color: #FFAB00;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+`;
+
+
 
 export const IntroTitle = styled.h1`
     display: flex;
     font-size: 2rem;
+    color: #172647;
     line-height: 1.3;
 `;
 
 export const DescriptionContainer = styled.p`
     display: block;
     font-size: 20px;
+    font-weight: normal;
     color: #132B4C;
     line-height: 1.6;
 `;

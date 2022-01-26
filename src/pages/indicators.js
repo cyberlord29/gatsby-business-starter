@@ -85,7 +85,7 @@ const IndexPage = () => {
                 </Modal>
             </ModalContainer>}
             <IntroCardIndicatorPage data={Content.introCard}/>
-            <Banner style={{alignItems: "center", display: "flex", flexDirection: "column"}}>
+            <Banner style={{alignItems: "center", display: "flex", flexDirection: "column", padding: "30px 20px"}}>
             <div style={{maxWidth: "500px"}}>
               Become a more consistent trader in less time!
             </div>

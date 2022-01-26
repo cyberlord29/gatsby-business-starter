@@ -19,6 +19,16 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
+export const Bullet = styled.div`
+    display: inline-block;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background: #172647 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+`;
+
 export const YellowButton = styled.button`
     background-color: #0070ba;
     font-weight: 600;
@@ -69,7 +79,6 @@ export const WhiteButton = styled.button`
 
 export const FlexContainer = styled.div`
     display: flex;
-
     @media (max-width: 500px) {
         flex-direction: column;
     }
@@ -121,7 +130,7 @@ export const Modal = styled.div`
 `;
 
 export const Underline = styled.div`
-    height: 3px;
+    height: 5px;
     background: #172647;
     border-radius: 4px;
     width: 80%;

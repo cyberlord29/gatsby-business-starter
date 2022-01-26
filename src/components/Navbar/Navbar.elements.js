@@ -4,7 +4,6 @@ import { Link } from 'gatsby';
 export const Nav = styled.nav`
     height: 60px;
     display: flex;
-    padding: 0px 10px;
     background-color: #F7F9FF;
 `;
 
@@ -54,7 +53,6 @@ export const NavItem = styled.li`
 
 export const NavLink = styled(Link)`
     color: #132b4c;
-    display: flex;
     font-size: 1rem;
     align-items: center;
     text-decoration: none;

@@ -4,7 +4,7 @@ import { Banner, InputField, Button } from './Booking.element'
 import { FlexContainer, Underline } from '../../globalStyles'
 import './index.css'
 
-const Booking = (props) => {
+const Booking = ({lone}) => {
 
     const [form, setForm]  = useState({name: "", email: ""})
 
@@ -17,7 +17,7 @@ const Booking = (props) => {
     }
 
     return (
-        <div id="booking-box" style={{backgroundColor: "#F7F9FF", padding: "5%"}}>
+        <div id="calendly" style={{backgroundColor: "#F7F9FF", padding: `${lone?"0px":"5%"}`}}>
           <Banner style={{ height: "auto", borderRadius: "6px" }}>
           <div style={{display: "flex",flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
           <div style={{ marginBottom: "20px" }}>

@@ -18,6 +18,7 @@ const IntroCard = (props) => {
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
+        navigate('/thank-you')
     }
 
     return (

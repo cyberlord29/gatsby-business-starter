@@ -4,7 +4,9 @@ import useSiteMetadata from '../SiteMetadata';
 import { withPrefix } from 'gatsby';
 import { Navbar, Footer } from '../../components';
 import GlobalStyle from '../../globalStyles';
+import "@fontsource/league-spartan/400.css";
 import "@fontsource/league-spartan/600.css";
+
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => {
@@ -12,20 +14,27 @@ const TemplateWrapper = ({ children }) => {
   useEffect(() => {
 
     //trustpilot
-    if (document.getElementById("banner")) {
+    if (document.getElementById("trustpilot")) {
       const script = document.createElement('script');
       script.src = '//widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js';
       script.async = true;
       document.getElementById('trustpilot').appendChild(script)
-
-      //calendly
-      // if (document.getElementById("calendly")) {
+    }
+    if (document.getElementById("calendly")) {
       const calendlyScript = document.createElement('script');
       calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
       calendlyScript.async = true;
-      document.getElementById('trustpilot').appendChild(calendlyScript)
+      document.getElementById('calendly').appendChild(calendlyScript)
     }
+
+    // if(document.getElementById("fb-root")){
+    //   const fbScript = document.createElement('script');
+    //   fbScript.nonce = "TE7pYs94";
+    //   fbScript.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=401333224030827&autoLogAppEvents=1';
+    //   fbScript.async = true;
+    //   document.getElementById('fb-root').appendChild(fbScript)
     // }
+
     if (document.getElementById("banner")) {
       const script = document.createElement('script');
       script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'
