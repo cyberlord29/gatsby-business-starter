@@ -41,11 +41,16 @@ const Navbar = () => {
                 </IconLabelContainer>
             </NavIconContainer> 
              <NavMenu className="no-mobile">
-                 <NavItem>
+                <NavItem>
+                    <NavLink to="/">
+                        Home
+                    </NavLink>
+                 </NavItem>
+                 {/* <NavItem>
                     <NavLink to="/courses">
                         Courses
                     </NavLink>
-                 </NavItem>
+                 </NavItem> */}
                  <NavItem>
                     <NavLink to="/about">
                         About
