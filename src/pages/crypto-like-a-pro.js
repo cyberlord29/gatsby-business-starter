@@ -124,37 +124,36 @@ const OverView = () => {
                 Skyrocket your passive income & stacking rewards!
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Knowing how and when to maximise your gains to increase your ROI is a skill that most investors will never fully understand. Here I will share with you some of the key secrets that I have learned during my career.            
+            Knowing how and when to maximise your gains to increase your ROI is a skill that most investors will never fully understand. <br/>
+            Here I will share with you some of the key secrets that I have learned during my career.            
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
                 6 months VIP Group Membership
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Our own private group for members only where we can discuss how our low, medium and high risk investments are going along with the latest news and views from the world of Cryptocurrency.         
+            Our own private group for members only where we can discuss how our low, medium and high risk investments are going along <br/>
+            with the latest news and views from the world of Cryptocurrency.         
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
             Crypto Trade Tracker
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Being organised and tracking your trading is crucial to success which is why I created this Crypto Trade Tracker for my own personal use. Now you will get full access to this in order to track your own trades.
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-            Crypto Trade Tracker
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Being organised and tracking your trading is crucial to success which is why I created this Crypto Trade Tracker for my own personal use. Now you will get full access to this in order to track your own trades.
+            Being organised and tracking your trading is crucial to success which is why I created this Crypto Trade Tracker for my own personal use.<br/>
+            Now you will get full access to this in order to track your own trades.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
             Live Mind Medicine
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Get access to my wealth building mindset audios that I listen to on a daily basis so that I can keep myself grounded when investing in the crypto markets.
+            Get access to my wealth building mindset audios that I listen to on a daily basis<br/>
+            so that I can keep myself grounded when investing in the crypto markets.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
             My Personal Power Routine
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Learn how I create a power routine to make sure that I set myself up for success whatever I put mymind to and how you can apply this into your daily lives too!
+            Learn how I create a power routine to make sure that I set myself up for success<br/>
+            whatever I put mymind to and how you can apply this into your daily lives too!
             </DescriptionContainer>
         </div>
         </>
