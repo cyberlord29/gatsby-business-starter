@@ -36,7 +36,7 @@ const About = (props) => {
                         <div style={{ fontSize: "32px", marginLeft: "10px" }}>92%</div>
                     </div>
                     <div style={{ fontSize: "14px", width: "300px", marginTop: "4px"}}>
-                        of traders improved their trading after joining London Trading Institute.
+                        of traders believe the membership is a good value.
                     </div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "25px 0px"}}>
@@ -49,8 +49,8 @@ const About = (props) => {
                         <div style={{ fontSize: "32px", marginLeft: "10px" }}>98%</div>
                     </div>
                     <div style={{ fontSize: "14px", width: "300px", marginTop: "4px"}}>
-                            of traders improved their trading after joining London Trading Institute.
-                        </div>
+                        of traders believe our scans help them come to The market prepared.
+                    </div>
                 </div>
             </FlexContainer>
             </Banner>
