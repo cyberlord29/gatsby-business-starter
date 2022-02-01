@@ -132,7 +132,7 @@ const OverView = () => {
                <Bullet/> The Key Skills You Need to Learn so that You can consistently make (and keep) the money that you make as a Trader.
             </DescriptionContainer>
         </div>
-        <CourseBanner>
+        <CourseBanner style={{padding: "20px 20px"}}>
             Our pioneering Forex Trading courses provide a focused point of entry into the world of financial trading.
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
