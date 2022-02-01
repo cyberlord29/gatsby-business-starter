@@ -88,13 +88,13 @@ const Syllabus = () => {
                     <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px", paddingLeft: "20px"}}>
                         You will now understand what it takes to find Low Risk, High Probablity trade set-ups.
                     </DescriptionContainer>
-                    <IntroTitle style={{fontSize: "20px"}}>
+                    <IntroTitle style={{fontSize: "20px", marginTop: "20px"}}>
                         <Bullet/> Taking Action
                     </IntroTitle>
                     <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px", paddingLeft: "20px"}}>
                         Your new knowledge of the markets will give you everything that you need to trade with confidence.
                     </DescriptionContainer>
-                    <IntroTitle style={{fontSize: "20px"}}>
+                    <IntroTitle style={{fontSize: "20px", marginTop: "20px"}}>
                         <Bullet/> Become A Trader
                     </IntroTitle>
                     <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px", paddingLeft: "20px"}}>

@@ -5,8 +5,12 @@ import time from '../../img/time.jpg'
 import learn from '../../img/learn.jpg'
 import { navigate } from 'gatsby'
 import clp from '../../img/clp.jpg'
-import atp from '../../img/atp.jpg'
-
+import atp from '../../img/atp1.jpg'
+import atp1 from '../../img/ATP.jpg'
+import clpt from '../../img/clpt.jpg'
+import algo from '../../img/algorithms.jpg'
+import options from '../../img/options.jpg'
+import intro from '../../img/intro.jpg'
 
 const Course = ({title, duration, img, page, difficulty}) => {
     return (
@@ -76,15 +80,15 @@ const Courses = (props) => {
                         duration={"3 months"}
                         page={'/associate-trader-programme'}
                     />
-                    <Course title="Crypto Like a Pro Trading System" duration={"3 months"}/>
+                    <Course title="Crypto Like a Pro Trading System" img={clpt} duration={"3 months"}/>
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Options" duration={"3 months"} difficulty={"intermediate"}/>
-                    <Course title="Algorithms" duration={"1 months"} difficulty={"intermediate"}/>
-                    <Course title="Advanced Forex" duration={"1 months"} difficulty={"intermediate"}/>
+                    <Course title="Options" img={options} duration={"3 months"} difficulty={"intermediate"}/>
+                    <Course title="Algorithms" img={algo} duration={"1 months"} difficulty={"intermediate"}/>
+                    <Course title="Advanced Forex" img={atp1} duration={"1 months"} difficulty={"intermediate"}/>
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Free Introductory Course" duration={"1 months"}/>
+                    <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
                 </FlexContainer>
             </div>
         </CoursesContainer>
