@@ -20,11 +20,11 @@ const AboutPage = () => {
                 </DescriptionContainer>
                 <div style={{margin: "30px 0px"}}>
                 <DescriptionContainer style={{textAlign: "center", marginBottom: "40px"}}>
-                  Meanwhile here is some of our content
+                  {/* Meanwhile here is some of our content */}
                 </DescriptionContainer>
                 <FlexContainer>
-                  <iframe style={{margin: "40px"}} src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAndyDemiLTG%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                  <iframe width="360" height="215" src="https://www.youtube.com/embed/fYxFINQo-gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                  {/* <iframe style={{margin: "40px"}} src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAndyDemiLTG%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> */}
+                  {/* <iframe width="360" height="215" src="https://www.youtube.com/embed/fYxFINQo-gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  */}
                 </FlexContainer>
                 </div>
               </div>
@@ -66,12 +66,12 @@ const AboutPage = () => {
                         Alberto Pallotta
                     </div>
                     <div style={{fontSize: "14px", color:"#FFAB00"}}>
-                      Senior Quantitative Trader
+                        Senior Quantitative Trader
                     </div>
                       <div style={{fontSize: "14px", color:"#4B586A", marginTop: "20px", maxWidth: "800px"}}>
-                      Alberto started his trading career within the financial industry 15 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant. <br/><br/>
-                      During his career he has built strategies for several financial institutions, including complex quantitative option pricing models, and volatility forecasters. He has a wealth of institutional experience at various Hedge Funds and Prop Houses, and is currently acting as an advisor for two London based hedge funds. He also is involved in research that is investigating the feasibility of using Artificial Intelligence in trading.<br/><br/>
-                      Alberto engages in both algorithmic and discretionary trading. He trades options, futures and ETFs (the latter which he also invests in). Due to his expertise, credentials and his passion for teaching, Alberto is frequently asked to be a guest lecturer in several universities. Including Middlesex University, Warwick University and London Metropolitan University.
+                        Alberto started his trading career within the financial industry 15 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant. <br/><br/>
+                        During his career he has built strategies for several financial institutions, including complex quantitative option pricing models, and volatility forecasters. He has a wealth of institutional experience at various Hedge Funds and Prop Houses, and is currently acting as an advisor for two London based hedge funds. He also is involved in research that is investigating the feasibility of using Artificial Intelligence in trading.<br/><br/>
+                        Alberto engages in both algorithmic and discretionary trading. He trades options, futures and ETFs (the latter which he also invests in). Due to his expertise, credentials and his passion for teaching, Alberto is frequently asked to be a guest lecturer in several universities. Including Middlesex University, Warwick University and London Metropolitan University.
                       </div>
                     </div>
                     <div>

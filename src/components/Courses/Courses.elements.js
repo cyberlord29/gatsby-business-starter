@@ -54,12 +54,15 @@ export const Underline = styled.div`
 export const CourseContainer = styled.div`
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: inset 0px 3px 6px #17264717, 0px 3px 6px #00000029;
-  padding: 40px 0px;
-  margin: 0rem 7rem;
+  padding: 40px 00px;
+  margin: 0rem 9rem;
+  max-width: 70%;
   position: relative;
   top: -10px;
   @media (max-width: 500px) {
     margin: 0rem 1rem;
+    max-width: 100%;
+
   }
 `;
 
@@ -98,4 +101,5 @@ export const CourseItem = styled.div`
   width: 300px;
   padding: 10px;
   margin: 20px;
+  margin-right: 5%;
 `;

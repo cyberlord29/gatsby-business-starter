@@ -103,7 +103,7 @@ export const ButtonSecondary = styled.button`
 
 
 export const IntroTitle = styled.h1`
-    display: flex;
+    display: block;
     font-size: 2rem;
     color: #172647;
     line-height: 1.3;

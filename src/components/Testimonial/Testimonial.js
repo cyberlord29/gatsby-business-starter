@@ -20,7 +20,7 @@ const Testimonial = () => {
                         >
                         </img>
                         <div style={{ display: "flex", flexDirection:"column",  marginLeft: "10px"}}>
-                            <div style={{ fontSize: "32px", textAlign: "start" }}>86%</div>
+                            <div style={{ fontSize: "32px", textAlign: "start" }}>5.0</div>
                             <div style={{ fontSize: "14px", width: "300px", marginTop: "4px" , textAlign: "start"}}>
                               TRUST PILOT RATINGS
                             </div>
@@ -33,7 +33,7 @@ const Testimonial = () => {
                         >
                         </img>
                         <div style={{ display: "flex", flexDirection:"column",  marginLeft: "10px"}}>
-                            <div style={{ fontSize: "32px", textAlign: "start" }}>86%</div>
+                            <div style={{ fontSize: "32px", textAlign: "start" }}>4,000</div>
                             <div style={{ fontSize: "14px", width: "300px", marginTop: "4px" , textAlign: "start"}}>
                               FACEBOOK FOLLOWERS
                             </div>
@@ -46,7 +46,7 @@ const Testimonial = () => {
                         >
                         </img>
                         <div style={{ display: "flex", flexDirection:"column",  marginLeft: "10px"}}>
-                            <div style={{ fontSize: "32px", textAlign: "start" }}>86%</div>
+                            <div style={{ fontSize: "32px", textAlign: "start" }}>32,000</div>
                             <div style={{ fontSize: "14px", width: "300px", marginTop: "4px" , textAlign: "start"}}>
                               STUDENTS MENTORED
                             </div>
@@ -59,7 +59,7 @@ const Testimonial = () => {
                         >
                         </img>
                         <div style={{ display: "flex", flexDirection:"column",  marginLeft: "10px"}}>
-                            <div style={{ fontSize: "32px", textAlign: "start" }}>86%</div>
+                            <div style={{ fontSize: "32px", textAlign: "start" }}>2,210</div>
                             <div style={{ fontSize: "14px", width: "300px", marginTop: "4px" , textAlign: "start"}}>
                               YOUTUBE FOLLOWERS
                             </div>
