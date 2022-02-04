@@ -25,7 +25,7 @@ const Mentors = () => {
                         <br/>
                       </div>
                     <div style={{fontSize: "14px",padding: "0px 0px", color: "#4B586A", fontWeight: "normal"}}>
-                    A Trader for 17 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital. He will have your back and teach you about how to trade like a pro.
+                    A Trader for 18 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital. He will have your back and teach you about how to trade like a pro.
                     </div>
                   </div>
             </div>
@@ -79,7 +79,7 @@ const OverView = () => {
             <IntroTitle style={{fontSize: "28px"}}>
             Create a passive portfolio that is built to make money
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginBottom: "30px", marginTop: "20px", color:"#172647"}}>
             Here is where the rubber really meets the road as you will get the same high, medium
 & low risk crypto investments that I will personally be investing in! You will get 6
 months of everything you need to know to help your portfolio continue to grow!
@@ -93,7 +93,7 @@ minimal effort.
         <IntroTitle style={{fontSize: "28px"}}>
         Get my confidential Crypto updates
         </IntroTitle>
-        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
+        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginBottom: "30px",marginTop: "20px", color:"#172647"}}>
         Let me save you thousands of hours in research AND remove ALL of the guesswork.
 Included in the programme you will get confidential crypto reports to find out the latest
 mega trends and entry & exit points
@@ -104,7 +104,7 @@ me to keep your account growing as fast as us.
         <IntroTitle style={{fontSize: "28px"}}>
         Beginner Friendly
         </IntroTitle>
-        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
+        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", marginTop: "20px",color:"#172647"}}>
         To help you along the way, included in the programme is a step-by-step guide to get
 you set up with all the software you need to get started. I know that it’s a minefield out
 there trying to find what the best software is to use and more importantly... how to use

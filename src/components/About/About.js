@@ -89,7 +89,7 @@ const About = (props) => {
                             Who is Andy Demi?
                         </div>
                         <div style={{fontSize: "14px", color:"#4B586A", marginTop: "20px"}}>
-                        A Trader for 17 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital.<br/><br/> 
+                        A Trader for 18 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital.<br/><br/> 
                         Whilst managing a $200M account for a Hedge Fund back in 2015, part of Andy’s job was to teach the Junior Traders how to make more money.<br/><br/>
                         They once made $1.5M in 1 day of trading and their Success uncovered a Passion for Training & Mentoring and this is how LTI was born.<br/><br/>
                         A respected figure within the London Financial District, he has appeared as a guest speaker at Financial Events, TV Shows and Universities.<br/><br/>

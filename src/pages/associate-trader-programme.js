@@ -25,7 +25,7 @@ const Mentors = () => {
                         <br/>
                       </div>
                     <div style={{fontSize: "14px",padding: "0px 0px", color: "#4B586A", fontWeight: "normal"}}>
-                    A Trader for 17 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital. He will have your back and teach you about how to trade like a pro.
+                    A Trader for 18 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital. He will have your back and teach you about how to trade like a pro.
                     </div>
                   </div>
             </div>
@@ -165,8 +165,8 @@ Crucially, you will learn how to piece all these together to form your very own 
                 Trading Psychology
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Trading psychology is a fundamental component of successful trading. It is one of the main reasons over 90% of new traders are unable to find consistent profitability.
-It is far too frequently overlooked by traders and educators alike – but experience shows that without learning to understand your own trading psychology, you are missing a key ingredient for success.
+                Trading psychology is a fundamental component of successful trading. It is one of the main reasons over 90% of new traders are unable to find consistent profitability.
+                It is far too frequently overlooked by traders and educators alike – but experience shows that without learning to understand your own trading psychology, you are missing a key ingredient for success.
                 <br/><br/>
                 In this course, we explore common psychological pitfalls that trap an overwhelming number of new and experienced traders alike. We teach you the skills necessary for understanding these pitfalls. Equipping yourself with the ability to manage your own emotions, in a market driven by emotion – is an obvious competitive advantage.
                 <br/><br/>
