@@ -22,7 +22,7 @@ const Booking = ({lone}) => {
           <div style={{display: "flex",flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
           <div style={{ marginBottom: "20px" }}>
             <div style={{ marginBottom: "8px"}}>
-                Book free consultation with a Sr.Trader
+                Book A Free Consultation
             </div>
             <Underline width={10} style={{backgroundColor: "white"}}/>
           </div>

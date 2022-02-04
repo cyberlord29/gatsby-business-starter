@@ -1,6 +1,7 @@
 export {default as Navbar} from './Navbar/Navbar';
 export {default as Footer} from './Footer/Footer';
 export {default as IntroCard} from './IntroCard/IntroCard';
+export {default as Form} from './Form/Form';
 export {default as IntroCardIndicatorPage} from './IntroCard/IntroCardIndicatorPage';
 export {default as IntroCardAboutPage} from './IntroCard/IntroCardAboutPage';
 export {default as IntroCardCoursePage} from './IntroCard/IntroCardCoursePage';

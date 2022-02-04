@@ -41,7 +41,7 @@ export const NavItem = styled.div`
   padding: 0px 1rem;
   cursor: pointer;
   margin-bottom: 7px;
-  z-index: 100;
+  z-index: 88;
 `;
 
 export const Underline = styled.div`

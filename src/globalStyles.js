@@ -125,7 +125,7 @@ export const Modal = styled.div`
     flex-direction: column;
     background-color: white;
     border-radius: 6px;
-    z-index: 99;
+    z-index: 100;
     border: 2px solid #FFAB00;
     opacity: 100%;
 `;

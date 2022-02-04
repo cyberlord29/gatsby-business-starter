@@ -4,15 +4,17 @@ import landing from '../../img/landing.png'
 import axios from 'axios';
 import { FlexContainer, RadioButton, RadioButtonLabel } from '../../globalStyles';
 import { navigate } from "gatsby"
+import Form from '../Form/Form';
 
 const IntroCard = (props) => {
     const [email, setEmail] = useState(0, "")
     const [select, setSelect] = useState("optionA");
+    const [show, toggleModal]  = useState(false)
 
-    const handleSelectChange = event => {
-      const value = event.target.value;
-      setSelect(value);
-    };
+    // const handleSelectChange = event => {
+    //   const value = event.target.value;
+    //   setSelect(value);
+    // };
 
     const submitLead = () => {
         axios.post(
@@ -20,32 +22,33 @@ const IntroCard = (props) => {
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
-        navigate('/thank-you')
+        toggleModal(true)
     }
 
     return (
         <div>
-          <IntroCardContainer style={{backgroundColor: "rgb(23, 38, 71)", marginTop: "8px"}}>
-              <IntroLeftContainerHeader style={{backgroundColor: "rgb(23, 38, 71)"}}>
+            <Form emailInput={email} showInput={show}/>
+          <IntroCardContainer>
+              <IntroLeftContainerHeader>
                   <div>
-                  <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px", color: "white"}}>
-                    Register for our next live trading event
+                  <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
+                    Register for our next Live Trading Event
                   </IntroTitle>
-                <div style={{display: "flex", color: "white"}}>
+                <div style={{display: "flex"}}>
                     <div style={{display: "flex", alignItems: "center"}}>
-                        <input type="radio" id="age1" name="crypto" />
+                        <input type="checkbox" id="age1" name="crypto" />
                         <label style={{margin: "0px 5px"}} >Crypto</label>
                     </div>
                     <div style={{display: "flex", alignItems: "center"}}>
-                        <input type="radio" id="age2" name="forex" />
+                        <input type="checkbox" id="age2" name="forex" />
                         <label style={{margin: "0px 5px"}} >Forex</label><br/>  
                     </div>
                     <div style={{display: "flex", alignItems: "center"}}>
-                    <input type="radio" id="age3" name="algo"  />
+                    <input type="checkbox" id="age3" name="algo"  />
                     <label style={{margin: "0px 5px"}} >Algo</label><br/><br/>
                     </div>
                     <div style={{display: "flex", alignItems: "center"}}>
-                        <input type="radio" id="age3" name="opt" />
+                        <input type="checkbox" id="age4" name="opt" />
                         <label style={{margin: "0px 5px"}} >Options</label><br/><br/>
                     </div>
                 </div>

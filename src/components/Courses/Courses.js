@@ -84,12 +84,12 @@ const Courses = (props) => {
                 </FlexContainer>
                 <FlexContainer>
                     <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"}/>
-                    <Course title="Algorithms" img={algo} duration={"1 months"} difficulty={"intermediate"}/>
-                    <Course title="Advanced Forex" img={atp1} duration={"1 months"} difficulty={"intermediate"}/>
+                    {/* <Course title="Algorithms" img={algo} duration={"1 months"} difficulty={"intermediate"}/>
+                    <Course title="Advanced Forex" img={atp1} duration={"1 months"} difficulty={"intermediate"}/> */}
                 </FlexContainer>
-                <FlexContainer>
+                {/* <FlexContainer>
                     <Course title="Options" img={options} duration={"3 months"} difficulty={"intermediate"}/>
-                </FlexContainer>
+                </FlexContainer> */}
             </div>
         </CoursesContainer>
     )

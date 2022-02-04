@@ -20,11 +20,20 @@ const TemplateWrapper = ({ children }) => {
       script.async = true;
       document.getElementById('trustpilot').appendChild(script)
     }
+
     if (document.getElementById("calendly")) {
       const calendlyScript = document.createElement('script');
       calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
       calendlyScript.async = true;
       document.getElementById('calendly').appendChild(calendlyScript)
+    }
+
+
+    if (document.getElementById("webinar")) {
+      const calendlyScript = document.createElement('script');
+      calendlyScript.src = 'https://event.webinarjamdev.com/register/8xfn/embed-button';
+      calendlyScript.async = true;
+      document.getElementById('webinar').appendChild(calendlyScript)
     }
 
     // if(document.getElementById("fb-root")){

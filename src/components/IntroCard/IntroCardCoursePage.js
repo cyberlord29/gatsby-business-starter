@@ -2,20 +2,21 @@ import React, { useState } from 'react'
 import {  Button, InputField, IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer, FeatureItem, IntroLeftContainerHeader, ButtonSecondary } from './IntroCard.element'
 import landing from '../../img/landing.png'
 import axios from 'axios';
-import { navigate } from "gatsby"
+import Form from '../Form/Form';
 
 axios.defaults.baseURL = 'https://hooks.zapier.com';
 
 const IntroCard = ({title, description}) => {
     const [email, setEmail] = useState(0, "")
-    
+    const [show, toggleModal]  = useState(false)
+
     const submitLead = () => {
         axios.post(
             "https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv",
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
-        navigate('/thank-you')
+        toggleModal(true);
     }
     const initCalendly = () => {
         // console.log(form)
@@ -24,6 +25,8 @@ const IntroCard = ({title, description}) => {
          });
       }
     return (
+        <>
+        <Form emailInput={email} showInput={show}/>
         <IntroCardContainer>
             <IntroLeftContainerHeader>
                 <div>
@@ -49,11 +52,12 @@ const IntroCard = ({title, description}) => {
                     <img
                         src={landing}
                         style={{width: "100%", objectFit: "contain", objectPosition: "top right"}}
-                    >
+                        >
                     </img>
                 </div>
             </IntroLeftContainer>
         </IntroCardContainer>
+        </>
     )
 }
 

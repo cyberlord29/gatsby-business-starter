@@ -114,10 +114,10 @@ const OverView = () => {
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Based either online through our innovative online learning portal, or in-house at our state-of-the-art offices in the City of London, students have the opportunity to learn
-                forex trading directly from career professional traders as they trade live across the Forex markets. <br/> <br/>
-                Whether you are a beginner in trading, or you have some experience and are seeking to enhance your skills, our career trading programmes are designed to allow for flexibility customisation, so that you have everything you need to get you to the next level. <br/><br/>
-                To learn Forex trading professionally requires commitment, a desire to succeed, and a helping hand from industry professionals who have been where you are and have come out of the other side. You will learn to trade Forex directly from senior traders, who make a living in trading, and mentors whose life’s work is to create successful traders.This inside knowledge is invaluable in your journey of learning how to trade the financial markets.
+            Learn what it takes to become a successful Forex trader. This course is aimed to give you an introduction into the world of Forex trading. To become a successful trader, you must have variety of attributes, this course aims to give you an insight into what those attributes are and how you as an individual can fully benefit. Every trader is different, this course will help you identify what kind of trader you will be and what areas to focus on.<br/><br/>
+            You should take this course if you are interested in becoming a trader, either as a profession or to supplement your income. This will give you a good grounding about what it takes to become a trader.<br/><br/>
+            There are 5 sections to this course that go into giving you a succinct introduction to the FX market, technical analysis, risk management, strategies and trading psychology.<br/><br/>
+            This course gives you a strong base to tackle the financial markets better than your average newbie. This course also gives you a solid base to approach our 3 month programme with a head strart. To take your trading to a professional standard it is recommended that you goes through our 12 month programme upon completion of the course to reach that advanced, professional level.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
                 Skills you will gain
@@ -132,108 +132,6 @@ const OverView = () => {
                <Bullet/> The Key Skills You Need to Learn so that You can consistently make (and keep) the money that you make as a Trader.
             </DescriptionContainer>
         </div>
-        <CourseBanner style={{padding: "20px 20px"}}>
-            Our pioneering Forex Trading courses provide a focused point of entry into the world of financial trading.
-        </CourseBanner>
-        <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-               Benefits
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/> Associate Trader Programme
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>  80+ Hrs Bonus Coaching Videos
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> 3 Hrs Live Trading Webinar
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> 3 Months Coaching Calls
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> Private Members FB Group
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> Access to $50,000 live funding once you pass your trading assessment
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> Trade Journal Sheet
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> Trader Personality Profile
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> Professional Trade Plan
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> Risk Management Sheet
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> 3 Months Pro Indicators
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> 70/30 PROFIT SPLIT
-            </DescriptionContainer>
-        </div>
-        <CourseBanner>
-            3 Months Passive Income Builder
-        </CourseBanner>
-        <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-            Create a passive portfolio that is built to make money
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Here is where the rubber really meets the road as you will get the same High, Medium & Low Risk Crypto investments that I will personally be investing in!
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Get my confidential Crypto updates
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            3 months of everything you need to know to help your portfolio continue to grow!<br/><br/>
-            Let me save you thousands of hours in research AND remove ALL of the guesswork Get these confidential crypto reports to find out the latest Mega Trends, Entry & Exit points Plus so much more that won’t fit on this page!
-            </DescriptionContainer>
-        </div>
-        <CourseBanner>
-            Manage your portfolio like a pro
-        </CourseBanner>
-        <div style={{padding: "0px 40px"}}>
-        <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Skyrocket your passive income & stacking rewards!
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Knowing how and when to maximise your gains to increase your ROI is a skill that most investors will never fully understand. <br/>
-            Here I will share with you some of the key secrets that I have learned during my career.            
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                6 months VIP Group Membership
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Our own private group for members only where we can discuss how our low, medium and high risk investments are going along <br/>
-                with the latest news and views from the world of Cryptocurrency.         
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Crypto Trade Tracker
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Being organised and tracking your trading is crucial to success which is why I created this Crypto Trade Tracker for my own personal use.<br/>
-                Now you will get full access to this in order to track your own trades.
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Live Mind Medicine
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Get access to my wealth building mindset audios that I listen to on a daily basis<br/>
-                so that I can keep myself grounded when investing in the crypto markets.
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                My Personal Power Routine
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Learn how I create a power routine to make sure that I set myself up for success<br/>
-                whatever I put mymind to and how you can apply this into your daily lives too!
-            </DescriptionContainer>
-        </div>
         </>
     )
 }
@@ -241,7 +139,7 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Intro Forex Course'} description={'___FILL THIS___'}/>
+            <IntroCardCoursePage title={'Introductory Forex Course'} description={''}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
