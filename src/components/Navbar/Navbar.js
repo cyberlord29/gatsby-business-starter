@@ -21,9 +21,9 @@ const Navbar = () => {
     const [show, toggleModal]  = useState(false)
 
     return (
-       <Nav>
-               { show && <ModalContainer>
-     <Modal>
+    <Nav>
+        { show && <ModalContainer>
+    <Modal>
         <Booking lone></Booking>
      </Modal>
  </ModalContainer>}
@@ -46,11 +46,11 @@ const Navbar = () => {
                         Home
                     </NavLink>
                  </NavItem>
-                 {/* <NavItem>
+                 <NavItem>
                     <NavLink to="/courses">
                         Courses
                     </NavLink>
-                 </NavItem> */}
+                 </NavItem>
                  <NavItem>
                     <NavLink to="/about">
                         About
@@ -61,11 +61,11 @@ const Navbar = () => {
                         Events
                     </NavLink>
                  </NavItem>
-                 {/* <NavItem>
-                    <NavLink to="/about">
-                        Free Resources
+                 <NavItem>
+                    <NavLink to="/intro-forex-course">
+                        Free Course
                     </NavLink>
-                 </NavItem> */}
+                 </NavItem>
                  <NavItem>
                     <NavLink to="/indicators">
                         Indicators

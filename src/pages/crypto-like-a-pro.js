@@ -77,43 +77,66 @@ const OverView = () => {
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
             <IntroTitle style={{fontSize: "28px"}}>
-                Work Exclusively with us to grow our Crypto Portfolio’s
+            Create a passive portfolio that is built to make money
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
-                <Bullet/> My Market Knowledge
+            Here is where the rubber really meets the road as you will get the same high, medium
+& low risk crypto investments that I will personally be investing in! You will get 6
+months of everything you need to know to help your portfolio continue to grow!
+Have the chance to work closely with me and my decades worth of investing
+experience.<br/><br/>
+ My goal is to show you the ropes and give you all the opportunities you
+need to create a sustainable & diversified portfolio. This programme is designed to see
+exponential growth in the fastest and safest way over the next 2-3year period with
+minimal effort.
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "15px", paddingLeft: "25px"}}>
-            Get regular updates from us on the market plus we buy a mixture of low, medium and high risk coins designed to grow Our accounts in the fastest and safest way over the next 2-3year period.
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
-                <Bullet/> Momentum plays within the Crypto Market
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "15px", paddingLeft: "25px"}}>
-                As I come across some extra projects that are outside our portfolio but have a high probability of 2/3X returns then You’ll also get an update from me to keep your account growing as fast as us.           
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647",  fontWeight: "bold"}}>
-                <Bullet/> Beginner Friendly
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "15px", paddingLeft: "25px"}}>
-                Even if you’ve never done this before I’ll show you what you need to know to get started and keep your account safe. You’ll also be surprised how quickly you will cut out the clutter of L1 this and De-Fi that in order to take advantage of all the opportunities.            
-            </DescriptionContainer>
+        <IntroTitle style={{fontSize: "28px"}}>
+        Get my confidential Crypto updates
+        </IntroTitle>
+        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
+        Let me save you thousands of hours in research AND remove ALL of the guesswork.
+Included in the programme you will get confidential crypto reports to find out the latest
+mega trends and entry & exit points
+It doesn’t stop there...  <br/><br/>As I come across some extra projects that are outside our
+portfolio but have a high probability of 2/3X returns then you’ll also get an update from
+me to keep your account growing as fast as us.
+        </DescriptionContainer>
+        <IntroTitle style={{fontSize: "28px"}}>
+        Beginner Friendly
+        </IntroTitle>
+        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px", color:"#172647", fontWeight: "bold"}}>
+        To help you along the way, included in the programme is a step-by-step guide to get
+you set up with all the software you need to get started. I know that it’s a minefield out
+there trying to find what the best software is to use and more importantly... how to use
+it! But not to worry, you’ll have my guidance on how to easily set yourself up with
+everything you need to know to be the most efficient investor possible<br/><br/>
+Even if you’ve never done this before I’ll show you what you need to know to get
+
+started and keep your account safe. You’ll also be surprised how quickly you will cut
+out the clutter to take advantage of all the opportunities.<br/><br/>
+
+The best part is that building a long-term portfolio doesn’t take a lot of time to manage.
+I spend every waking hour researching the next best thing to emerge in the
+cryptocurrency markets, whilst you can sit back and simply monitor your portfolio for a
+mere 15 minutes per day.
+        </DescriptionContainer>
         </div>
         <CourseBanner>
             3 Months Passive Income Builder
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-            Create a passive portfolio that is built to make money
+                Create a passive portfolio that is built to make money
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Here is where the rubber really meets the road as you will get the same High, Medium & Low Risk Crypto investments that I will personally be investing in!
+                Here is where the rubber really meets the road as you will get the same High, Medium & Low Risk Crypto investments that I will personally be investing in!
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
                 Get my confidential Crypto updates
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            3 months of everything you need to know to help your portfolio continue to grow!<br/><br/>
-            Let me save you thousands of hours in research AND remove ALL of the guesswork Get these confidential crypto reports to find out the latest Mega Trends, Entry & Exit points Plus so much more that won’t fit on this page!
+                3 months of everything you need to know to help your portfolio continue to grow!<br/><br/>
+                Let me save you thousands of hours in research AND remove ALL of the guesswork Get these confidential crypto reports to find out the latest Mega Trends, Entry & Exit points Plus so much more that won’t fit on this page!
             </DescriptionContainer>
         </div>
         <CourseBanner>

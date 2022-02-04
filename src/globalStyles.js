@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
+
 export const Bullet = styled.div`
     display: inline-block;
     margin-right: 10px;

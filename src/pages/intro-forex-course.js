@@ -120,110 +120,128 @@ const OverView = () => {
                 To learn Forex trading professionally requires commitment, a desire to succeed, and a helping hand from industry professionals who have been where you are and have come out of the other side. You will learn to trade Forex directly from senior traders, who make a living in trading, and mentors whose life’s work is to create successful traders.This inside knowledge is invaluable in your journey of learning how to trade the financial markets.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Flexible Learning Options
+                Skills you will gain
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            We understand that many people are unable to commit a large amount of time to a thorough trading education due to family / work commitments. So we have ensured that all our trading programmes have the flexibility to be delivered on your terms, on your budget, and around your schedules, without neglecting the quality of the teaching. Regardless of the method or the period, the education you receive will be second to none.
-If attending a trading programme in London is not possible, why not join us on our award-winning online trading course? It will still allow you to access the same trading education and unparalleled support without ever having to leave your house.
-You’re unique – so why would you ever go for a “one-size-fits-all” approach to your learning?<br/><br/>
-If you would like to discuss which options would be most suitable for you, let’s have a conversation so that we can assess your current level of education / experience, your objectives, and your needs, so that we can tailor a programme to fit you. Book a free consultation today and take the first exciting step toward finding which path of success is best suited to you.
-
+                <Bullet/> How to Identify Lots of High Probability and High Profit Trading Opportunities.
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                <Bullet/>  The Professional Way to Protect Yourself when Entering a Trade. <br/>
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> The Key Skills You Need to Learn so that You can consistently make (and keep) the money that you make as a Trader.
             </DescriptionContainer>
         </div>
         <CourseBanner style={{padding: "20px 20px"}}>
-            4 Pillars of Education
+            Our pioneering Forex Trading courses provide a focused point of entry into the world of financial trading.
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                The Associate Financial Trading Programme is the ultimate Forex Trading course for beginners & intermediate level traders. It is a comprehensive education to the world of Foreign Exchange (FX) trading and is designed to help you establish a solid foundation upon which you can hone and improve your trading skills<br/><br/>
-                In this course, we focus on four distinct, equally important areas of study – Technical Analysis, Fundamental Analysis, Risk and Money Management and Trading Psychology. These are the four pillars of successful trading.
-            </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-               Technical Analysis
+               Benefits
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            A big focus of the Associate Trading Programme is teaching you how to use trading charts to predict the likely direction of the market. Some of the topics include Supply and Demand, Price Action Trading, Trading Indicators, Chart Patterns and Wave Analysis.
-Technical analysis, when used correctly, will allow you to learn how to trade Forex like the professionals do.  No longer will you be the last one in on a big move and wonder why you are never in at the right time – or equally frustrating – in at the right time, but on the wrong side of the move.
-<br/><br/>
-By learning how to trade directly from industry experts, with decades of experience in large hedge funds and investment banks, you will learn how to use technical analysis the same way that big investment institutions do.
-<br/><br/>
-Crucially, you will learn how to piece all these together to form your very own customised trade plan.
+                <Bullet/> Associate Trader Programme
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Fundamental Analysis
-            </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Fundamental Analysis is the study of macro-economic data and its effect on the markets.
-                In this course, you will learn how and why news releases affect currency prices, what specific data to focus on, and how to incorporate this knowledge into your overall analysis, giving you a competitive advantage in trading.
-                <br/><br/>
-                Although we believe that the market is driven by technical analysis, it is important to learn how to interpret major financial announcements as they can have a major impact on the short-term direction of a currency pair.
-                <br/><br/>
-                Fundamental announcements also create a lot of volatility in the markets (especially if the consensus estimate is wrong), so you must be prepared for anything.
-                We believe if you want to learn to trade Forex like a professional, then you must understand the macro implications on a currency pair, so you can make the correct decisions ahead of time. By being prepared you immediately get an edge over other traders.
+                <Bullet/>  80+ Hrs Bonus Coaching Videos
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Trading Psychology
-            </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Trading psychology is a fundamental component of successful trading. It is one of the main reasons over 90% of new traders are unable to find consistent profitability.
-It is far too frequently overlooked by traders and educators alike – but experience shows that without learning to understand your own trading psychology, you are missing a key ingredient for success.
-                <br/><br/>
-                In this course, we explore common psychological pitfalls that trap an overwhelming number of new and experienced traders alike. We teach you the skills necessary for understanding these pitfalls. Equipping yourself with the ability to manage your own emotions, in a market driven by emotion – is an obvious competitive advantage.
-                <br/><br/>
+               <Bullet/> 3 Hrs Live Trading Webinar
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Risk and Money Management
-            </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Risk and money management is a fundamental component to trade successfully.
-            In this section you will learn how to limit your risk and maximise your profit. When learning how to trade it is more important to focus on protecting your account rather than focussing on the how much money you are going to make. 
-            It is a common mistake for beginners learning to trade, to only think about how much money they are going to make if the trade works out.
-            This type of short-sighted thinking is what leads to people blowing up their accounts when trades go the wrong way.
-
-                <br/><br/>
-                You are going to learn to think like a professional and you will learn to trade exactly how institutional traders trade. The goal here is to keep you in the game long enough so you can master Forex Trading and become proficient enough to be classed as a professional.
-                <br/><br/>
+               <Bullet/> 3 Months Coaching Calls
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> Private Members FB Group
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> Access to $50,000 live funding once you pass your trading assessment
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> Trade Journal Sheet
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> Trader Personality Profile
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> Professional Trade Plan
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> Risk Management Sheet
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> 3 Months Pro Indicators
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+               <Bullet/> 70/30 PROFIT SPLIT
             </DescriptionContainer>
         </div>
         <CourseBanner>
-            Core Learning Objectives
+            3 Months Passive Income Builder
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            The Associate Trading Programme aims to give you a solid foundation in Forex trading. You are going to learn forex trading strategies that are used by our professional traders, and you will become proficient in the 4 pillars of trading; technical analysis, fundamental analysis, risk and money management and trading psychology.<br/><br/>
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "0px"}}>
-                Successful completion means you would have achieved the following core objectives:
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+            Create a passive portfolio that is built to make money
             </IntroTitle>
-            <div style={{marginLeft: "20px", marginTop: "20px"}}>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Development and implementation of your own Trade Plan that incorporates good Equity and Risk Management
+            Here is where the rubber really meets the road as you will get the same High, Medium & Low Risk Crypto investments that I will personally be investing in!
             </DescriptionContainer>
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+                Get my confidential Crypto updates
+            </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>A solid understanding of what constitutes high probability trades – and how to spot the difference between good trades and bad trades
+            3 months of everything you need to know to help your portfolio continue to grow!<br/><br/>
+            Let me save you thousands of hours in research AND remove ALL of the guesswork Get these confidential crypto reports to find out the latest Mega Trends, Entry & Exit points Plus so much more that won’t fit on this page!
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Development of a systematic approach to trading cantered around measured rules that keep you accountable
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Tracking and improving your trading performance by learning how to analyse your trades correctly and tweaking your approach
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Working knowledge and understanding of the fundamental factors underpinning the core G7 currencie
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Comprehension of common psychological pitfalls that affect success and consistency
-            </DescriptionContainer>
-            </div>
         </div>
-    </>
+        <CourseBanner>
+            Manage your portfolio like a pro
+        </CourseBanner>
+        <div style={{padding: "0px 40px"}}>
+        <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+                Skyrocket your passive income & stacking rewards!
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            Knowing how and when to maximise your gains to increase your ROI is a skill that most investors will never fully understand. <br/>
+            Here I will share with you some of the key secrets that I have learned during my career.            
+            </DescriptionContainer>
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+                6 months VIP Group Membership
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                Our own private group for members only where we can discuss how our low, medium and high risk investments are going along <br/>
+                with the latest news and views from the world of Cryptocurrency.         
+            </DescriptionContainer>
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+                Crypto Trade Tracker
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                Being organised and tracking your trading is crucial to success which is why I created this Crypto Trade Tracker for my own personal use.<br/>
+                Now you will get full access to this in order to track your own trades.
+            </DescriptionContainer>
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+                Live Mind Medicine
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                Get access to my wealth building mindset audios that I listen to on a daily basis<br/>
+                so that I can keep myself grounded when investing in the crypto markets.
+            </DescriptionContainer>
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+                My Personal Power Routine
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                Learn how I create a power routine to make sure that I set myself up for success<br/>
+                whatever I put mymind to and how you can apply this into your daily lives too!
+            </DescriptionContainer>
+        </div>
+        </>
     )
 }
 
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Associate Trader Programme'} description={'How to build a Passive Crypto Portfolio for potentially life changing gains'}/>
+            <IntroCardCoursePage title={'Intro Forex Course'} description={'___FILL THIS___'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}

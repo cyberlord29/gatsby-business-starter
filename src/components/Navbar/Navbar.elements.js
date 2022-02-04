@@ -2,7 +2,7 @@ import styled, {css} from 'styled-components'
 import { Link } from 'gatsby';
 
 export const Nav = styled.nav`
-    height: 60px;
+    height: 80px;
     display: flex;
     background-color: #F7F9FF;
 `;
@@ -52,11 +52,12 @@ export const NavItem = styled.li`
 `;
 
 export const NavLink = styled(Link)`
+    display: flex;
     color: #132b4c;
     font-size: 1rem;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 0rem 0.5rem 3rem;
+    padding: 0.5rem 0rem 0.5rem 2rem;
     height: 100%;
     width: 100%;
 

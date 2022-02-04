@@ -68,6 +68,7 @@ const Courses = (props) => {
                     </Button> */}
                 </Header>
                 <FlexContainer>
+                    <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
                     <Course 
                         title="Crypto Like a Pro Investing"
                         duration={"6 months"}
@@ -80,15 +81,14 @@ const Courses = (props) => {
                         duration={"3 months"}
                         page={'/associate-trader-programme'}
                     />
-                    <Course title="Crypto Like a Pro Trading System" img={clpt} duration={"3 months"}/>
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Options" img={options} duration={"3 months"} difficulty={"intermediate"}/>
+                    <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"}/>
                     <Course title="Algorithms" img={algo} duration={"1 months"} difficulty={"intermediate"}/>
                     <Course title="Advanced Forex" img={atp1} duration={"1 months"} difficulty={"intermediate"}/>
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
+                    <Course title="Options" img={options} duration={"3 months"} difficulty={"intermediate"}/>
                 </FlexContainer>
             </div>
         </CoursesContainer>
