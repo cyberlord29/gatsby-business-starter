@@ -43,10 +43,10 @@ const AboutPage = () => {
                     <DescriptionContainer style={{color: "white",margin: "20px 0px"}}>
                     Follow a proven Trading Strategy and then leverage OPM to make a Six Figure Income in under 3 months.
                     </DescriptionContainer>
-                    </div>
                     <a href="https://event.webinarjam.com/register/1click/1/zyx07cx?first_name=First&last_name=Last&email=YOU%40YOUREMAIL.com&phone_country_code=%2B1&phone_number=1234567890&timezone=GMT-7&schedule_id=1">
                       <Button>Register</Button>
                     </a>
+                    </div>
                   </div>
                 </FlexContainer>
               </Banner>
