@@ -9,7 +9,7 @@ axios.defaults.baseURL = 'https://hooks.zapier.com';
 
 const IntroCard = (props) => {
     const [email, setEmail] = useState(0, "")
-    const [show, toggleModal]  = useState(false)
+    const [show, toggleModal]  = useState(1)
 
     const submitLead = () => {
         axios.post(
@@ -17,7 +17,7 @@ const IntroCard = (props) => {
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
-        toggleModal(true)
+        toggleModal(show+1)
     }
     return (
         <>

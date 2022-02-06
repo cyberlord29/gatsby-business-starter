@@ -68,7 +68,7 @@ const Courses = (props) => {
                     </Button> */}
                 </Header>
                 <FlexContainer>
-                    <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
+                    <Course title="Free Introductory Course" page={'/intro-forex-course'} img={intro} duration={"1 months"}/>
                     <Course 
                         title="Crypto Like a Pro Investing"
                         duration={"6 months"}

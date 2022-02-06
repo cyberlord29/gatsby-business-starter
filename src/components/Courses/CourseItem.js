@@ -17,14 +17,19 @@ const CourseItem = (props) => {
     }}>
       <Navbar style={{paddingTop: "40px"}}>
         {
-          pages.map((name)=>
+          pages.map((name)=>{
+            return(
+              <>
+             {props[name.toLowerCase()] &&
             <NavItem onClick={()=>setPage(name)}>
               <div style={{marginBottom:"7px"}}>
                 {name}
               </div>
               {page==name && <Underline/>}
-            </NavItem>
-          )
+            </NavItem>}
+            </>
+            )
+          })
         }
       </Navbar>
       <CourseContainer>

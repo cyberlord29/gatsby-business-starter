@@ -3,7 +3,7 @@ import { Layout ,Testimonial, Booking, IntroCardCoursePage, CourseItem } from '.
 import { CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
-import andy1 from '../img/andy1.png'
+import andy1 from '../img/alberto1.png'
 
 const Mentors = () => {
     return(
@@ -17,15 +17,15 @@ const Mentors = () => {
             <div style={{display: "flex", flexDirection: "column"}}>
             <div style={{flexDirection: "column", marginLeft: "20px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
-                        Andy Demi
+                        Alberto Pallotta
                     </div>
                     <div style={{fontSize: "14px", color:"#FFAB00"}}>
-                        CEO | Head Trader
+                        Founder & Senior Quantitative Trader
                         <br/>
                         <br/>
                       </div>
                     <div style={{fontSize: "14px",padding: "0px 0px", color: "#4B586A", fontWeight: "normal"}}>
-                    A Trader for 18 years, he’s worked on the Trading Floors at some of the Biggest Banks & Hedge Funds such as J.P. Morgan, Schroders & Barclays Capital. He will have your back and teach you about how to trade like a pro.
+                    Alberto started his trading career within the financial industry 15 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant.
                     </div>
                   </div>
             </div>
@@ -114,35 +114,64 @@ const OverView = () => {
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Learn what it takes to become a successful Forex trader. This course is aimed to give you an introduction into the world of Forex trading. To become a successful trader, you must have variety of attributes, this course aims to give you an insight into what those attributes are and how you as an individual can fully benefit. Every trader is different, this course will help you identify what kind of trader you will be and what areas to focus on.<br/><br/>
-            You should take this course if you are interested in becoming a trader, either as a profession or to supplement your income. This will give you a good grounding about what it takes to become a trader.<br/><br/>
-            There are 5 sections to this course that go into giving you a succinct introduction to the FX market, technical analysis, risk management, strategies and trading psychology.<br/><br/>
-            This course gives you a strong base to tackle the financial markets better than your average newbie. This course also gives you a solid base to approach our 3 month programme with a head strart. To take your trading to a professional standard it is recommended that you goes through our 12 month programme upon completion of the course to reach that advanced, professional level.
+            This programme is designed to teach you how to build your own trading systems with the guidance of your tutor.<br/>
+            This is not a course teaching technically difficult coding. In fact, quite contrary to this, the course was specifically designed for anyone to be able to use and build systems. <br/>
+            The course will cover various important areas including how to back test strategy ideas, strategy implementation, coding your own indicators and portfolio optimasation. <br/>
+            Included in the programme are 3 successful trading systems with open code so you can learn how these we’re put together and how to optimise them for different conditions.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Skills you will gain
+              The Course is tailored to fit into even the busiest of schedules.<br/>
+              We will provide:
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/> How to Identify Lots of High Probability and High Profit Trading Opportunities.
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px"}}>
+              <Bullet/>3 hours of teaching per week for 3 months online.
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>  The Professional Way to Protect Yourself when Entering a Trade. <br/>
+              <Bullet/>1-hour Q and A session per week
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> The Key Skills You Need to Learn so that You can consistently make (and keep) the money that you make as a Trader.
+              <Bullet/>2 hours of prerecorded classes per week
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px", marginBottom: "40px"}}>
+              <Bullet/>Ongoing Support from your teacher
             </DescriptionContainer>
         </div>
-        </>
+        <CourseBanner style={{padding: "20px 20px"}}>
+        Algorithmic trading or quantitative trading involves the usage of statistics & programming into trading.
+        </CourseBanner>
+        <div style={{padding: "0px 40px", marginTop: "30px"}}>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            Developing Algorithmic Trading Strategies is different to traditional trading methods. The focus is on developing trading systems which follow a logical sequence of rules, removing the discretionary aspect of trading entirely. It circumvents traditional issues arising from human trading psychology, which is one of the biggest factors for why traders fail.<br/><br/>
+            Though Systematic Trading has been around for decades, the ability to process information and react much quicker than a human can, as well as the ability for a system to follow a defined set of instructions for placing trades, means that Systematic Trading is widely regarded as the wave of the future.
+            </DescriptionContainer>
+            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+            Why Should a Trader Learn Quantitative Trading?
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            Currently, Algorithmic Trading is more frequently used by big institutions and professional traders, but the rise in machine-learning and Artificial Intelligence has supercharged its capabilities and has only increased its popularity immensely – a trend, we believe, is only likely to continue to increase as the marriage of Systematic Trading and Artificial Intelligence and machine-learning becomes more mainstream.<br/><br/>
+            At London Trading Institute, we give you the rare and unique opportunity to learn directly from a Certified Quant, Alberto Pallotta, who has the knowledge, passion, experience and a verified track record within this sphere. He has developed over one hundred Algorithmic Trading Strategies which he uses to manage his personal multi-million pound account.
+            </DescriptionContainer>
+        </div>
+        <CourseBanner style={{padding: "20px 20px"}}>
+          Perfect for students or professionals who are new to the domain of quantitative trading
+        </CourseBanner>
+        <div style={{padding: "0px 40px", marginTop: "30px"}}>
+        <DescriptionContainer  style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+        If you want to have access to ready-made trading systems which we ourselves use to trade profitably, as well as the knowledge to develop your own trading systems, book your free consultation today to discuss this opportunity and see if algorithmic trading is for you
+        </DescriptionContainer>
+        </div>
+    </>
     )
 }
 
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Introductory Forex Course'} description={''}/>
+            <IntroCardCoursePage title={'Algorithms'} description={'Learn how to buid automated trading systems'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
+                    // syllabus={<Syllabus/>}
                 >
                 </CourseItem>
             <Testimonial/>

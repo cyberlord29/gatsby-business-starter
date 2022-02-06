@@ -135,5 +135,6 @@ export const Underline = styled.div`
     background: #172647;
     border-radius: 4px;
     width: 80%;
+    margin-top: 5px;
 `;
 export default GlobalStyle;

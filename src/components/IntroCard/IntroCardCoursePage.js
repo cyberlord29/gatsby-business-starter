@@ -8,7 +8,7 @@ axios.defaults.baseURL = 'https://hooks.zapier.com';
 
 const IntroCard = ({title, description}) => {
     const [email, setEmail] = useState(0, "")
-    const [show, toggleModal]  = useState(false)
+    const [show, toggleModal] = useState(1)
 
     const submitLead = () => {
         axios.post(
@@ -16,10 +16,9 @@ const IntroCard = ({title, description}) => {
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
-        toggleModal(true);
+        toggleModal(show+1);
     }
     const initCalendly = () => {
-        // console.log(form)
          window.Calendly.initPopupWidget({
            url: 'https://calendly.com/andy-demi/strategy',
          });
@@ -30,21 +29,21 @@ const IntroCard = ({title, description}) => {
         <IntroCardContainer>
             <IntroLeftContainerHeader>
                 <div>
-                <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
-                    {title}
-                </IntroTitle>
-                <DescriptionContainer style={{marginBottom: "5px", fontSize: "14px"}}>
-                    {description}
-                </DescriptionContainer>
-                <div style={{display: "flex"}}>
-                    <InputField onChange={(e)=>{setEmail(e.target.value)}} placeholder="Type your email"></InputField>
-                    <Button onClick={submitLead}>JOIN NOW</Button>
-                </div>
-                <DescriptionContainer  style={{fontSize: "12px", marginTop: "5px", color: "#8790A5"}}>
-                    {'Get my free starter call, videos and documents'}
-                </DescriptionContainer>
-                <ButtonSecondary onClick={initCalendly}
-                 style={{fontSize:"16px", marginTop: "25px"}}>Book A Free Strategy Call</ButtonSecondary>
+                    <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
+                        {title}
+                    </IntroTitle>
+                    <DescriptionContainer style={{marginBottom: "5px", fontSize: "14px"}}>
+                        {description}
+                    </DescriptionContainer>
+                    <div style={{display: "flex"}}>
+                        <InputField onChange={(e)=>{setEmail(e.target.value)}} placeholder="Type your email"></InputField>
+                        <Button onClick={submitLead}>JOIN NOW</Button>
+                    </div>
+                    <DescriptionContainer  style={{fontSize: "12px", marginTop: "5px", color: "#8790A5"}}>
+                        {'Join our community and access our FREE Daily Matarial'}
+                    </DescriptionContainer>
+                    <ButtonSecondary onClick={initCalendly}
+                    style={{fontSize:"16px", marginTop: "25px"}}>Book A Free Strategy Call</ButtonSecondary>
                 </div>
             </IntroLeftContainerHeader>
             <IntroLeftContainer className="" style={{flexBasis: "50%"}}>

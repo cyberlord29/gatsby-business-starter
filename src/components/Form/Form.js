@@ -6,7 +6,7 @@ import axios from 'axios';
 import { navigate } from "gatsby"
 
 const IndexPage = ({emailInput, showInput}) => {
-  const [display, toggleModal] = useState(showInput)
+  const [display, toggleModal] = useState(false)
   const [email, setEmail]  = useState()
   const [name, setName]  = useState()
   const submitLead = () => {
@@ -18,8 +18,10 @@ const IndexPage = ({emailInput, showInput}) => {
     navigate('/thank-you');
   }
   useEffect(() => {
-    toggleModal(showInput)
-  }, [showInput,emailInput])
+    console.log(showInput)
+    if(showInput>1)
+    toggleModal(true)
+  }, [showInput])
 
     if(!display) return(<></>);
 

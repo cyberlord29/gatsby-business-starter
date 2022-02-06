@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
-import {  InputField, IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, ButtonsContainer, WhiteButtonsContainer, YellowButtonContainer, FeatureItem, IntroLeftContainerHeader, FeatureItemLarge } from './IntroCard.element'
+import {  IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, YellowButtonContainer, FeatureItem, IntroLeftContainerHeader, FeatureItemLarge } from './IntroCard.element'
 import landing from '../../img/landing.png'
 import axios from 'axios';
 import { navigate } from "gatsby"
-import { FlexContainer } from '../../globalStyles';
-import { Banner } from '../About/About.element';
-import { Button } from '../Courses/Courses.elements';
 
 axios.defaults.baseURL = 'https://hooks.zapier.com';
 
@@ -29,7 +26,7 @@ const IntroCard = (props) => {
                   <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
                     Pro FX Indicators
                   </IntroTitle>
-                  <DescriptionContainer  style={{fontSize: "18px", marginTop: "5px", color: "#8790A5", maxWidth: "500px"}}>
+                  <DescriptionContainer  style={{fontSize: "18px", marginTop: "5px", color: "#4B586A", maxWidth: "500px"}}>
                     The LTI trading indicators have been created to simulate the same rule-based approach that the big institutions follow.
                     <br/><br/>
                     They help you make more accurate and consistent trading decisions, and ultimately improve your trading results.

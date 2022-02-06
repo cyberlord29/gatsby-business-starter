@@ -9,7 +9,7 @@ import Form from '../Form/Form';
 const IntroCard = (props) => {
     const [email, setEmail] = useState(0, "")
     const [select, setSelect] = useState("optionA");
-    const [show, toggleModal]  = useState(false)
+    const [show, toggleModal]  = useState(1)
 
     // const handleSelectChange = event => {
     //   const value = event.target.value;
@@ -22,7 +22,7 @@ const IntroCard = (props) => {
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
-        toggleModal(true)
+        toggleModal(show+1)
     }
 
     return (

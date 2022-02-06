@@ -2,6 +2,10 @@
    
 }
 
+.alberto-pic{
+   width: 500px;
+}
+
 .video{
    height: 339px;
    width: 603px;
@@ -16,17 +20,20 @@
 }
 
 @media (max-width: 500px) {
- .no-mobile{
-    width: 100%;
-    flex-direction: column;
- }
-.video{
-   height: 300px;
-   width: 300px;
-}
- .mobile-center{
-    text-align: center;
-    max-width: 100%;
-    padding: 0px 20px;
- }
+   .no-mobile{
+      width: 100%;
+      flex-direction: column;
+   }
+   .video{
+      height: 300px;
+      width: 300px;
+   }
+   .mobile-center{
+      text-align: center;
+      max-width: 100%;
+      padding: 0px 20px;
+   }
+   .alberto-pic{
+      width: 100%;
+   }
 }

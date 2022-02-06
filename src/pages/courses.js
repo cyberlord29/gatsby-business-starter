@@ -78,12 +78,9 @@ const Intermediate = () => {
   return(
     <>
       <FlexContainer>
-          <Course title="Algorithms" img={algo} duration={"1 months"} difficulty={"intermediate"}/>
-          <Course title="Advanced Forex" img={atp1} duration={"1 months"} difficulty={"intermediate"}/>
-          <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
-      </FlexContainer>
-      <FlexContainer>
-          <Course title="Options" img={options} duration={"3 months"} difficulty={"intermediate"}/>
+          <Course title="Algorithms" img={algo} duration={"1 months"} page={'/algorithms'} difficulty={"intermediate"}/>
+          <Course title="Advanced Forex" img={atp1} duration={"1 months"} page={'/advanced-forex'} difficulty={"intermediate"}/>
+          <Course title="Options" img={options} duration={"3 months"} page={'/options'} difficulty={"intermediate"}/>
       </FlexContainer>
     </>
   )
@@ -92,7 +89,7 @@ const Intermediate = () => {
 const All = () => {
   return (
     <>
-                    <FlexContainer>
+                <FlexContainer>
                     <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
                     <Course 
                         title="Crypto Like a Pro Investing"

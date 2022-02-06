@@ -223,11 +223,12 @@ Crucially, you will learn how to piece all these together to form your very own 
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Associate Trader Programme'} 
+            <IntroCardCoursePage title={'Advanced Forex Course'} 
             description={'Learn the tools you need to become a consistantly profitable trader in the Forex markets'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
+                    syllabus={<Syllabus/>}
                 >
                 </CourseItem>
             <Testimonial/>

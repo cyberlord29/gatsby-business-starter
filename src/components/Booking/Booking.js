@@ -28,12 +28,22 @@ const Booking = ({lone}) => {
           </div>
               <FlexContainer style={{marginBottom: "30px" }}>
                 <div style={{marginRight: "10px", marginTop: "14px", marginBottom: "20px" }}>
-                    <div style={{fontSize: "14px", textAlign: "left"}}>Your Name</div>
-                    <InputField id="name" onChange={(e)=>setForm({...form,name: e.target.value})} placeholder="Type your name"></InputField>
+                    <div style={{fontSize: "14px", textAlign: "left"}}>First Name</div>
+                    <InputField id="name" onChange={(e)=>setForm({...form,name: e.target.value})} placeholder="Your First name"></InputField>
                 </div>
                 <div style={{marginTop: "15px", marginBottom: "20px" }}>
-                    <div style={{fontSize: "14px", textAlign: "left"}}>Your Email</div>
+                    <div style={{fontSize: "14px", textAlign: "left"}}>Last Name</div>
+                    <InputField id="email"onChange={(e)=>setForm({...form,email: e.target.value})} placeholder="Your Last name"></InputField>
+                </div>
+              </FlexContainer>
+              <FlexContainer style={{marginBottom: "30px" }}>
+                <div style={{marginRight: "10px", marginTop: "15px", marginBottom: "20px" }}>
+                    <div style={{fontSize: "14px", textAlign: "left"}}>Email</div>
                     <InputField id="email"onChange={(e)=>setForm({...form,email: e.target.value})} placeholder="Type your email"></InputField>
+                </div>
+                <div style={{ marginTop: "14px", marginBottom: "20px" }}>
+                    <div style={{fontSize: "14px", textAlign: "left"}}>Telephone</div>
+                    <InputField id="name" onChange={(e)=>setForm({...form,name: e.target.value})} placeholder="Type your number"></InputField>
                 </div>
               </FlexContainer>
               <Button onClick={initCalendly}>BOOK FREE CONSULATION</Button>
