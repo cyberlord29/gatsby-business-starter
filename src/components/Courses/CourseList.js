@@ -10,7 +10,7 @@ const CourseList = (props) => {
     // "Advanced",
   ]
 
-  const [page, setPage] = useState("Beginner")
+  const [page, setPage] = useState("All")
   return(
     <div style={{backgroundColor:"#F7F9FF", paddingBottom: "50px", display: "flex", flexDirection: "column",
       alignItems: "center"

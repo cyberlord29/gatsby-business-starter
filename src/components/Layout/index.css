@@ -2,6 +2,16 @@
    
 }
 
+.font-mobile{
+   padding: 25px 7rem;
+   font-size: 36px;
+}
+
+.yt-video{
+   width: 400px;
+   height: 260px
+}
+
 .alberto-pic{
    width: 500px;
 }
@@ -35,5 +45,13 @@
    }
    .alberto-pic{
       width: 100%;
+   }
+   .font-mobile{
+      padding: 2rem !important;
+      font-size: 24px;
+   }
+   .yt-video{
+      width: 340px;
+      height: 230px
    }
 }

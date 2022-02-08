@@ -68,6 +68,7 @@ const Beginner = () => {
             duration={"3 months"}
             page={'/associate-trader-programme'}
         />
+        <Course title="Free Introductory Course" page={'/intro-forex-course'} img={intro} duration={"1 month"}/>
         <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"}/>
       </FlexContainer>
     </>
@@ -78,9 +79,9 @@ const Intermediate = () => {
   return(
     <>
       <FlexContainer>
-          <Course title="Algorithms" img={algo} duration={"1 months"} page={'/algorithms'} difficulty={"intermediate"}/>
-          <Course title="Advanced Forex" img={atp1} duration={"1 months"} page={'/advanced-forex'} difficulty={"intermediate"}/>
-          <Course title="Options" img={options} duration={"3 months"} page={'/options'} difficulty={"intermediate"}/>
+          <Course title="Algorithmic Trading Course" img={algo} duration={"3 months"} page={'/algorithms'} difficulty={"intermediate"}/>
+          <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
+          <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
       </FlexContainer>
     </>
   )
@@ -90,7 +91,7 @@ const All = () => {
   return (
     <>
                 <FlexContainer>
-                    <Course title="Free Introductory Course" img={intro} duration={"1 months"}/>
+                <Course title="Free Introductory Course" page={'/intro-forex-course'} img={intro} duration={"1 month"}/>
                     <Course 
                         title="Crypto Like a Pro Investing"
                         duration={"6 months"}
@@ -106,11 +107,11 @@ const All = () => {
                 </FlexContainer>
                 <FlexContainer>
                     <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"}/>
-                    <Course title="Algorithms" img={algo} duration={"1 months"} difficulty={"intermediate"}/>
-                    <Course title="Advanced Forex" img={atp1} duration={"1 months"} difficulty={"intermediate"}/>
+                    <Course title="Algorithmic Trading Course" img={algo} duration={"3 months"} page={'/algorithms'} difficulty={"intermediate"}/>
+                    <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Options" img={options} duration={"3 months"} difficulty={"intermediate"}/>
+                    <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
                 </FlexContainer>
     </>
   )

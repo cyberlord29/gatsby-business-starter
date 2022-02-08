@@ -29,21 +29,21 @@ const IntroCard = ({title, description}) => {
         <IntroCardContainer>
             <IntroLeftContainerHeader>
                 <div>
-                    <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
+                    <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "10px"}}>
                         {title}
                     </IntroTitle>
-                    <DescriptionContainer style={{marginBottom: "5px", fontSize: "14px"}}>
+                    <DescriptionContainer style={{marginBottom: "10px", fontSize: "14px"}}>
                         {description}
                     </DescriptionContainer>
                     <div style={{display: "flex"}}>
                         <InputField onChange={(e)=>{setEmail(e.target.value)}} placeholder="Type your email"></InputField>
-                        <Button onClick={submitLead}>JOIN NOW</Button>
+                        <ButtonSecondary style={{height: "50px", borderTopLeftRadius: "0px", borderBottomLeftRadius: "0px"}} onClick={submitLead}>SUBMIT</ButtonSecondary>
                     </div>
                     <DescriptionContainer  style={{fontSize: "12px", marginTop: "5px", color: "#8790A5"}}>
                         {'Join our community and access our FREE Daily Matarial'}
                     </DescriptionContainer>
-                    <ButtonSecondary onClick={initCalendly}
-                    style={{fontSize:"16px", marginTop: "25px"}}>Book A Free Strategy Call</ButtonSecondary>
+                    <Button onClick={initCalendly}
+                    style={{fontSize:"16px", marginTop: "25px"}}>Book A Free Strategy Call</Button>
                 </div>
             </IntroLeftContainerHeader>
             <IntroLeftContainer className="" style={{flexBasis: "50%"}}>

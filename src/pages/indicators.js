@@ -104,7 +104,7 @@ const IndexPage = () => {
               Download Free Trial
             </Button>
           </Banner>
-            <Header style={{padding: "25px 7rem", fontSize: "36px",backgroundColor: "#F7F9FF"}}>
+            <Header className="font-mobile" style={{backgroundColor: "#F7F9FF"}}>
                   <div>
                       <div>
                           Essential Trading Tools
@@ -114,10 +114,10 @@ const IndexPage = () => {
             </Header>
             <RDiv style={{paddingBottom: "100px", paddingTop: "1px"}}>
               <Card>
-                  <div style={{height: "300px", width: "300px", border: "1px solid", flexBasis: "30%"}}>
-                  {/* <video  type="video/mp4"></video> */}
+                  <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <iframe className="yt-video" src="https://www.youtube.com/embed/4M4fadtAJhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <div style={{flexDirection: "column", marginLeft: "20px",flexBasis: "70%", padding: "10px"}}>
+                  <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
                         Daily Trading Range (DTR)
                     </div>
@@ -134,10 +134,10 @@ const IndexPage = () => {
                   </div>
               </Card>
               <Card>
-                  <div style={{height: "300px", width: "300px", border: "1px solid", flexBasis: "30%"}}>
-                  {/* <video  type="video/mp4"></video> */}
+                <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <iframe className="yt-video" src="https://www.youtube.com/embed/4M4fadtAJhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <div style={{flexDirection: "column", marginLeft: "20px",flexBasis: "70%", padding: "10px"}}>
+                  <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
                       Automatic Trend Lines
                     </div>
@@ -153,11 +153,11 @@ const IndexPage = () => {
                     </Button>
                   </div>
               </Card>
-              <Card style={{flexDirection: "row"}}>
-                  <div style={{height: "300px", width: "300px", border: "1px solid", flexBasis: "30%"}}>
-                  {/* <video  type="video/mp4"></video> */}
+              <Card>
+              <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <iframe className="yt-video" src="https://www.youtube.com/embed/s3Gw_QKCqBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <div style={{flexDirection: "column", marginLeft: "20px",flexBasis: "70%", padding: "10px"}}>
+                  <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
                       Auto Fibonacci
                     </div>
@@ -174,10 +174,10 @@ const IndexPage = () => {
                   </div>
               </Card>
               <Card>
-                  <div style={{height: "300px", width: "300px", border: "1px solid", flexBasis: "30%"}}>
-                  {/* <video  type="video/mp4"></video> */}
+              <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <iframe className="yt-video" src="https://www.youtube.com/embed/Cvx8gAlzSuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <div style={{flexDirection: "column", marginLeft: "20px",flexBasis: "70%", padding: "10px"}}>
+                  <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
                       {`Supply & Demand Zones`}
                     </div>

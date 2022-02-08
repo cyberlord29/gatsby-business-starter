@@ -43,14 +43,14 @@ const IntroCard = (props) => {
                         <input type="checkbox" id="age2" name="forex" />
                         <label style={{margin: "0px 5px"}} >Forex</label><br/>  
                     </div>
-                    <div style={{display: "flex", alignItems: "center"}}>
+                    {/* <div style={{display: "flex", alignItems: "center"}}>
                     <input type="checkbox" id="age3" name="algo"  />
                     <label style={{margin: "0px 5px"}} >Algo</label><br/><br/>
                     </div>
                     <div style={{display: "flex", alignItems: "center"}}>
                         <input type="checkbox" id="age4" name="opt" />
                         <label style={{margin: "0px 5px"}} >Options</label><br/><br/>
-                    </div>
+                    </div> */}
                 </div>
                   <div style={{display: "flex"}}>
                     <InputField onChange={(e)=>{setEmail(e.target.value)}} placeholder="Type your email"></InputField>

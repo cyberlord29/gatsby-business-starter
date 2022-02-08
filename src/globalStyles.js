@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
 
 export const Bullet = styled.div`
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
     width: 12px;
     height: 12px;
     background: #172647 0% 0% no-repeat padding-box;

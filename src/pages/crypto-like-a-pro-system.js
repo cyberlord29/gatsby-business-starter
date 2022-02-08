@@ -90,7 +90,7 @@ const OverView = () => {
     return(
         <>
         <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px"}}>
+            <IntroTitle style={{fontSize: "24px"}}>
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
@@ -100,10 +100,10 @@ const OverView = () => {
             </DescriptionContainer>
         </div>
         <CourseBanner>
-          Tagline
+          Trade Like Crypto Like A Pro
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px"}}>
+            <IntroTitle style={{fontSize: "24px"}}>
               Cutting Edge Crypto Trading Secrets
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", marginTop: "30px", color:"#172647"}}>
@@ -120,19 +120,19 @@ const OverView = () => {
           Uncover Hedge Fund Hacks
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
               Market Conditions
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
             Knowing this before you trade is essential to learn. Find out how to develop your edge and apply the right strategy at the right strategy at the right time to avoid silly stop outs so that ultimately you’ll make more money.
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
             Institutional Volume Analysis
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
             Studying Price & Volume Data means you can identify Institutional Buying & Selling and know how to spot where the big money is going. Now you’ll be on the right side of the next major market move.
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
               Geometric Angles
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
@@ -143,7 +143,7 @@ const OverView = () => {
           Here’s everything you get
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
-        <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+        <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
           The Crypto like a Pro System
         </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
@@ -192,11 +192,11 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Crypto like a Pro Trading'} description={'How to build a Passive Crypto Portfolio for potentially life changing gains'}/>
+            <IntroCardCoursePage title={'Crypto like a Pro Trading'} description={'Learn to Trade Crypto Like a Pro using our proven winning strategies'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
-                    syllabus={<Syllabus/>}
+                    // syllabus={<Syllabus/>}
                 >
                 </CourseItem>
             <Testimonial/>

@@ -110,79 +110,62 @@ const OverView = () => {
     return(
         <>
         <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px"}}>
+            <IntroTitle style={{fontSize: "24px"}}>
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Based either online through our innovative online learning portal, or in-house at our state-of-the-art offices in the City of London, students have the opportunity to learn
-                forex trading directly from career professional traders as they trade live across the Forex markets. <br/> <br/>
-                Whether you are a beginner in trading, or you have some experience and are seeking to enhance your skills, our career trading programmes are designed to allow for flexibility customisation, so that you have everything you need to get you to the next level. <br/><br/>
-                To learn Forex trading professionally requires commitment, a desire to succeed, and a helping hand from industry professionals who have been where you are and have come out of the other side. You will learn to trade Forex directly from senior traders, who make a living in trading, and mentors whose life’s work is to create successful traders.This inside knowledge is invaluable in your journey of learning how to trade the financial markets.
+                The Advanced Financial Trading Programme is a complete trading mastery programme.<br/><br/> With the
+                assumption that you have grasped the basics, the advance programme builds on the knowledge you
+                have by adding an extra dimension to the way you view markets.
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Flexible Learning Options
-            </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            We understand that many people are unable to commit a large amount of time to a thorough trading education due to family / work commitments. So we have ensured that all our trading programmes have the flexibility to be delivered on your terms, on your budget, and around your schedules, without neglecting the quality of the teaching. Regardless of the method or the period, the education you receive will be second to none.
-If attending a trading programme in London is not possible, why not join us on our award-winning online trading course? It will still allow you to access the same trading education and unparalleled support without ever having to leave your house.
-You’re unique – so why would you ever go for a “one-size-fits-all” approach to your learning?<br/><br/>
-If you would like to discuss which options would be most suitable for you, let’s have a conversation so that we can assess your current level of education / experience, your objectives, and your needs, so that we can tailor a programme to fit you. Book a free consultation today and take the first exciting step toward finding which path of success is best suited to you.
-
-            </DescriptionContainer>
-        </div>
-        <CourseBanner style={{padding: "20px 20px"}}>
-            4 Pillars of Education
-        </CourseBanner>
+                    </div>
+            <CourseBanner>
+                Trade Forex Like A Pro
+            </CourseBanner>
         <div style={{padding: "0px 40px"}}>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                The Associate Financial Trading Programme is the ultimate Forex Trading course for beginners & intermediate level traders. It is a comprehensive education to the world of Foreign Exchange (FX) trading and is designed to help you establish a solid foundation upon which you can hone and improve your trading skills<br/><br/>
-                In this course, we focus on four distinct, equally important areas of study – Technical Analysis, Fundamental Analysis, Risk and Money Management and Trading Psychology. These are the four pillars of successful trading.
-            </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-               Technical Analysis
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
+                Advancing your Current Knowledge
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            A big focus of the Associate Trading Programme is teaching you how to use trading charts to predict the likely direction of the market. Some of the topics include Supply and Demand, Price Action Trading, Trading Indicators, Chart Patterns and Wave Analysis.
-Technical analysis, when used correctly, will allow you to learn how to trade Forex like the professionals do.  No longer will you be the last one in on a big move and wonder why you are never in at the right time – or equally frustrating – in at the right time, but on the wrong side of the move.
-<br/><br/>
-By learning how to trade directly from industry experts, with decades of experience in large hedge funds and investment banks, you will learn how to use technical analysis the same way that big investment institutions do.
-<br/><br/>
-Crucially, you will learn how to piece all these together to form your very own customised trade plan.
+                In this programme we re-visit some familiar trading concepts, and we add another layer of
+                understanding to them for more effective use. <br/><br/>
+                For example, looking at the markets from different
+                perspectives, or taking basic risk management and adding customisation to give you maximum
+                returns based on your personal statistics. And this is just scratching the surface.
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Fundamental Analysis
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
+                New Advanced Tools
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Fundamental Analysis is the study of macro-economic data and its effect on the markets.
-                In this course, you will learn how and why news releases affect currency prices, what specific data to focus on, and how to incorporate this knowledge into your overall analysis, giving you a competitive advantage in trading.
-                <br/><br/>
-                Although we believe that the market is driven by technical analysis, it is important to learn how to interpret major financial announcements as they can have a major impact on the short-term direction of a currency pair.
-                <br/><br/>
-                Fundamental announcements also create a lot of volatility in the markets (especially if the consensus estimate is wrong), so you must be prepared for anything.
-                We believe if you want to learn to trade Forex like a professional, then you must understand the macro implications on a currency pair, so you can make the correct decisions ahead of time. By being prepared you immediately get an edge over other traders.
+                On top of some familiar concepts, we introduce you to our proprietary methods such as the
+                Geometric Angles for hidden support and resistance and Auto-Fibonacci wave analysis (for precision
+                entry and exit points).
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Trading Psychology
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
+                Timing the Markets Like a Pro
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                Trading psychology is a fundamental component of successful trading. It is one of the main reasons over 90% of new traders are unable to find consistent profitability.
-                It is far too frequently overlooked by traders and educators alike – but experience shows that without learning to understand your own trading psychology, you are missing a key ingredient for success.
-                <br/><br/>
-                In this course, we explore common psychological pitfalls that trap an overwhelming number of new and experienced traders alike. We teach you the skills necessary for understanding these pitfalls. Equipping yourself with the ability to manage your own emotions, in a market driven by emotion – is an obvious competitive advantage.
-                <br/><br/>
+                Understanding how to use these effectively for maximum impact takes up a lot of the course but
+                being able to apply these in the markets is a game changer in terms of taking your trading expertise
+                and results to another level.<br/><br/>
+                The goal is to teach you how to predict where the market is going and
+                how it’s going to get their and how long it might take. That’s the level we are striving for.
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-                Risk and Money Management
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
+                Proprietary Trading Strategies
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Risk and money management is a fundamental component to trade successfully.
-            In this section you will learn how to limit your risk and maximise your profit. When learning how to trade it is more important to focus on protecting your account rather than focussing on the how much money you are going to make. 
-            It is a common mistake for beginners learning to trade, to only think about how much money they are going to make if the trade works out.
-            This type of short-sighted thinking is what leads to people blowing up their accounts when trades go the wrong way.
-
-                <br/><br/>
-                You are going to learn to think like a professional and you will learn to trade exactly how institutional traders trade. The goal here is to keep you in the game long enough so you can master Forex Trading and become proficient enough to be classed as a professional.
-                <br/><br/>
+                Utilising these advanced concepts, we progress you to our Proprietary Trading Strategies, the same
+                one’s used by our professional traders. These strategies can be used as they are, however, we do
+                encourage you and give you the knowledge to take these strategies and enhance and customise
+                them further through your own testing. This is optional but recommended.
+            </DescriptionContainer>
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
+                Become an Elite Level Trader
+            </IntroTitle>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                If you are looking to achieve the status of an ‘Elite Trader’ then this programme has everything you
+                need to achieve that goal.
             </DescriptionContainer>
         </div>
         <CourseBanner>
@@ -190,29 +173,48 @@ Crucially, you will learn how to piece all these together to form your very own 
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            The Associate Trading Programme aims to give you a solid foundation in Forex trading. You are going to learn forex trading strategies that are used by our professional traders, and you will become proficient in the 4 pillars of trading; technical analysis, fundamental analysis, risk and money management and trading psychology.<br/><br/>
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "0px"}}>
+            <IntroTitle style={{fontSize: "24px", marginTop: "0px"}}>
                 Successful completion means you would have achieved the following core objectives:
             </IntroTitle>
-            <div style={{marginLeft: "20px", marginTop: "20px"}}>
+            <div style={{marginLeft: "0px", marginTop: "20px"}}>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Development and implementation of your own Trade Plan that incorporates good Equity and Risk Management
+                <Bullet/>Mastering multiple-time frame analysis to pinpoint precise entry and exits with maximum
+reward to risk
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>A solid understanding of what constitutes high probability trades – and how to spot the difference between good trades and bad trades
+                <Bullet/>Developing a solid understanding of high probability and low probability scenarios
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Development of a systematic approach to trading cantered around measured rules that keep you accountable
+                <Bullet/>Advance understanding and application of technical indicators
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Tracking and improving your trading performance by learning how to analyse your trades correctly and tweaking your approach
+                <Bullet/>Acquiring the right mindset to think and act like a professional trader
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Working knowledge and understanding of the fundamental factors underpinning the core G7 currencie
+                <Bullet/>Learning how to use in-trend geometric price angles to predict market turning points
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>Comprehension of common psychological pitfalls that affect success and consistency
+                <Bullet/>Utilising the Daily Trading Range for building a high probability day trading strategy
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                <Bullet/>Learning how to use the LTI Proprietary Trading Strategies and implementing them in the
+markets
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                <Bullet/>Back Testing and personalising your trading strategies to enhance and improve what you
+already know
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                <Bullet/>Developing advanced Risk and Money management techniques to maximise return on
+investment
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                <Bullet/>Learning to use the Auto-Fibonacci wave analysis to be able to get in at the best possible
+price and exit before the move ends
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+                <Bullet/>Enhancing your trade plan to incorporate new strategies and advance concepts
             </DescriptionContainer>
             </div>
         </div>
@@ -228,7 +230,7 @@ const IndexPage = () => {
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
-                    syllabus={<Syllabus/>}
+                    // syllabus={<Syllabus/>}
                 >
                 </CourseItem>
             <Testimonial/>

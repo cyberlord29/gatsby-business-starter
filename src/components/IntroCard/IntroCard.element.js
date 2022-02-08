@@ -76,7 +76,7 @@ export const InputField = styled.input`
 export const Button = styled.button`
     background: #FFAB00 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 8px;
     border: none;
     margin-top: 10px;
     height: 50px;
@@ -87,7 +87,7 @@ export const Button = styled.button`
 `;
 
 export const ButtonSecondary = styled.button`
-    background: transparent;
+    background: white;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 6px;
     border: 1px solid #FFAB00;
