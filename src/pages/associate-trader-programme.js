@@ -4,6 +4,7 @@ import { CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/andy1.png'
+import atp from '../img/atp1.jpg'
 
 const Mentors = () => {
     return(
@@ -223,7 +224,7 @@ Crucially, you will learn how to piece all these together to form your very own 
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Associate Trader Programme'} 
+            <IntroCardCoursePage title={'Associate Trader Programme'} img={atp}
             description={'Learn the tools you need to become a consistantly profitable trader in the Forex markets'}/>
                 <CourseItem
                     mentors={<Mentors/>}

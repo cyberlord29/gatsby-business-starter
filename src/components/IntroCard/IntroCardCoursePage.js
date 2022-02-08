@@ -6,7 +6,7 @@ import Form from '../Form/Form';
 
 axios.defaults.baseURL = 'https://hooks.zapier.com';
 
-const IntroCard = ({title, description}) => {
+const IntroCard = ({title, description, img}) => {
     const [email, setEmail] = useState(0, "")
     const [show, toggleModal] = useState(1)
 
@@ -20,7 +20,7 @@ const IntroCard = ({title, description}) => {
     }
     const initCalendly = () => {
          window.Calendly.initPopupWidget({
-           url: 'https://calendly.com/andy-demi/strategy',
+           url: 'https://calendly.com/dan-tyler-lti/general-enquiry',
          });
       }
     return (
@@ -49,8 +49,8 @@ const IntroCard = ({title, description}) => {
             <IntroLeftContainer className="" style={{flexBasis: "50%"}}>
                 <div style={{width: "100%"}}>
                     <img
-                        src={landing}
-                        style={{width: "100%", objectFit: "contain", objectPosition: "top right"}}
+                        src={img?img:landing}
+                        style={{width: "100%", maxHeight: "480px", objectFit: img?"fill":"contain", objectPosition: "top right"}}
                         >
                     </img>
                 </div>

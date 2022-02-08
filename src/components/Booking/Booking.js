@@ -4,14 +4,14 @@ import { Banner, InputField, Button } from './Booking.element'
 import { FlexContainer, Underline } from '../../globalStyles'
 import './index.css'
 
-const Booking = ({lone}) => {
+const Booking = ({lone, close}) => {
 
     const [form, setForm]  = useState({name: "", email: ""})
 
     const initCalendly = () => {
       console.log(form)
        window.Calendly.initPopupWidget({
-         url: 'https://calendly.com/andy-demi/strategy',
+         url: 'https://calendly.com/dan-tyler-lti/general-enquiry',
          prefill: form
        });
     }
@@ -19,6 +19,8 @@ const Booking = ({lone}) => {
     return (
         <div id="calendly" style={{backgroundColor: "#F7F9FF", padding: `${lone?"0px":"5%"}`}}>
           <Banner style={{ height: "auto", borderRadius: "6px" }}>
+          <span style={{textAlign: "right", marginLeft: "100%", fontSize: "20px", cursor: "pointer", color: "grey"}}
+            onClick={close}>&#x2715;</span>
           <div style={{display: "flex",flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
           <div style={{ marginBottom: "20px" }}>
             <div style={{ marginBottom: "8px"}}>
@@ -51,6 +53,7 @@ const Booking = ({lone}) => {
           </Banner>
         </div>
     )
-}
-
-export default Booking
+  }
+  
+  export default Booking
+  

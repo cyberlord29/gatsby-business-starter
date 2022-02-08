@@ -24,7 +24,7 @@ const Navbar = () => {
     <Nav>
         { show && <ModalContainer>
     <Modal>
-        <Booking lone></Booking>
+        <Booking close={()=>toggleModal(false)} lone></Booking>
      </Modal>
  </ModalContainer>}
            <NavbarContainer>

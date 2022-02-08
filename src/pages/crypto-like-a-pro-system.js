@@ -4,6 +4,7 @@ import { Banner, CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/andy1.png'
+import clpt from '../img/clpt.jpg'
 
 const Mentors = () => {
     return(
@@ -192,7 +193,7 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Crypto like a Pro Trading'} description={'Learn to Trade Crypto Like a Pro using our proven winning strategies'}/>
+            <IntroCardCoursePage img={clpt} title={'Crypto like a Pro Trading'} description={'Learn to Trade Crypto Like a Pro using our proven winning strategies'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}

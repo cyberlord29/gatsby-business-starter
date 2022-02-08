@@ -4,6 +4,7 @@ import { CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/alberto1.png'
+import options from '../img/options.jpg'
 
 const Mentors = () => {
     return(
@@ -127,7 +128,7 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Options'} description={'Learn how to buid automated trading systems'}/>
+            <IntroCardCoursePage img={options} title={'Options'} description={'Learn how to buid automated trading systems'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}

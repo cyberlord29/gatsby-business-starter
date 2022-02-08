@@ -4,7 +4,7 @@ import { CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/alberto1.png'
-
+import algo from '../img/algorithms.jpg'
 const Mentors = () => {
     return(
         <FlexContainer style={{padding: "0px 40px"}}>
@@ -167,7 +167,7 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Algorithmic Trading Course'} description={'Learn how to buid automated trading systems'}/>
+            <IntroCardCoursePage img={algo} title={'Algorithmic Trading Course'} description={'Learn how to buid automated trading systems'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}

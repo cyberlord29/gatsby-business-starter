@@ -84,7 +84,7 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
+          href={`${withPrefix('/')}img/favicon.png`}
         />
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"></link>
         <link

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {  IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, YellowButtonContainer, FeatureItem, IntroLeftContainerHeader, FeatureItemLarge } from './IntroCard.element'
-import landing from '../../img/landing.png'
+import indicators from '../../img/indicators.png'
 import axios from 'axios';
 import { navigate } from "gatsby"
 
@@ -20,7 +20,7 @@ const IntroCard = (props) => {
 
     return (
         <div>
-          <IntroCardContainer style={{paddingBottom: "50px"}}>
+          <IntroCardContainer style={{paddingBottom: ""}}>
               <IntroLeftContainerHeader>
                   <div>
                   <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "20px"}}>
@@ -36,7 +36,7 @@ const IntroCard = (props) => {
               <IntroLeftContainer className="" style={{flexBasis: "50%"}}>
                   <div style={{width: "100%"}}>
                       <img
-                          src={landing}
+                          src={indicators}
                           style={{width: "100%", objectFit: "contain", objectPosition: "top right"}}
                           >
                       </img>

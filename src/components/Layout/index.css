@@ -2,8 +2,12 @@
    
 }
 
+.tp-widget-rating{
+   display: none !important;
+}
+
 .font-mobile{
-   padding: 25px 7rem;
+   padding: 25px 7rem !important;
    font-size: 36px;
 }
 

@@ -1,9 +1,8 @@
 import React from 'react'
-import metric from '../../img/metric.svg'
 import facebook from '../../img/facebook.png'
-import like from '../../img/like.png'
 import love from '../../img/love.png'
 import youtube from '../../img/youtube.png'
+import star from '../../img/star.png'
 
 import { Banner, AboutContainer } from './Testimonial.element'
 import { FlexContainer, Header, Underline } from '../../globalStyles'
@@ -15,7 +14,7 @@ const Testimonial = () => {
               <FlexContainer style={{ padding: "2rem 4rem"}}>
                     <div style={{ display: "flex", flexDirection:"row", alignItems: "center", marginLeft: "2px", width: "25%"}}>
                         <img
-                            src={like}
+                            src={star}
                             height={50}
                         >
                         </img>

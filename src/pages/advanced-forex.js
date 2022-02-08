@@ -4,6 +4,7 @@ import { CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/andy1.png'
+import atp1 from '../img/atpp.jpg'
 
 const Mentors = () => {
     return(
@@ -225,7 +226,7 @@ price and exit before the move ends
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage title={'Advanced Forex Course'} 
+            <IntroCardCoursePage img={atp1} title={'Advanced Forex Course'} 
             description={'Learn the tools you need to become a consistantly profitable trader in the Forex markets'}/>
                 <CourseItem
                     mentors={<Mentors/>}
