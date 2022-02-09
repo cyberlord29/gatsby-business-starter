@@ -58,7 +58,7 @@ const OverView = () => {
             <IntroTitle style={{fontSize: "28px"}}>
                 About this Course
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                 Together we’re going to be looking for a mixture of 100X coins & tried & tested projects to grow our portfolio. <br/>
                 You’ll get access to my confidential market updates along with my advice about if I’m buying, staking or taking profits.<br/>
                 soon as I have a new investment to add to the portfolio you’ll be alerted right away so you can take action.<br/>
@@ -67,13 +67,13 @@ const OverView = () => {
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
                 Skills you will gain
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                 <Bullet/>This is a Fast Track To Building a sustainable and Long Term 7-Figure Cryptocurrency Portfolio.
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                 <Bullet/>  See how I professionally manage my Crypto Portfolio to maximise long & short term returns. <br/>
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                <Bullet/> Learn how to earn dividends from your crypto portfolio to compound your returns much faster!
             </DescriptionContainer>
         </div>
@@ -84,7 +84,7 @@ const OverView = () => {
             <IntroTitle style={{fontSize: "18px"}}>
             <Bullet/> Create a passive portfolio that is built to make money
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginBottom: "30px", marginTop: "20px", paddingLeft: "25px", color:"#172647"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginBottom: "30px", marginTop: "20px", paddingLeft: "40px", color:"#172647"}}>
             Here is where the rubber really meets the road as you will get the same high, medium
 & low risk crypto investments that I will personally be investing in! You will get 6
 months of everything you need to know to help your portfolio continue to grow!
@@ -98,7 +98,7 @@ minimal effort.
         <IntroTitle style={{fontSize: "18px"}}>
         <Bullet/> Get my confidential Crypto updates
         </IntroTitle>
-        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginBottom: "30px",marginTop: "20px", color:"#172647", paddingLeft: "25px"}}>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginBottom: "30px",marginTop: "20px", color:"#172647", paddingLeft: "40px"}}>
         Let me save you thousands of hours in research AND remove ALL of the guesswork.
 Included in the programme you will get confidential crypto reports to find out the latest
 mega trends and entry & exit points
@@ -109,7 +109,7 @@ me to keep your account growing as fast as us.
         <IntroTitle style={{fontSize: "18px"}}>
         <Bullet/> Beginner Friendly
         </IntroTitle>
-        <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "20px", marginBottom: "20px", paddingLeft: "25px", color:"#172647"}}>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "20px", marginBottom: "20px", paddingLeft: "40px", color:"#172647"}}>
         To help you along the way, included in the programme is a step-by-step guide to get
 you set up with all the software you need to get started. I know that it’s a minefield out
 there trying to find what the best software is to use and more importantly... how to use
@@ -151,35 +151,35 @@ mere 15 minutes per day.
         <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
                 Skyrocket your passive income & stacking rewards!
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Knowing how and when to maximise your gains to increase your ROI is a skill that most investors will never fully understand. <br/>
             Here I will share with you some of the key secrets that I have learned during my career.            
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
                 6 months VIP Group Membership
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Our own private group for members only where we can discuss how our low, medium and high risk investments are going along <br/>
             with the latest news and views from the world of Cryptocurrency.         
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
             Crypto Trade Tracker
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Being organised and tracking your trading is crucial to success which is why I created this Crypto Trade Tracker for my own personal use.<br/>
             Now you will get full access to this in order to track your own trades.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
             Live Mind Medicine
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Get access to my wealth building mindset audios that I listen to on a daily basis<br/>
             so that I can keep myself grounded when investing in the crypto markets.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
             My Personal Power Routine
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Learn how I create a power routine to make sure that I set myself up for success<br/>
             whatever I put mymind to and how you can apply this into your daily lives too!
             </DescriptionContainer>

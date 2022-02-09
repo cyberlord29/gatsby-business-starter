@@ -4,8 +4,8 @@ import useSiteMetadata from '../SiteMetadata';
 import { withPrefix } from 'gatsby';
 import { Navbar, Footer } from '../../components';
 import GlobalStyle from '../../globalStyles';
-import "@fontsource/league-spartan/300.css";
-import "@fontsource/league-spartan/600.css";
+import "@fontsource/league-spartan/400.css";
+import "@fontsource/league-spartan/700.css";
 
 import "./index.css";
 
