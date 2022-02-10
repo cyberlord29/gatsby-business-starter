@@ -12,7 +12,7 @@ import algo from '../../img/algorithms.jpg'
 import options from '../../img/options.jpg'
 import intro from '../../img/intro.jpg'
 
-const Course = ({title, duration, img, page, difficulty}) => {
+const Course = ({title, duration, img, page, difficulty, crypto}) => {
     return (
         <CourseItem onClick={()=>navigate(page)}>
             <div style={{height: "185px"}}>
@@ -44,6 +44,9 @@ const Course = ({title, duration, img, page, difficulty}) => {
                     </img>
                     <div style={{fontSize: "13px", marginLeft: "5px"}}>{difficulty?difficulty:'Beginner'}</div>
                 </div>
+                <div style={{display: "flex", alignItems: "center", marginLeft: "10px"}}>
+                    <div style={{fontSize: "11px", marginLeft: "5px", color: "white", background: "#FFAB00", padding: "2px 5px", borderRadius: "6px"}}>{crypto?'CRYPTO':'FOREX'}</div>
+                </div>
             </div>
         </CourseItem>
     )
@@ -70,20 +73,21 @@ const Courses = (props) => {
                 <FlexContainer>
                     <Course title="Free Introductory Course" page={'/intro-forex-course'} img={intro} duration={"1 month"}/>
                     <Course 
-                        title="Crypto Like a Pro Investing"
-                        duration={"6 months"}
-                        img={clp}
-                        page={'/crypto-like-a-pro'}
-                    />
-                    <Course 
                         title="Associate Trader Programme"
                         img={atp}
                         duration={"3 months"}
                         page={'/associate-trader-programme'}
                     />
+                    <Course 
+                        title="Crypto Like a Pro Investing"
+                        duration={"6 months"}
+                        img={clp}
+                        page={'/crypto-like-a-pro'}
+                        crypto
+                    />
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"}/>
+                    <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"} crypto/>
                     {/* <Course title="Algorithms" img={algo} duration={"1 month"} difficulty={"intermediate"}/>
                     <Course title="Advanced Forex" img={atp1} duration={"1 month"} difficulty={"intermediate"}/> */}
                 </FlexContainer>

@@ -6,6 +6,7 @@ import star from '../../img/star.png'
 
 import { Banner, AboutContainer } from './Testimonial.element'
 import { FlexContainer, Header, Underline } from '../../globalStyles'
+import { DescriptionContainer, IntroTitle } from '../IntroCard/IntroCard.element'
 
 const Testimonial = () => {
     return (
@@ -73,13 +74,41 @@ const Testimonial = () => {
                         <div style={{textAlign: "center", fontSize: "24px"}}>
                             Here's what people say
                         </div>
-                    <div id="trustpilot" className="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5d5379337341e9000183edcc" data-style-height="24px" data-style-width="100%" data-theme="light">
-                    <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">Trustpilot</a>
-                    </div>
-                    <div style={{marginTop: "5px"}}>Excellent</div>
-                    <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
-                    <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
-                    </a>
+                        <div id="trustpilot" className="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5d5379337341e9000183edcc" data-style-height="24px" data-style-width="100%" data-theme="light">
+                        <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">Trustpilot</a>
+                        </div>
+                        <div style={{marginTop: "5px"}}>Excellent</div>
+                        <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
+                        <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
+                        </a>
+                        <div style={{display: "flex", flexDirection: "row", width: "200%", overflow: "scroll", marginTop: "20px"}}>
+                            <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                Confused trader to a confident trader and investor in Cryptos</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Neet, AUS</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>I’ve been following Andy Demi from London Trading Institute online for almost 18 months. I was a struggling trader with no focus or direction. Switching from coach to coach and strategy to strategy losing money continuously and on a quest to find that 1 perfect mentor to help me be a successful trader. So I made the decision and have recently signed up with Andy for one to one coaching. The last 3 months have been the most rewarding 3 months in my 4 years of learning to trade. Andy’s passion and wealth of knowledge is incredible! He is selfless, patient and one thing that really stands out is that he is always the same person. Every time I watch the live shows or have a coaching session he is Calm, focused and so very humble.
+                                </DescriptionContainer>
+                            </div>
+                            <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                Complex trading made simple</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Garry Hartley, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>I’ve been LTI for about a year now. Andy has an outstanding ability to explain complex trading in simple terms to all abilities, and the rest of the team like Dan and Ben are just as helpful. The team are able to advance your knowledge of the markets very quickly and are able to teach you market quirks that only traders of the highest level would know. I would strongly recommend them.
+                                </DescriptionContainer>
+                            </div>
+                            <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                I've been on my journey with LTI now…</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Gavin Miller, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>I've been on my journey with LTI now for around 6 months and started with no knowledge of the FX Market.
+The course content is incredibly thorough and the support you get from the LTI team (Andy Demi + Dan Tyler) is brilliant.
+Learning with the LTI has been a great experience and have no hesitation in recommending these guys.
+                                </DescriptionContainer>
+                            </div>
+                        </div>
                     </div>
             </AboutContainer>
         </div>

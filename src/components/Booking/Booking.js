@@ -19,8 +19,8 @@ const Booking = ({lone, close}) => {
     return (
         <div id="calendly" style={{backgroundColor: "#F7F9FF", padding: `${lone?"0px":"5%"}`}}>
           <Banner style={{ height: "auto", borderRadius: "6px" }}>
-          <span style={{textAlign: "right", marginLeft: "100%", fontSize: "20px", cursor: "pointer", color: "grey"}}
-            onClick={close}>&#x2715;</span>
+          {lone && <span style={{textAlign: "right", marginLeft: "100%", fontSize: "20px", cursor: "pointer", color: "grey"}}
+            onClick={close}>&#x2715;</span>}
           <div style={{display: "flex",flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
           <div style={{ marginBottom: "20px" }}>
             <div style={{ marginBottom: "8px"}}>

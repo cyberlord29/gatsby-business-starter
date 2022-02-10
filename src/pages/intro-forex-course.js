@@ -5,7 +5,7 @@ import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroC
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/andy1.png'
 import intro from '../img/intro.jpg'
-
+    
 const Mentors = () => {
     return(
         <FlexContainer style={{padding: "0px 40px"}}>
@@ -111,25 +111,25 @@ const OverView = () => {
     return(
         <>
         <div style={{padding: "0px 40px"}}>
-            <IntroTitle style={{fontSize: "28px"}}>
+            <IntroTitle style={{fontSize: "24px"}}>
                 About this Course
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Learn what it takes to become a successful Forex trader. This course is aimed to give you an introduction into the world of Forex trading. To become a successful trader, you must have variety of attributes, this course aims to give you an insight into what those attributes are and how you as an individual can fully benefit. Every trader is different, this course will help you identify what kind of trader you will be and what areas to focus on.<br/><br/>
             You should take this course if you are interested in becoming a trader, either as a profession or to supplement your income. This will give you a good grounding about what it takes to become a trader.<br/><br/>
             There are 5 sections to this course that go into giving you a succinct introduction to the FX market, technical analysis, risk management, strategies and trading psychology.<br/><br/>
             This course gives you a strong base to tackle the financial markets better than your average newbie. This course also gives you a solid base to approach our 3 month programme with a head strart. To take your trading to a professional standard it is recommended that you goes through our 12 month programme upon completion of the course to reach that advanced, professional level.
             </DescriptionContainer>
-            <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
+            <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
                 Skills you will gain
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                 <Bullet/> How to Identify Lots of High Probability and High Profit Trading Opportunities.
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                 <Bullet/>  The Professional Way to Protect Yourself when Entering a Trade. <br/>
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                <Bullet/> The Key Skills You Need to Learn so that You can consistently make (and keep) the money that you make as a Trader.
             </DescriptionContainer>
         </div>
