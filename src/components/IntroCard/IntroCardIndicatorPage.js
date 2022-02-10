@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {  IntroCardContainer, IntroTitle, DescriptionContainer, IntroLeftContainer, YellowButtonContainer, FeatureItem, IntroLeftContainerHeader, FeatureItemLarge } from './IntroCard.element'
-import indicators from '../../img/indicators.png'
+import indicators from '../../img/tradingimage.jpg'
 import axios from 'axios';
 import { navigate } from "gatsby"
 
