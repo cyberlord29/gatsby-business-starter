@@ -140,8 +140,8 @@ solid foundation to build upon.<br/><br/>
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
         <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-                Below are the core learning objectives for this course:
-            </IntroTitle>
+            Below are the core learning objectives for this course:
+        </IntroTitle>
         <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             <Bullet></Bullet>Trading Like a Business
         </DescriptionContainer>

@@ -108,13 +108,20 @@ const OverView = () => {
               Cutting Edge Crypto Trading Secrets
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", marginTop: "30px", color:"#172647"}}>
-                <Bullet/> Discover my momentum strategy to catch Crypto Trades that are ready to breakout & explode higher to give us a greater ROI opportunity.
+                <Bullet/> Discover my momentum strategy to catch high probability
+cryptocurrency trades that are ready to breakout &amp; explode
+higher to give us a greater Return on Investment (ROI)
+opportunity.
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", marginTop: "30px", color:"#172647"}}>
                 <Bullet/> Discover the exact system that I have developed for tracking & trading over 50 Crypto Coins - spending less that 1 hour a day screen time in the process.
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#172647", marginTop: "15px"}}>
-                <Bullet/> Understand the exact criteria that I use to identify my trade & risk management strategy in order to maximise my P&L and ROI. You will also learn how to manage money flow like a pro to maximise your wins.
+                <Bullet/> Understand the exact criteria that I use to identify my trade
+&amp; risk management strategy in order to maximise my profit
+&amp; loss (P&amp;L) and ROI. You will also learn how to manage
+institutional money flow to maximise your wins and
+become part of the top 1% of investors.
             </DescriptionContainer>
         </div>
         <CourseBanner>
@@ -165,25 +172,25 @@ const OverView = () => {
               <Bullet/>Crypto Like a Pro System
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>2 Wks Live Q&A & Coaching
+              <Bullet/>3 months of live Q&amp;A’s &amp; Coaching
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>3 hrs Live Trading Analysis
+              <Bullet/>Monthly live trading analysis
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>All Live training recordings
+              <Bullet/>All live training recordings
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>3 Months VIP Group Support
+              <Bullet/>3 months VIP group support
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>Crypto Trade Tracker sheet
+              <Bullet/>Crypto trade tracker sheet
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>Beginner Bonus Programme
+              <Bullet/>Beginner bonus programme
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>My Complete Crypto Hotlist
+              <Bullet/>My complete crypto hotlist
             </DescriptionContainer>
         </div>
         </>
