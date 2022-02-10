@@ -19,7 +19,8 @@ import Booking from '../Booking/Booking'
 
 const Navbar = () => {
     const [show, toggleModal]  = useState(false)
-
+    const [menu, toggleMenu] = useState(false);
+    console.log(window.location.pathname)
     return (
     <Nav>
         { show && <ModalContainer>
@@ -27,8 +28,8 @@ const Navbar = () => {
         <Booking close={()=>toggleModal(false)} lone></Booking>
      </Modal>
  </ModalContainer>}
-           <NavbarContainer>
-             <NavIconContainer to = '/'>
+           <NavbarContainer style={{justifyContent: !menu?'space-between':'' }}>
+             {!menu && <NavIconContainer to = '/'>
                 <IconLabelContainer>
                     <IconLabel>
                         <img
@@ -40,7 +41,27 @@ const Navbar = () => {
                     </IconLabel>
                 </IconLabelContainer>
             </NavIconContainer> 
-             <NavMenu className="no-mobile">
+            }   
+            {window.screen.availWidth < 500 && !menu && 
+            <div className="burger" style={{textAlign: "right", cursor: "pointer", padding: "10px"}} onClick={toggleMenu}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>}
+             <NavMenu className={!menu?'no-mobile':""}>
+             {menu && <NavIconContainer to = '/'>
+                <IconLabelContainer>
+                    <IconLabel>
+                        <img
+                            className="icon"
+                            src={logo}
+                            height={50}
+                        >
+                        </img>
+                    </IconLabel>
+                </IconLabelContainer>
+            </NavIconContainer> 
+            }   
                 <NavItem>
                     <NavLink to="/">
                         Home

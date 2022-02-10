@@ -33,6 +33,13 @@
    margin: 30px 0px;
 }
 
+.burger > div {
+   border: 2px solid;
+   margin: 9px;
+   width: 30px;
+   border-radius: 20px;
+}
+
 @media (max-width: 500px) {
    .no-mobile{
       width: 100%;
@@ -48,7 +55,7 @@
       padding: 0px 20px;
    }
    .alberto-pic{
-      width: 100%;
+      width: 100% !important;
    }
    .font-mobile{
       padding: 2rem !important;
@@ -57,5 +64,8 @@
    .yt-video{
       width: 340px;
       height: 230px
+   }
+   .mobile-reverse-col{
+      flex-direction: column-reverse !important;
    }
 }

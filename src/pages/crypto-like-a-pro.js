@@ -84,7 +84,7 @@ const OverView = () => {
             <IntroTitle style={{fontSize: "24px"}}>
             <Bullet/> Create a passive portfolio that is built to make money
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginBottom: "30px", marginTop: "20px", paddingLeft: "40px", color:"#172647"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginBottom: "30px", marginTop: "20px", paddingLeft: "35px", color:"#172647"}}>
             Here is where the rubber really meets the road as you will get the same high, medium
 & low risk crypto investments that I will personally be investing in! You will get 6
 months of everything you need to know to help your portfolio continue to grow!
@@ -98,7 +98,7 @@ minimal effort.
         <IntroTitle style={{fontSize: "24px"}}>
         <Bullet/> Get my confidential Crypto updates
         </IntroTitle>
-        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginBottom: "30px",marginTop: "20px", color:"#172647", paddingLeft: "40px"}}>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginBottom: "30px",marginTop: "20px", color:"#172647", paddingLeft: "35px"}}>
         Let me save you thousands of hours in research AND remove ALL of the guesswork.
 Included in the programme you will get confidential crypto reports to find out the latest
 mega trends and entry & exit points
@@ -106,10 +106,10 @@ It doesn’t stop there...  <br/><br/>As I come across some extra projects that 
 portfolio but have a high probability of 2/3X returns then you’ll also get an update from
 me to keep your account growing as fast as us.
         </DescriptionContainer>
-        <IntroTitle style={{fontSize: "18px"}}>
+        <IntroTitle style={{fontSize: "24px"}}>
         <Bullet/> Beginner Friendly
         </IntroTitle>
-        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "20px", marginBottom: "20px", paddingLeft: "40px", color:"#172647"}}>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "20px", marginBottom: "20px", paddingLeft: "35px", color:"#172647"}}>
         To help you along the way, included in the programme is a step-by-step guide to get
 you set up with all the software you need to get started. I know that it’s a minefield out
 there trying to find what the best software is to use and more importantly... how to use

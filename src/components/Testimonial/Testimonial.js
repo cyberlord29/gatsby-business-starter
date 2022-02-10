@@ -81,7 +81,7 @@ const Testimonial = () => {
                         <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
                         <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
                         </a>
-                        <div style={{display: "flex", flexDirection: "row", width: "200%", overflow: "scroll", marginTop: "20px"}}>
+                        <div style={{display: "flex", flexDirection: "row", width: "100%", overflow: "scroll", marginTop: "20px", display: "-webkit-inline-box"}}>
                             <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 Confused trader to a confident trader and investor in Cryptos</IntroTitle>

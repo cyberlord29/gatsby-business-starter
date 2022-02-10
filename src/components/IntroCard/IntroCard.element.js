@@ -40,7 +40,7 @@ export const FeatureItem = styled.div`
   width: 100px;
   height: 100px;
   text-align: center;
-  margin-right: 5%;
+  margin: 0 2%;
   padding: 10px;
   font-size: 14px;
 `;

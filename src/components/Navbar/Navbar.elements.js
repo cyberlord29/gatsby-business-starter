@@ -11,6 +11,8 @@ export const NavbarContainer = styled.div`
     display: flex;
     height: 70px;
     width: 100%;
+    justify-content: space-between;
+
 `;
 
 export const NavIconContainer = styled(Link)`
@@ -20,6 +22,10 @@ export const NavIconContainer = styled(Link)`
     align-items: center;
     cursor: pointer;
     display: flex;
+    @media (max-width: 500px) {
+        flex-basis: 0;
+    }
+
 `;
 
 export const IconLabelContainer = styled.div`
@@ -41,6 +47,13 @@ export const NavMenu = styled.ul`
     list-style: none;
     justify-content: right;
     margin-right: 0;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+        z-index: 120;
+    }
 `;
 
 export const NavItem = styled.li`
@@ -54,22 +67,26 @@ export const NavItem = styled.li`
 export const NavLink = styled(Link)`
     display: flex;
     color: #132b4c;
-    font-size: 1rem;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 0rem 0.5rem 2rem;
     height: 100%;
     width: 100%;
-
     &:active {
         color: black;
     }
+    font-size: ${props => props.to === window.location.pathname ? '1.25rem' :'1rem'};
     &:hover {
         color: black
     }
     ${props => props.bold && css`
         color: black
     `}
+    @media (max-width: 500px) {
+        justify-content: left;
+        background: white;
+    }
+
 `;
 
 export const ActiveIcon = styled.div`

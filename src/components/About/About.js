@@ -56,7 +56,7 @@ const About = (props) => {
             </Banner>
             <Banner></Banner>
             <AboutContainer>
-                <FlexContainer style={{alignItems: "center"}}>
+                <FlexContainer className="mobile-reverse-col" style={{alignItems: "center"}}>
                     <div style={{padding: "50px"}}>
                     <div style={{fontSize: "24px", color:"#172647"}}>
                             Who are the London Trading Institute?
@@ -97,7 +97,7 @@ const About = (props) => {
                         </div>
                     </div>
                 </FlexContainer>
-                <FlexContainer style={{alignItems: "center"}}>
+                <FlexContainer className="mobile-reverse-col" style={{alignItems: "center"}}>
                     <div style={{padding: "50px"}}>
                     <div style={{fontSize: "24px", color:"#172647"}}>
                             Who is Alberto Pallotta ?
