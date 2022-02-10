@@ -36,7 +36,7 @@ const IntroCard = (props) => {
                 </DescriptionContainer>
                 <div style={{display: "flex"}}>
                     <InputField onChange={(e)=>{setEmail(e.target.value)}} placeholder="Type your email"></InputField>
-                    <Button onClick={submitLead}>SUBMIT</Button>
+                    <Button style={{borderTopLeftRadius:"0px", borderBottomLeftRadius: "0px"}} onClick={submitLead}>SUBMIT</Button>
                 </div>
                 <DescriptionContainer  style={{fontSize: "12px", marginTop: "5px", color: "#8790A5"}}>
                     {'Meet Like-Minded Members and Learn Faster.'}
