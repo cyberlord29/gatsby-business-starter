@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout ,Testimonial, Booking, IntroCardCoursePage, CourseItem } from '../components'
-import { CourseBanner } from '../components/Courses/Courses.elements'
+import { Banner, CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/andy1.png'
@@ -115,23 +115,57 @@ const OverView = () => {
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-            Learn what it takes to become a successful Forex trader. This course is aimed to give you an introduction into the world of Forex trading. To become a successful trader, you must have variety of attributes, this course aims to give you an insight into what those attributes are and how you as an individual can fully benefit. Every trader is different, this course will help you identify what kind of trader you will be and what areas to focus on.<br/><br/>
+            Learn what it takes to become a successful Forex trader. This course is aimed to give you an introduction into the world of Forex trading. <br/><br/>
+            To become a successful trader, you must have variety of attributes, this course aims to give you an insight into what those attributes are and how you as an individual can fully benefit. Every trader is different, this course will help you identify what kind of trader you will be and what areas to focus on.<br/><br/>
             You should take this course if you are interested in becoming a trader, either as a profession or to supplement your income. This will give you a good grounding about what it takes to become a trader.<br/><br/>
             There are 5 sections to this course that go into giving you a succinct introduction to the FX market, technical analysis, risk management, strategies and trading psychology.<br/><br/>
             This course gives you a strong base to tackle the financial markets better than your average newbie. This course also gives you a solid base to approach our 3 month programme with a head strart. To take your trading to a professional standard it is recommended that you goes through our 12 month programme upon completion of the course to reach that advanced, professional level.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-                Skills you will gain
+                <Bullet/>Learn Your Trading Style
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/> How to Identify Lots of High Probability and High Profit Trading Opportunities.
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
+            Every trader is different, and thus there is no such thing as a one size fits all
+trading approach. However, there is a correct way of doing things that every
+trader must follow. This course will help you identify some of those things
+and help you pinpoint what type of trader you will be and what areas to focus
+on.<br/><br/>
+You should take this course if you are interested in becoming a Forex trader,
+either as a profession or to supplement your income. This will give you a
+solid foundation to build upon.<br/><br/>
             </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-                <Bullet/>  The Professional Way to Protect Yourself when Entering a Trade. <br/>
-            </DescriptionContainer>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-               <Bullet/> The Key Skills You Need to Learn so that You can consistently make (and keep) the money that you make as a Trader.
-            </DescriptionContainer>
+        </div>
+        <CourseBanner>
+            Course Learning Objectives
+        </CourseBanner>
+        <div style={{padding: "0px 40px"}}>
+        <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
+                Below are the core learning objectives for this course:
+            </IntroTitle>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>Trading Like a Business
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>How much can you earn as an FX Trader just getting started
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>How long do I need to study before I can start making money?
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>What is the best strategy/indicators I should use to get the most profit?
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>Can anyone succeed at trading or do I need a certain type of profile
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>Is it true that it’s very difficult to make money from trading?
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>How do I make a few extra hundred pounds whilst working a fulltime job?
+        </DescriptionContainer>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            <Bullet></Bullet>How much time do I need to learn trading?
+        </DescriptionContainer>
         </div>
         </>
     )
