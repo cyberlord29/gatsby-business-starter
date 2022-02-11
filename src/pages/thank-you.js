@@ -15,7 +15,7 @@ const AboutPage = () => {
                   Thank you for your Interest
                 </IntroTitle>
                 <Underline></Underline>
-                <DescriptionContainer style={{margin: "20px 0px"}}>
+                <DescriptionContainer style={{margin: "20px 0px", padding: "20px", textAlign: "center"}}>
                 We've just sent you an email. Please check both your inbox and spam folder. If you don't receive an email within 30 minutes please  email us at info@londontradinginstitute.com or call us at 02038877398. 
                 </DescriptionContainer>
                 <div style={{margin: "30px 0px"}}>

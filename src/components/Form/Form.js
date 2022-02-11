@@ -8,7 +8,7 @@ import { set } from 'lodash';
 
 const IndexPage = ({emailInput, showInput, course}) => {
   const [display, toggleModal] = useState(false)
-  const [email, setEmail]  = useState()
+  const [email, setEmail]  = useState(setEmail)
   const [name, setName]  = useState()
   const [mobile, setMobile]  = useState()
 
@@ -54,7 +54,7 @@ const IndexPage = ({emailInput, showInput, course}) => {
                     <Label>
                         Email
                     </Label>
-                    <InputField onChange={(e)=>{setEmail(e.target.value)}} id="email" value={emailInput?emailInput:email}/>
+                    <InputField onChange={(e)=>{setEmail(e.target.value)}} id="email" value={email}/>
                 </InputContainer>
                 <Button style={{fontSize: "30px"}} onClick={submitLead}>Submit</Button>
             </FormContainer>
