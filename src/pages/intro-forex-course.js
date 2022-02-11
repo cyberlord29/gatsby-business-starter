@@ -167,6 +167,27 @@ solid foundation to build upon.<br/><br/>
             <Bullet></Bullet>How much time do I need to learn trading?
         </DescriptionContainer>
         </div>
+        <CourseBanner>
+            Next Steps to Trading Success
+        </CourseBanner>
+        <div style={{padding: "0px 40px"}}>
+        <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+            This Beginner FX Course gives you a strong base to tackle the financial
+            markets better than your average newbie.
+            Upon completion we recommend you consider taking your trading to another
+            level by completing our 3-month Associate Trader Programme (link).
+            This programme will not only give you the knowledge to consistently win at
+            trading, but you will also have the support of expert trading professionals
+            with decades of trading experience at institutional level.
+
+            No more guessing which trading tools to use, or which indicators are the
+            best. You will be guided to build your own custom trade plan that works for
+            your personality and profile.
+
+            This is the professional trader’s approach and how you can win at FX
+            trading.
+        </DescriptionContainer>
+        </div>
         </>
     )
 }
