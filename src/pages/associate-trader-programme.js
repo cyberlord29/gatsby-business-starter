@@ -121,9 +121,9 @@ const OverView = () => {
                 To learn Forex trading professionally requires commitment, a desire to succeed, and a helping hand from industry professionals who have been where you are and have come out of the other side. You will learn to trade Forex directly from senior traders, who make a living in trading, and mentors whose life’s work is to create successful traders.This inside knowledge is invaluable in your journey of learning how to trade the financial markets.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
-            <Bullet/>Flexible Learning Options
+                Flexible Learning Options
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "35px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             We understand that many people are unable to commit a large amount of time to a thorough trading education due to family / work commitments. So we have ensured that all our trading programmes have the flexibility to be delivered on your terms, on your budget, and around your schedules, without neglecting the quality of the teaching. Regardless of the method or the period, the education you receive will be second to none.
 If attending a trading programme in London is not possible, why not join us on our award-winning online trading course? It will still allow you to access the same trading education and unparalleled support without ever having to leave your house.
 You’re unique – so why would you ever go for a “one-size-fits-all” approach to your learning?<br/><br/>

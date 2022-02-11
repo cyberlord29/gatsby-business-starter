@@ -3,13 +3,10 @@ import { Banner, CoursesContainer, Header, Button, CourseItem } from './Courses.
 import { FlexContainer, Underline } from '../../globalStyles'
 import time from '../../img/time.jpg'
 import learn from '../../img/learn.jpg'
-import { Link, navigate } from 'gatsby'
+import { navigate } from 'gatsby'
 import clp from '../../img/clp.jpg'
 import atp from '../../img/atp1.jpg'
-import atp1 from '../../img/atpp.jpg'
 import clpt from '../../img/clpt.jpg'
-import algo from '../../img/algorithms.jpg'
-import options from '../../img/options.jpg'
 import intro from '../../img/intro.jpg'
 
 const Course = ({title, duration, img, page, difficulty, crypto}) => {

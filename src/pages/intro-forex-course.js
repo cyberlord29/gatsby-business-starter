@@ -176,7 +176,7 @@ solid foundation to build upon.<br/><br/>
             This Beginner FX Course gives you a strong base to tackle the financial
             markets better than your average newbie.
             Upon completion we recommend you consider taking your trading to another
-            level by completing our 3-month Associate Trader Programme (link).
+            level by completing our <Link to="/associate-trader-programme">3-month Associate Trader Programme</Link>.<br/><br/>
             This programme will not only give you the knowledge to consistently win at
             trading, but you will also have the support of expert trading professionals
             with decades of trading experience at institutional level.
