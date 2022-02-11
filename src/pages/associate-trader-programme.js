@@ -142,7 +142,7 @@ If you would like to discuss which options would be most suitable for you, let�
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
                <Bullet/>Technical Analysis
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "35px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
             A big focus of the Associate Trading Programme is teaching you how to use trading charts to predict the likely direction of the market. Some of the topics include Supply and Demand, Price Action Trading, Trading Indicators, Chart Patterns and Wave Analysis.
 Technical analysis, when used correctly, will allow you to learn how to trade Forex like the professionals do.  No longer will you be the last one in on a big move and wonder why you are never in at the right time – or equally frustrating – in at the right time, but on the wrong side of the move.
 <br/><br/>
@@ -153,7 +153,7 @@ Crucially, you will learn how to piece all these together to form your very own 
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
             <Bullet/>Fundamental Analysis
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "35px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
                 Fundamental Analysis is the study of macro-economic data and its effect on the markets.
                 In this course, you will learn how and why news releases affect currency prices, what specific data to focus on, and how to incorporate this knowledge into your overall analysis, giving you a competitive advantage in trading.
                 <br/><br/>
@@ -165,7 +165,7 @@ Crucially, you will learn how to piece all these together to form your very own 
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
             <Bullet/>Trading Psychology
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "35px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
                 Trading psychology is a fundamental component of successful trading. It is one of the main reasons over 90% of new traders are unable to find consistent profitability.
                 It is far too frequently overlooked by traders and educators alike – but experience shows that without learning to understand your own trading psychology, you are missing a key ingredient for success.
                 <br/><br/>
@@ -175,7 +175,7 @@ Crucially, you will learn how to piece all these together to form your very own 
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
             <Bullet/>Risk and Money Management
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "35px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
             Risk and money management is a fundamental component to trade successfully.
             In this section you will learn how to limit your risk and maximise your profit. When learning how to trade it is more important to focus on protecting your account rather than focussing on the how much money you are going to make. 
             It is a common mistake for beginners learning to trade, to only think about how much money they are going to make if the trade works out.
@@ -196,7 +196,7 @@ Crucially, you will learn how to piece all these together to form your very own 
             <IntroTitle style={{fontSize: "24px", marginTop: "0px"}}>
                 Successful completion means you would have achieved the following core objectives:
             </IntroTitle>
-            <div style={{marginLeft: "20px", marginTop: "20px"}}>
+            <div style={{marginLeft: "0px", marginTop: "20px"}}>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
                 <Bullet/>Development and implementation of your own Trade Plan that incorporates good Equity and Risk Management
             </DescriptionContainer>
