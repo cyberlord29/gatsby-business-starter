@@ -75,7 +75,7 @@ export const NavLink = styled(Link)`
     &:active {
         color: black;
     }
-    font-size: ${props => props.to === window.location.pathname ? '1.25rem' :'1rem'};
+    font-size: ${props => props.to === typeof window !== "undefined" && window.location.pathname ? '1.25rem' :'1rem'};
     &:hover {
         color: black
     }
