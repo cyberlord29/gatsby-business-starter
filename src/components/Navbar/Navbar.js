@@ -20,7 +20,6 @@ import Booking from '../Booking/Booking'
 const Navbar = () => {
     const [show, toggleModal]  = useState(false)
     const [menu, toggleMenu] = useState(false);
-    console.log(window.location.pathname)
     return (
     <Nav>
         { show && <ModalContainer>
