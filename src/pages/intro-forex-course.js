@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import { Layout ,Testimonial, Booking, IntroCardCoursePage, CourseItem } from '../components'
 import { Banner, CourseBanner } from '../components/Courses/Courses.elements'
@@ -122,9 +123,9 @@ const OverView = () => {
             This course gives you a strong base to tackle the financial markets better than your average newbie. This course also gives you a solid base to approach our 3 month programme with a head strart. To take your trading to a professional standard it is recommended that you goes through our 12 month programme upon completion of the course to reach that advanced, professional level.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-                <Bullet/>Learn Your Trading Style
+            Learn Your Trading Style
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             Every trader is different, and thus there is no such thing as a one size fits all
 trading approach. However, there is a correct way of doing things that every
 trader must follow. This course will help you identify some of those things
@@ -179,14 +180,20 @@ solid foundation to build upon.<br/><br/>
             This programme will not only give you the knowledge to consistently win at
             trading, but you will also have the support of expert trading professionals
             with decades of trading experience at institutional level.
+            </DescriptionContainer>
 
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
             No more guessing which trading tools to use, or which indicators are the
             best. You will be guided to build your own custom trade plan that works for
             your personality and profile.
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
 
-            This is the professional trader’s approach and how you can win at FX
-            trading.
-        </DescriptionContainer>
+            This is the professional trader’s approach and how you can win at FX trading.
+            </DescriptionContainer>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
+                You may also be interested in the <Link to="/associate-trader-programme">3 Month Associate Trader Programme</Link>.
+            </DescriptionContainer>
         </div>
         </>
     )

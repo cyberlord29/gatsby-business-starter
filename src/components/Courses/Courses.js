@@ -3,7 +3,7 @@ import { Banner, CoursesContainer, Header, Button, CourseItem } from './Courses.
 import { FlexContainer, Underline } from '../../globalStyles'
 import time from '../../img/time.jpg'
 import learn from '../../img/learn.jpg'
-import { navigate } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 import clp from '../../img/clp.jpg'
 import atp from '../../img/atp1.jpg'
 import atp1 from '../../img/atpp.jpg'
@@ -66,9 +66,9 @@ const Courses = (props) => {
                         </div>
                         <Underline width={10}/>
                     </div>
-                    {/* <Button>
+                    <Button onClick={()=> navigate('/courses')}>
                         ALL COURSES
-                    </Button> */}
+                    </Button>
                 </Header>
                 <FlexContainer>
                     <Course title="Free Introductory Course" page={'/intro-forex-course'} img={intro} duration={"1 month"}/>
