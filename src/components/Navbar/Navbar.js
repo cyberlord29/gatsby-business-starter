@@ -20,6 +20,8 @@ import Booking from '../Booking/Booking'
 const Navbar = () => {
     const [show, toggleModal]  = useState(false)
     const [menu, toggleMenu] = useState(false);
+    const isBrowser = () => typeof window !== "undefined"
+
     return (
     <Nav>
         { show && <ModalContainer>
@@ -41,7 +43,7 @@ const Navbar = () => {
                 </IconLabelContainer>
             </NavIconContainer> 
             }   
-            {window.screen.availWidth < 500 && !menu && 
+            { isBrowser() && window.screen.availWidth < 500 && !menu && 
             <div className="burger" style={{textAlign: "right", cursor: "pointer", padding: "10px"}} onClick={toggleMenu}>
                     <div></div>
                     <div></div>
