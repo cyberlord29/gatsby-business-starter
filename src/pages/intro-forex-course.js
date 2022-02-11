@@ -1,8 +1,8 @@
 import { Link } from 'gatsby'
-import React from 'react'
-import { Layout ,Testimonial, Booking, IntroCardCoursePage, CourseItem } from '../components'
+import React, { useState } from 'react'
+import { Layout ,Testimonial, Booking, IntroCardCoursePage, CourseItem, Form } from '../components'
 import { Banner, CourseBanner } from '../components/Courses/Courses.elements'
-import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
+import { Button, DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
 import { Bullet, FlexContainer } from '../globalStyles'
 import andy1 from '../img/andy1.png'
 import intro from '../img/intro.jpg'
@@ -200,14 +200,24 @@ solid foundation to build upon.<br/><br/>
 }
 
 const IndexPage = () => {
+    const [show, toggleModal]  = useState(1)
+
+    const enrollNow = () => {
+        toggleModal(show+1)
+    }
+
     return (
         <Layout>
+            <Form emailInput={''} showInput={show} course={'Introductory Trading Course Access'}/>
             <IntroCardCoursePage img={intro} title={'Introductory Forex Course'} description={''}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
                 >
                 </CourseItem>
+                <div style={{backgroundColor: "rgb(247, 249, 255)", textAlign: "center", paddingBottom: "20px"}}>
+                <Button onClick={enrollNow}>ENROLL NOW</Button>
+                </div>
             <Testimonial/>
             <Booking/>
             <div id="widget" style={{display: "flex", justifyContent: "center", marginTop: "60px"}}/>

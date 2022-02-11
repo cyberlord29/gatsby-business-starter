@@ -12,7 +12,7 @@ const CourseItem = (props) => {
   const [page, setPage] = useState("Overview")
 
   return(
-    <div style={{backgroundColor:"#F7F9FF", paddingBottom: "50px", display: "flex", flexDirection: "column",
+    <div style={{backgroundColor:"#F7F9FF", paddingBottom: "20px", display: "flex", flexDirection: "column",
       alignItems: "center"
     }}>
       <Navbar style={{paddingTop: "40px"}}>

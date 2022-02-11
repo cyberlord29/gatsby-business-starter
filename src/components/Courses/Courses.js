@@ -69,7 +69,7 @@ const Courses = (props) => {
                 </Header>
                 <FlexContainer>
                     <Course title="Free Introductory Course" page={'/intro-forex-course'} img={intro} duration={"1 month"}/>
-                    <Course 
+                    <Course
                         title="Associate Trader Programme"
                         img={atp}
                         duration={"3 months"}

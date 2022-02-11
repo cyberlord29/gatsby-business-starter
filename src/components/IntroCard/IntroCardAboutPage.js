@@ -36,10 +36,10 @@ const IntroCard = (props) => {
             >
                 <FeatureItemLarge>
                   <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "16px"}}>
-                    Who we are?
+                      Who we are?
                   </IntroTitle>
                   <DescriptionContainer  style={{fontSize: "16px", marginTop: "5px", color: "#8790A5", maxWidth: "500px"}}>
-                  We provide a leading service in trading education and mentorship, recognised globally to help individuals become professional traders.
+                      We provide a leading service in trading education and mentorship, recognised globally to help individuals become professional traders.
                   </DescriptionContainer>
                 </FeatureItemLarge>
                 <FeatureItemLarge>
@@ -47,15 +47,15 @@ const IntroCard = (props) => {
                       What we do?
                     </IntroTitle>
                     <DescriptionContainer  style={{fontSize: "16px", marginTop: "5px", color: "#8790A5", maxWidth: "500px"}}>
-                      We provide a leading service in trading education and mentorship, recognised globally to help individuals become professional traders.
+                      We create successful & disciplined traders through Experience, education & inspiration.
                     </DescriptionContainer>
                 </FeatureItemLarge>
                 <FeatureItemLarge>
                   <IntroTitle style={{letterSpacing: "1.7px", marginBottom: "16px"}}>
-                    Why choose us?
+                      Why choose us?
                   </IntroTitle>
                   <DescriptionContainer  style={{fontSize: "16px", marginTop: "5px", color: "#8790A5", maxWidth: "500px"}}>
-                    We aim to inspire both academic & personal Career advancements.
+                      We aim to inspire both academic & personal Career advancements.
                   </DescriptionContainer>
                 </FeatureItemLarge>
             </FlexContainer>

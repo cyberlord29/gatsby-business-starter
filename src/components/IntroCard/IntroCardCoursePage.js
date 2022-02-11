@@ -9,10 +9,10 @@ axios.defaults.baseURL = 'https://hooks.zapier.com';
 const IntroCard = ({title, description, img}) => {
     const [email, setEmail] = useState(0, "")
     const [show, toggleModal] = useState(1)
-
+    
     const submitLead = () => {
         axios.post(
-            "https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv",
+            `https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv?email=${email}`,
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );

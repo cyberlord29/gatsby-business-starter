@@ -26,7 +26,7 @@ const Mentors = () => {
                         <br/>
                       </div>
                     <div style={{fontSize: "14px",padding: "0px 0px", color: "#4B586A", fontWeight: "normal"}}>
-                    Alberto started his trading career within the financial industry 15 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant.
+                    Alberto started his trading career within the financial industry 17 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant.
                     </div>
                   </div>
             </div>
@@ -75,10 +75,10 @@ const OverView = () => {
         </CourseBanner>
         <div style={{padding: "0px 40px", marginTop: "30px"}}>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-            Alberto has been in the financial industry for more than 15 years. In that time, he has achieved some incredible feats. Here are just a few of the highlights of his experience in the industry:
+            Alberto has been in the financial industry for more than 17 years. In that time, he has achieved some incredible feats. Here are just a few of the highlights of his experience in the industry:
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "30px"}}>
-              <Bullet/> He possesses over 15 years of professional trading experience.
+              <Bullet/> He possesses over 17 years of professional trading experience.
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
               <Bullet/> He is regularly invited to speak in financial markets and economics lectures in major UK universities, including Middlesex University, University of Warwick, London Metropolitan University.

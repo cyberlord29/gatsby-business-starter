@@ -63,7 +63,7 @@ const AboutPage = () => {
                       Senior Quantitative Trader
                     </div>
                       <div style={{fontSize: "14px", color:"#4B586A", marginTop: "20px", maxWidth: "800px"}}>
-                        Alberto started his trading career within the financial industry 15 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant. <br/><br/>
+                        Alberto started his trading career within the financial industry 17 years ago, beginning by trading stocks; through his tenure in the industry he has achieved some incredible feats. Alberto is an engineering graduate, possessing a Masters in Financial Mathematics, and is a Fitch Certified Quant. <br/><br/>
                         During his career he has built strategies for several financial institutions, including complex quantitative option pricing models, and volatility forecasters. He has a wealth of institutional experience at various Hedge Funds and Prop Houses, and is currently acting as an advisor for two London based hedge funds. He also is involved in research that is investigating the feasibility of using Artificial Intelligence in trading.<br/><br/>
                         Alberto engages in both algorithmic and discretionary trading. He trades options, futures and ETFs (the latter which he also invests in). Due to his expertise, credentials and his passion for teaching, Alberto is frequently asked to be a guest lecturer in several universities. Including Middlesex University, Warwick University and London Metropolitan University.
                       </div>

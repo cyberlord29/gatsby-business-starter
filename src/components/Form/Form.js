@@ -4,16 +4,19 @@ import { Button } from '../Courses/Courses.elements'
 import { Modal, ModalContainer } from '../../globalStyles'
 import axios from 'axios';
 import { navigate } from "gatsby"
+import { set } from 'lodash';
 
-const IndexPage = ({emailInput, showInput}) => {
+const IndexPage = ({emailInput, showInput, course}) => {
   const [display, toggleModal] = useState(false)
   const [email, setEmail]  = useState()
   const [name, setName]  = useState()
+  const [mobile, setMobile]  = useState()
+
   const submitLead = () => {
     axios.post(
-        "https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv",
-        email,
-        {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
+      `https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv?course=${course}&email=${email}&name=${name}&mobile=${mobile}`,
+      email,
+      {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
     );
     navigate('/thank-you');
   }
@@ -45,13 +48,13 @@ const IndexPage = ({emailInput, showInput}) => {
                     <Label>
                         Mobile
                     </Label>
-                    <InputField onChange={(e)=>{setName(e.target.value)}} id="number"/>
+                    <InputField onChange={(e)=>{setMobile(e.target.value)}} id="number"/>
                 </InputContainer>
                 <InputContainer>
                     <Label>
                         Email
                     </Label>
-                    <InputField onChange={(e)=>{setEmail(e.target.value)}} id="email" value={emailInput?emailInput:""}/>
+                    <InputField onChange={(e)=>{setEmail(e.target.value)}} id="email" value={emailInput?emailInput:email}/>
                 </InputContainer>
                 <Button style={{fontSize: "30px"}} onClick={submitLead}>Submit</Button>
             </FormContainer>
