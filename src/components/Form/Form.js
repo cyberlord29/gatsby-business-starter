@@ -8,7 +8,7 @@ import { set } from 'lodash';
 
 const IndexPage = ({emailInput, showInput, course}) => {
   const [display, toggleModal] = useState(false)
-  const [email, setEmail]  = useState(setEmail)
+  const [email, setEmail]  = useState(emailInput)
   const [name, setName]  = useState()
   const [mobile, setMobile]  = useState()
 
