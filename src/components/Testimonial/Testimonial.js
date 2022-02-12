@@ -31,11 +31,10 @@ function useInterval(callback, delay) {
 
 const Testimonial = () => {
     const [carousel, setCarousel] = useState(0);
-
+    const [clicked, setClicked] = useState(3000)
     useInterval(() => {
-        // Your custom logic here
         setCarousel((carousel + 1)%3);
-      }, 3000);
+      }, clicked);
     return (
         <div style={{backgroundColor: "#F7F9FF"}}>
             <Banner style={{ height: "auto" }}>
@@ -138,10 +137,10 @@ Learning with the LTI has been a great experience and have no hesitation in reco
                                 </DescriptionContainer>
                             </div>}
                         </div>
-                    <div>
-                        <CarouselBullet selected={carousel==0} onClick={()=>setCarousel(1)}></CarouselBullet>
-                        <CarouselBullet  selected={carousel==1}  onClick={()=>setCarousel(2)}></CarouselBullet>
-                        <CarouselBullet   selected={carousel==2} onClick={()=>setCarousel(3)}></CarouselBullet>
+                    <div onClick={()=>setClicked(null)}>
+                        <CarouselBullet selected={carousel==0} onClick={()=>setCarousel(0)}></CarouselBullet>
+                        <CarouselBullet  selected={carousel==1}  onClick={()=>setCarousel(1)}></CarouselBullet>
+                        <CarouselBullet   selected={carousel==2} onClick={()=>setCarousel(2)}></CarouselBullet>
                     </div>
                     </div>
             </AboutContainer>
