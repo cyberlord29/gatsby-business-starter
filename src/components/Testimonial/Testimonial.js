@@ -108,6 +108,8 @@ const Testimonial = () => {
                         <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
                         </a>
                         <div style={{display: "flex", flexDirection: "row", width: "100%", marginTop: "20px", display: "-webkit-inline-box"}}>
+                        <a style={{color: "inherit", textDecoration: "none"}} href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">
+
                             {carousel===0 &&  <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 Confused trader to a confident trader and investor in Cryptos</IntroTitle>
@@ -136,6 +138,7 @@ The course content is incredibly thorough and the support you get from the LTI t
 Learning with the LTI has been a great experience and have no hesitation in recommending these guys.
                                 </DescriptionContainer>
                             </div>}
+</a>
                         </div>
                     <div onClick={()=>setClicked(null)}>
                         <CarouselBullet selected={carousel==0} onClick={()=>setCarousel(0)}></CarouselBullet>
