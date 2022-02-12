@@ -117,7 +117,7 @@ const OverView = () => {
         <IntroTitle style={{fontSize: "28px", marginTop: "20px"}}>
         Trading Options has More Ways to Win Than any Other Securities!
         </IntroTitle>
-        <DescriptionContainer>
+        <DescriptionContainer  style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
         Options offer a much more powerful solution where you can make money even if the market doesn’t move. Or even if you are wrong on direction there are some options trading strategies you can use that allow you to profit when you are wrong.
         </DescriptionContainer>
         </div>
