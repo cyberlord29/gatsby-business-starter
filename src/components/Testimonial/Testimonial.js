@@ -1,14 +1,41 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import facebook from '../../img/facebook.png'
 import love from '../../img/love.png'
 import youtube from '../../img/youtube.png'
 import star from '../../img/star.png'
 
 import { Banner, AboutContainer } from './Testimonial.element'
-import { FlexContainer, Header, Underline } from '../../globalStyles'
+import { Bullet, CarouselBullet, FlexContainer, Header, Underline } from '../../globalStyles'
 import { DescriptionContainer, IntroTitle } from '../IntroCard/IntroCard.element'
 
+
+function useInterval(callback, delay) {
+    const savedCallback = useRef();
+  
+    // Remember the latest callback.
+    useEffect(() => {
+      savedCallback.current = callback;
+    }, [callback]);
+  
+    // Set up the interval.
+    useEffect(() => {
+      function tick() {
+        savedCallback.current();
+      }
+      if (delay !== null) {
+        let id = setInterval(tick, delay);
+        return () => clearInterval(id);
+      }
+    }, [delay]);
+  }
+
 const Testimonial = () => {
+    const [carousel, setCarousel] = useState(0);
+
+    useInterval(() => {
+        // Your custom logic here
+        setCarousel((carousel + 1)%3);
+      }, 3000);
     return (
         <div style={{backgroundColor: "#F7F9FF"}}>
             <Banner style={{ height: "auto" }}>
@@ -81,8 +108,8 @@ const Testimonial = () => {
                         <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
                         <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
                         </a>
-                        <div style={{display: "flex", flexDirection: "row", width: "100%", overflow: "scroll", marginTop: "20px", display: "-webkit-inline-box"}}>
-                            <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px"}}>
+                        <div style={{display: "flex", flexDirection: "row", width: "100%", marginTop: "20px", display: "-webkit-inline-box"}}>
+                            {carousel===0 &&  <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 Confused trader to a confident trader and investor in Cryptos</IntroTitle>
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
@@ -90,7 +117,8 @@ const Testimonial = () => {
                                 <DescriptionContainer style={{fontSize: "14px"}}>I’ve been following Andy Demi from London Trading Institute online for almost 18 months. I was a struggling trader with no focus or direction. Switching from coach to coach and strategy to strategy losing money continuously and on a quest to find that 1 perfect mentor to help me be a successful trader. So I made the decision and have recently signed up with Andy for one to one coaching. The last 3 months have been the most rewarding 3 months in my 4 years of learning to trade. Andy’s passion and wealth of knowledge is incredible! He is selfless, patient and one thing that really stands out is that he is always the same person. Every time I watch the live shows or have a coaching session he is Calm, focused and so very humble.
                                 </DescriptionContainer>
                             </div>
-                            <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                            }
+                            {carousel===1 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 Complex trading made simple</IntroTitle>
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
@@ -98,7 +126,8 @@ const Testimonial = () => {
                                 <DescriptionContainer style={{fontSize: "14px"}}>I’ve been LTI for about a year now. Andy has an outstanding ability to explain complex trading in simple terms to all abilities, and the rest of the team like Dan and Ben are just as helpful. The team are able to advance your knowledge of the markets very quickly and are able to teach you market quirks that only traders of the highest level would know. I would strongly recommend them.
                                 </DescriptionContainer>
                             </div>
-                            <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+}
+                            {carousel===2 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 I've been on my journey with LTI now…</IntroTitle>
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
@@ -107,8 +136,13 @@ const Testimonial = () => {
 The course content is incredibly thorough and the support you get from the LTI team (Andy Demi + Dan Tyler) is brilliant.
 Learning with the LTI has been a great experience and have no hesitation in recommending these guys.
                                 </DescriptionContainer>
-                            </div>
+                            </div>}
                         </div>
+                    <div>
+                        <CarouselBullet selected={carousel==0} onClick={()=>setCarousel(1)}></CarouselBullet>
+                        <CarouselBullet  selected={carousel==1}  onClick={()=>setCarousel(2)}></CarouselBullet>
+                        <CarouselBullet   selected={carousel==2} onClick={()=>setCarousel(3)}></CarouselBullet>
+                    </div>
                     </div>
             </AboutContainer>
         </div>

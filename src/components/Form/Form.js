@@ -4,7 +4,6 @@ import { Button } from '../Courses/Courses.elements'
 import { Modal, ModalContainer } from '../../globalStyles'
 import axios from 'axios';
 import { navigate } from "gatsby"
-import { set } from 'lodash';
 
 const IndexPage = ({emailInput, showInput, course}) => {
   const [display, toggleModal] = useState(false)
