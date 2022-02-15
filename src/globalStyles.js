@@ -34,7 +34,7 @@ export const CarouselBullet = styled.div`
     display: inline-block;
     margin-right: 15px;
     cursor: pointer;
-    width: 10px;
+    width: 20px;
     background: ${props => props.selected?"#172647 0% 0% no-repeat padding-box":"rgb(190, 217, 255) 0% 0% no-repeat padding-box"};
     height: 10px;
     border-radius: 20px;
