@@ -36,7 +36,7 @@ function useInterval(callback, delay) {
 
 const Testimonial = () => {
     const [carousel, setCarousel] = useState(0);
-    const [clicked, setClicked] = useState(3000)
+    const [clicked, setClicked] = useState(7000)
     useInterval(() => {
         setCarousel((carousel + 1)%3);
       }, clicked);

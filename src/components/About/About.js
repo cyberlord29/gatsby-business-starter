@@ -119,8 +119,9 @@ const About = (props) => {
                 <FlexContainer style={{alignItems: "center"}}>
                     <div>
                         <img
+                            className="alberto-pic"
                             src={middlesex}
-                            style={{width: "100%"}}
+                            style={{width: "450px"}}
                         >
                         </img>
                     </div>
@@ -129,7 +130,7 @@ const About = (props) => {
                             Middlesex University
                         </div>
                         <div style={{fontSize: "14px", color:"#4B586A", marginTop: "20px", fontWeight: "normal"}}>
-                        As part of a cohesive partnership between the London Trading Institute and Middlesex University, students from theEconomics and Finance degrees have had the opportunity to learn the core foundational and practical components of Applied Financial Trading.<br/><br/>
+                        As part of a cohesive partnership between the London Trading Institute and Middlesex University, students from the Economics and Finance degrees have had the opportunity to learn the core foundational and practical components of Applied Financial Trading.<br/><br/>
                         Through our joint mission of helping students fulfil their academic potential, we have been able to help hundreds of students to learn more about Investments and Financial Trading, and in particular the practical skills needed to build a fruitful career in a very demanding industry.<br/><br/>
                         We are proud of what we have achieved to date, and we look forward to working together for many more years with our collective goal of enhancing lives through education.
                         </div>
