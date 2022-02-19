@@ -29,6 +29,11 @@ function useInterval(callback, delay) {
     }, [delay]);
   }
 
+// const carousel = ({children}) => {
+//     const children = React.Children.toArray(this.props.children);
+
+// }
+
 const Testimonial = () => {
     const [carousel, setCarousel] = useState(0);
     const [clicked, setClicked] = useState(3000)
@@ -138,12 +143,66 @@ The course content is incredibly thorough and the support you get from the LTI t
 Learning with the LTI has been a great experience and have no hesitation in recommending these guys.
                                 </DescriptionContainer>
                             </div>}
+                            {carousel===3 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                Forex, Crypto? join Team Demi</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Mr Gawlak, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>
+                                I found LTI on the beginning of my journey with Fore market. Andy Demi got great skills and know how to pass his knowledge to people who want to discover great world of either Forex or Crypto markets. Yes, it required some effort to put in, but LTI is definitely the place where to stop and think, ask question, join theirs FB group and just join the flow :)
+                                </DescriptionContainer>
+                            </div>}
+                            {carousel===4 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                BEST Training Trading Company</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Raj K, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>
+                                If you are serious about training as a trading and changing your life. I really recommend this company. The company attentions are to help you succeed and as a absolute beginner the team has been amazing where the fb group and the amazing top class trader Andi Demi really help you as much as they can.
+                                </DescriptionContainer>
+                            </div>}
+                            {carousel===5 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                IFantastic course run by great people</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Simon, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>Fantastic course run by great people. Huge amount of content and weekly zoom meetings where you can ask questions and get the answers by being shown on the charts.
+The course fitted around my job and home life.
+                                </DescriptionContainer>
+                            </div>}
+                            {carousel===6 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                LTI are the real deal</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Gavin Miller, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>I have been a student of LTI for around six months.
+Andy Demi and LTI are the real deal. Since becoming a student, I have become profitable on an FX demo account (3:1 win rate, >1:1 Profit to loss), and have just made the transition to a cash account.
+The training, coaching and community have made the difference to my growth and development, and I am now set up to make Forex trading a second income.
+The cost of joining LTI is good value and comparable to professional training courses in my primary career.
+Frankly, I think everybody should trade Forex, but solid education is critical to ensure the market doesn't eat you up, and LTI provide that.
+                                </DescriptionContainer>
+                            </div>}
+                            {carousel===7 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
+                                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
+                                11/10</IntroTitle>
+                                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
+                                ~ Gavin Miller, UK</IntroTitle>
+                                <DescriptionContainer style={{fontSize: "14px"}}>Have joined the Forex course in this Institute mid of 2020, and long story short, I can clearly say, I have made greatest choice in my life. Mentor, team, educational programme, support and learning material is so amazing I could not have imagined.
+Just recently new Crypto course launched and guess what... Joined it without a doubt and invited my friends to start from scratch as this course and overall this Institute is very promising. Do not miss your chance :)
+                                </DescriptionContainer>
+                            </div>}
+
 </a>
                         </div>
                     <div onClick={()=>setClicked(null)}>
                         <CarouselBullet selected={carousel==0} onClick={()=>setCarousel(0)}></CarouselBullet>
-                        <CarouselBullet  selected={carousel==1}  onClick={()=>setCarousel(1)}></CarouselBullet>
-                        <CarouselBullet   selected={carousel==2} onClick={()=>setCarousel(2)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==1}  onClick={()=>setCarousel(1)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==2} onClick={()=>setCarousel(2)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==3} onClick={()=>setCarousel(3)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==4}  onClick={()=>setCarousel(4)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==5} onClick={()=>setCarousel(5)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==6} onClick={()=>setCarousel(6)}></CarouselBullet>
+                        <CarouselBullet selected={carousel==7} onClick={()=>setCarousel(7)}></CarouselBullet>
                     </div>
                     </div>
             </AboutContainer>
