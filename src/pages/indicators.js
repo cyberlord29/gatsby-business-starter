@@ -135,7 +135,7 @@ const IndexPage = () => {
               </Card>
               <Card>
                 <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                  <iframe className="yt-video" src="https://www.youtube.com/embed/4M4fadtAJhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="yt-video" src="https://www.youtube.com/embed/s3Gw_QKCqBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
@@ -155,7 +155,7 @@ const IndexPage = () => {
               </Card>
               <Card>
               <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                  <iframe className="yt-video" src="https://www.youtube.com/embed/s3Gw_QKCqBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe className="yt-video" src="https://www.youtube.com/embed/gj0L6P004Yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
                     <div style={{fontSize: "24px",padding: "12px 0px"}}>
