@@ -20,10 +20,13 @@ const IndexPage = ({emailInput, showInput, course}) => {
     navigate('/thank-you');
   }
   useEffect(() => {
-    console.log(showInput)
     if(showInput>1)
     toggleModal(true)
   }, [showInput])
+
+  useEffect(() => {
+    setEmail(emailInput)
+  }, [emailInput])
 
     if(!display) return(<></>);
 

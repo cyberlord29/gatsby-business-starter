@@ -19,6 +19,7 @@ const IntroCard = (props) => {
         );
         toggleModal(show+1)
     }
+
     return (
         <>
         <Form emailInput={email} showInput={show}/>
