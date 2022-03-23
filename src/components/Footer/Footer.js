@@ -14,6 +14,7 @@ import {
     Banner
 } from './Footer.elements'
 import { FlexContainer } from '../../globalStyles';
+import { Link } from 'gatsby';
 
 const Footer = () => {
     return (
@@ -69,7 +70,14 @@ const Footer = () => {
                         @2022 London Trading Institute | In order to improve your browsing experience London Trading Institute, uses cookies on this site.
                     </div>
                     <div style={{fontSize: "16px", textAlign: "start"}}>
-                        By continuing to use our site you agree to our privacy policy. Click here to read our refund policy.                    
+                        By continuing to use our site you agree to our 
+                        <Link to="/privacy" style={{color: "white", margin: "0px 10px"}}>
+                            Privacy Policy
+                        </Link>
+                        Click here to read our 
+                        <Link to="/refund" style={{color: "white", margin: "0px 10px"}}>
+                            Refund Policy and Terms and Conditions
+                        </Link>
                     </div>
                     <FlexContainer style={{fontSize: "12px", textAlign: "start", marginTop: "20px", alignItems: "center"}}>
                     Investors’ capital is at risk. Market investment products involve the use of leverage and may result in losses that exceed initial deposit. They may not be suitable for everyone.

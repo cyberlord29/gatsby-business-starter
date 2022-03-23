@@ -2,9 +2,11 @@ import React from 'react'
 import {IntroCardAboutPage, About, Layout, Courses,Testimonial, Booking, Footer } from '../components'
 import { AboutContainer, AboutContainerAboutPage, Banner } from '../components/About/About.element'
 import { DescriptionContainer } from '../components/IntroCard/IntroCard.element'
-import { FlexContainer, Header, Underline } from '../globalStyles'
+import { Card, FlexContainer, Header, RDiv, Underline } from '../globalStyles'
 import andy1 from '../img/andy1.png';
 import andy2 from '../img/alberto1.png';
+import middlesex from '../img/middlesex.jpeg'
+
 
 const AboutPage = () => {
     return (
@@ -79,6 +81,28 @@ const AboutPage = () => {
             </AboutContainerAboutPage>
                           </div>
             <Testimonial/>
+            <RDiv style={{paddingBottom: "100px", paddingTop: "1px"}}>
+              <Card>
+                  <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <img
+                            src={middlesex}
+                            style={{width: "100%"}}
+                            >
+                        </img>
+                  </div>
+                  <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
+                    <div style={{fontSize: "24px",padding: "12px 0px"}}>
+                        Middlesex University
+                    </div>
+                    <div style={{fontSize: "14px",padding: "0px 0px", color: "#172647"}}>
+                      Our University Partner<br/><br/>
+                    </div>
+                    <div style={{fontSize: "14px",padding: "0px 0px", color: "#4B586A", fontWeight: "normal"}}>
+                    Middlesex University represents students, academics and professional organisations from London and around the world. Their goal is simple; to turn potential into success by giving people the opportunity to enhance there skills and knowledge beyond just the normal academic routes available at most universities. It is for this reason that the London Trading Institute is excited to be part of this vision, with Our goal being to bridge the gap between theoretical knowledge and the practical elements of financial markets.
+                    </div>
+                  </div>
+              </Card>
+              </RDiv>
             <Booking/>
         </Layout>
     )
