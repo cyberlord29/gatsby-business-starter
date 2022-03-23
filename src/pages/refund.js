@@ -6,6 +6,18 @@ import { Bullet, FlexContainer, Header, Underline } from '../globalStyles'
 import andy1 from '../img/andy1.png';
 import andy2 from '../img/alberto1.png';
 
+const BulletT = ({children}) => {
+
+  return (<div style={{display: "flex", fontWeight: "normal"}}>
+    <div>
+    <Bullet></Bullet>
+    </div>
+    {children}
+    </div>
+  )
+
+}
+
 const AboutPage = () => {
     return (
         <Layout>
@@ -106,16 +118,16 @@ ANY AND ALL INFORMATION PROVIDED BY LTI OR DERIVED FROM LTI’S WEBSITES IS  PRO
                 </Header>
                 <DescriptionContainer style={{fontSize:"14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
                 London Trading Institute are committed to helping as many aspiring traders and investors access our educational  programmes and services. We understand that money often is the barrier, and in most cases is the ONLY barrier,  between you and pursuit of your educational goals and objectives. To that end, LTI have established the  Affordable Education Scheme™ (“AES”), which allows for the user to compensate LTI for the products and  services provided over a period of time, rather than in one lump sum.
-                <br/>I. AES Payment Plan Terms & Conditions  
+                <br/>
                 <br/>Your individualized payment plan agreed between you and LTI, notwithstanding any other provision stipulated  herein or provided elsewhere, is governed by the following terms and conditions:  
-                <br/><Bullet></Bullet>The MINIMUM deposit required to access any of LTI’s programmes, products, services, or materials is 40%  of the total costs/fees agreed. No access will be granted, under ANY circumstance, prior to satisfaction of the  minimum 40% deposit requirement, even if your particular payment plan involved instalments which may  become due and payable, according to your agreement, prior to your access being granted to the programmes,  products, services or materials you’ve agreed to purchase, to satisfy said minimum deposit amount.
-                <br/><Bullet></Bullet>All agreed  deposits, instalments, and/or fees, must be paid on or before the due date
-                <br/><Bullet></Bullet>Sufficient funds are to be available  in the nominated account to meet the instalment payments.
-                <br/><Bullet></Bullet>LTI reserves the right to suspend access to any/all  products, services, memberships, subscriptions, and other course materials, whether expressed or implied, in the  event that the student fails to pay any part of the instalments, fees, or associated costs as and when it falls due  for payment  
-                <br/><Bullet></Bullet>In the event that a student cancels their membership, subscription, or enrolment in any of LTI’s products or  services beyond the statutory “cooling-off” period as stipulated by UK law, the balance of any/all agreed fees,  instalments, or other associated costs will be paid in full or will continue to be paid under the agreed payment  plan schedule and
-                <br/><Bullet></Bullet> LTI will not certify completion of any course, grant continued access to any product or  
+                <br/><br/><BulletT>The MINIMUM deposit required to access any of LTI’s programmes, products, services, or materials is 40%  of the total costs/fees agreed. No access will be granted, under ANY circumstance, prior to satisfaction of the  minimum 40% deposit requirement, even if your particular payment plan involved instalments which may  become due and payable, according to your agreement, prior to your access being granted to the programmes,  products, services or materials you’ve agreed to purchase, to satisfy said minimum deposit amount.</BulletT>
+                <br/><BulletT>All agreed  deposits, instalments, and/or fees, must be paid on or before the due date</BulletT>
+                <br/><BulletT>Sufficient funds are to be available  in the nominated account to meet the instalment payments.</BulletT>
+                <br/><BulletT>LTI reserves the right to suspend access to any/all  products, services, memberships, subscriptions, and other course materials, whether expressed or implied, in the  event that the student fails to pay any part of the instalments, fees, or associated costs as and when it falls due  for payment  </BulletT>
+                <br/><BulletT>In the event that a student cancels their membership, subscription, or enrolment in any of LTI’s products or  services beyond the statutory “cooling-off” period as stipulated by UK law, the balance of any/all agreed fees,  instalments, or other associated costs will be paid in full or will continue to be paid under the agreed payment  plan schedule and</BulletT>
+                <br/><BulletT> LTI will not certify completion of any course, grant continued access to any product or
 service under any circumstance, until course fees are paid in full. 7 London Trading Institute 35 New Broad  Street London EC2M 1NH +44 (0)20 3887 7398 www.londontradinginstitute.com  
-edu.londontradinginstitute.com 
+edu.londontradinginstitute.com </BulletT>
                 </DescriptionContainer>
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
                       <div>
@@ -127,10 +139,10 @@ edu.londontradinginstitute.com
                 </Header>
                 <DescriptionContainer style={{fontSize:"14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
                 Once agreed, you are accepting full and complete liability for the debt to which you have agreed to incur for  purposes of accessing LTI’s educational products, programmes, services, subscriptions, or memberships. Failure  to uphold your obligation to repay the agreed debt will result in the following actions. LTI reserves the right to  pursue any/all of the actions to recover the debt incurred as stipulated herein.  
-<br/><br/><Bullet></Bullet> Enrolment will be suspended, and the outstanding account will become immediately due and payable; or  
-<br/><Bullet></Bullet>As a cancelled student the outstanding account will become immediately due and payable ix. The  outstanding debt will be forwarded on to a debt collection agency, and  
-<br/><Bullet></Bullet> The student may also be required to pay any/all additional fees/costs associated with the debt collection  process.
-<br/><Bullet></Bullet> Failure of the student to meet their contractual obligations to LTI may also, in certain cases and at  LTI’s discretion, result in legal action. If we are forced to pursue legal action, all legal and associated fees will  become due in addition to the debt being pursued.  
+<br/><br/><BulletT> Enrolment will be suspended, and the outstanding account will become immediately due and payable; or  </BulletT>
+<br/><BulletT>As a cancelled student the outstanding account will become immediately due and payable ix. The  outstanding debt will be forwarded on to a debt collection agency, and  </BulletT>
+<br/><BulletT> The student may also be required to pay any/all additional fees/costs associated with the debt collection  process.</BulletT>
+<br/><BulletT> Failure of the student to meet their contractual obligations to LTI may also, in certain cases and at  LTI’s discretion, result in legal action. If we are forced to pursue legal action, all legal and associated fees will  become due in addition to the debt being pursued.  </BulletT>
                 </DescriptionContainer>
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
                       <div>
@@ -142,9 +154,9 @@ edu.londontradinginstitute.com
                 </Header>
                 <DescriptionContainer style={{fontSize:"14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
                 LTI adhere to the UK’s statutory “Cooling-Off Period” regulations, which stipulate that a consumer is entitled to  a full refund if they’ve changed their mind within 14-days of purchase. If the student does change their mind  within this 14-day cooling off period, LTI will issue a full refund. Once you have taken delivery of your course,  and have logged in and begun learning the materials, any refund requests beyond this period will not be  accepted. 
-                <br/><Bullet></Bullet>If a student withdraws from any of our courses more than 14 days before commencement of the  course he/she is entitled to a full refund less 15% processing fee. Any refunds will be processed  within 45 days of claim. 
-                <br/><Bullet></Bullet>50% refund will be given to any student who withdraws up to 14 days before the commencement  of the course. 
-                <br/><Bullet></Bullet>No refund will be given to any student who withdraws after commencement of the course. Once a delegate has signed their student agreement form and commenced their given programme they  are obliged to pay their tuition fees in full according to their instalment plan.
+                <br/><br/><BulletT>If a student withdraws from any of our courses more than 14 days before commencement of the  course he/she is entitled to a full refund less 15% processing fee. Any refunds will be processed  within 45 days of claim. </BulletT>
+                <br/><BulletT>50% refund will be given to any student who withdraws up to 14 days before the commencement  of the course. </BulletT>
+                <br/><BulletT>No refund will be given to any student who withdraws after commencement of the course. Once a delegate has signed their student agreement form and commenced their given programme they  are obliged to pay their tuition fees in full according to their instalment plan.</BulletT>
 
                 </DescriptionContainer>
             </AboutContainerAboutPage>
