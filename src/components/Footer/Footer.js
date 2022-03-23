@@ -82,17 +82,21 @@ const Footer = () => {
                     <FlexContainer style={{fontSize: "12px", textAlign: "start", marginTop: "20px", alignItems: "center"}}>
                     Investors’ capital is at risk. Market investment products involve the use of leverage and may result in losses that exceed initial deposit. They may not be suitable for everyone.
                     <SocialMediaContainer>
-                        <img
-                            style={{marginLeft: "30px"}}
-                            src={facebook}
-                            height={50}
-                            >
-                        </img>
-                        <img style={{marginLeft: "30px"}}
-                            src={youtube}
-                            height={50}
-                            >
-                        </img>
+                        <a href="https://www.youtube.com/c/LondonTradingInstitute">
+                            <img
+                                style={{marginLeft: "30px"}}
+                                src={facebook}
+                                height={50}
+                                >
+                            </img>
+                        </a>
+                        <a href="https://www.facebook.com/groups/fxtradersclub/">
+                            <img style={{marginLeft: "30px"}}
+                                src={youtube}
+                                height={50}
+                                >
+                            </img>
+                        </a>
                     </SocialMediaContainer> 
                     </FlexContainer>
                 </div>

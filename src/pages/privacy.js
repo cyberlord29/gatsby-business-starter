@@ -235,13 +235,11 @@ However, you can still place orders.
                   <br/>If at any time you would like to unsubscribe from receiving future emails, you can follow the instructions at the bottom of each email and we will promptly remove you from ALL correspondence.
 
                 </DescriptionContainer>
-
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
                       <div>
                           <div>
                           Your Legal Rights
                           </div>
-                          
                       </div>
                 </Header>
                 <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
