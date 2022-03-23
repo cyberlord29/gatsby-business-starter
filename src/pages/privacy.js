@@ -243,7 +243,7 @@ We will only retain your personal data for as long as necessary to fulfil the pu
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{textIndent: "-10px",fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left",marginLeft: "10px"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
                 Under certain circumstances, you have rights under data protection laws in relation to your personal data.
                 <br/>
                 <br/><BulletT>Request access to your personal data.</BulletT>
