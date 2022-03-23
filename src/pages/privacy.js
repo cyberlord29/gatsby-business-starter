@@ -28,25 +28,25 @@ const AboutPage = () => {
                   Privacy Policy
                 </IntroTitle>
                 <Underline></Underline>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online.
                 <br/><br/> PII, as used in Privacy and Electronic Communications Regulations, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
                 <br/><br/> Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
                 </DescriptionContainer>
               </div>
               <AboutContainerAboutPage style={{position: "static", margin: "0px 0px"}}>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
-                          What personal information do we collect from the people that visit our website?
+                          What personal information do we collect ?
                           </div>
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 When ordering or registering on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details from which a visitor can be identified.
                 </DescriptionContainer>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           When do we collect information?
@@ -54,7 +54,7 @@ const AboutPage = () => {
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 London Trading Institute collects and processes your personal data when you :
                 <br/>
                 <br/><BulletT>Arrive on our website from a social media site such as Facebook Twitter, Instagram, Snapchat, Pinterest,or LinkedIn;</BulletT>
@@ -63,7 +63,7 @@ const AboutPage = () => {
                 <br/><BulletT>Sign up for marketing materials; or</BulletT>
                 <br/><BulletT>You provide us with your personal data by any other means.</BulletT>
                 </DescriptionContainer>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           How do we collect your data ?
@@ -71,7 +71,7 @@ const AboutPage = () => {
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 We use different methods to collect data from and about you including through:
                 <br/>
                 <br/><BulletT>Direct interactions: You may give us your Identity, Contact details by filling in forms or by communicating with us by post, phone, email or otherwise. This includes personal data you provide when you:
@@ -110,7 +110,7 @@ const AboutPage = () => {
 
                 </DescriptionContainer>
 
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           How do we use your information?
@@ -118,7 +118,7 @@ const AboutPage = () => {
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 We may use the information we collect from you when you register, make a purchase, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:<br/>
                 <br/><BulletT>Where we need to perform the contract we are about to enter into or have entered into with you.</BulletT>
                 <br/><BulletT>Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</BulletT>
@@ -127,7 +127,7 @@ const AboutPage = () => {
                 <br/><BulletT>To send periodic emails regarding your query or other products and services</BulletT>
                 </DescriptionContainer>
 
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           How do we protect visitor information?
@@ -135,14 +135,14 @@ const AboutPage = () => {
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know. They will only process your personal data on our instructions and they are subject to a duty of confidentiality.
                 <br/>
                 <br/>We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so. We do not use vulnerability scanning and/or scanning to PCI standards and we use regular Malware Scanning.
 
                 </DescriptionContainer>
 
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           How long will you use my personal data for?
@@ -150,7 +150,7 @@ const AboutPage = () => {
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
 We will only retain your personal data for as long as necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.
 <br/>
                   <br/>To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorised use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements.
@@ -158,7 +158,7 @@ We will only retain your personal data for as long as necessary to fulfil the pu
                   <br/><br/>In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.
 
                 </DescriptionContainer>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           We do use an SSL certificate
@@ -166,11 +166,11 @@ We will only retain your personal data for as long as necessary to fulfil the pu
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 We only provide articles and information, we never ask for personal or private information like credit card numbers.
 
                 </DescriptionContainer>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           Do we use ‘cookies’?
@@ -178,7 +178,7 @@ We will only retain your personal data for as long as necessary to fulfil the pu
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 Yes. Cookies are small files that a site or its service provider transfers to your computer’s hard drive through your Web browser (if you allow) that enables the site’s or service provider’s systems to recognize your browser and capture and remember certain information.
                 <br/><br/> For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.
                 <br/><br/>We use Cookies to Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third party services that track this information on our behalf.
@@ -190,7 +190,7 @@ However, you can still place orders.
 <br/><br/>This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit.
                 </DescriptionContainer>
 
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           Third Party Marketing
@@ -198,7 +198,7 @@ However, you can still place orders.
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 Google’s advertising requirements can be summed up by Google’s Advertising Principles. They are put in place to provide a positive experience for users.
                   <br/><a href="https://support.google.com/adwordspolicy/answer/1316548?hl=en">You can check it out here.</a>
                   <br/><br/>We use Google AdSense Advertising on our website.
@@ -209,7 +209,7 @@ However, you can still place orders.
                   <br/><BulletT>Users can set preferences for how Google advertises to you using the Google Ad Settings page. Alternatively, you can opt out by visiting the Network Advertising initiative opt out page or permanently using the Google Analytics Opt Out Browser add on.</BulletT>
                 </DescriptionContainer>
 
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           Email Marketing
@@ -217,7 +217,7 @@ However, you can still place orders.
                           
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 We collect your email address in order to:
                 <br/>
                   <br/><BulletT>Send information, respond to inquiries, and/or other requests or questions</BulletT>
@@ -235,14 +235,14 @@ However, you can still place orders.
                   <br/>If at any time you would like to unsubscribe from receiving future emails, you can follow the instructions at the bottom of each email and we will promptly remove you from ALL correspondence.
 
                 </DescriptionContainer>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
                       <div>
                           <div>
                           Your Legal Rights
                           </div>
                       </div>
                 </Header>
-                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
+                <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", textAlign: "left"}}>
                 Under certain circumstances, you have rights under data protection laws in relation to your personal data.
                 <br/>
                 <br/><BulletT>Request access to your personal data.</BulletT>

@@ -23,9 +23,9 @@ const GlobalStyle = createGlobalStyle`
 export const Bullet = styled.div`
     display: inline-block;
     margin-right: 15px;
-    width: 10px;
+    width: 8px;
     background: #172647 0% 0% no-repeat padding-box;
-    height: 10px;
+    height: 8px;
     border-radius: 2px;
     opacity: 1;
 `;
