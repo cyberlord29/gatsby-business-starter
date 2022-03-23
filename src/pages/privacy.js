@@ -22,24 +22,17 @@ const BulletT = ({children}) => {
 const AboutPage = () => {
     return (
         <Layout>
-            <div style={{backgroundColor: "#F7F9FF", padding: "100px 5%"}}>
+            <div style={{backgroundColor: "#F7F9FF", padding: "30px 5%"}}>
               <div style={{display: "flex", flexDirection: "column",justifyContent: "center", alignItems: "center"}}>
                 <IntroTitle style={{marginBottom: "20px", textAlign: "center"}}>
                   Privacy Policy
                 </IntroTitle>
                 <Underline></Underline>
                 <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
-                This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online. PII, as used in Privacy and Electronic Communications Regulations, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
+                This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online.
+                <br/><br/> PII, as used in Privacy and Electronic Communications Regulations, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+                <br/><br/> Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
                 </DescriptionContainer>
-                <div style={{margin: "30px 0px"}}>
-                <DescriptionContainer style={{textAlign: "center", marginBottom: "40px"}}>
-                  {/* Meanwhile here is some of our content */}
-                </DescriptionContainer>
-                <FlexContainer>
-                  {/* <iframe style={{margin: "40px"}} src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAndyDemiLTG%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> */}
-                  {/* <iframe width="360" height="215" src="https://www.youtube.com/embed/fYxFINQo-gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  */}
-                </FlexContainer>
-                </div>
               </div>
               <AboutContainerAboutPage style={{position: "static", margin: "0px 0px"}}>
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
@@ -73,7 +66,7 @@ const AboutPage = () => {
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
                       <div>
                           <div>
-                          How do we  your data ?
+                          How do we collect your data ?
                           </div>
                           
                       </div>
@@ -82,38 +75,38 @@ const AboutPage = () => {
                 We use different methods to collect data from and about you including through:
                 <br/>
                 <br/><BulletT>Direct interactions: You may give us your Identity, Contact details by filling in forms or by communicating with us by post, phone, email or otherwise. This includes personal data you provide when you:
-Apply for our products or services</BulletT>
-<br/><BulletT>
-Create an account on our website</BulletT>
-<br/><BulletT>
-Use our site</BulletT>
-<br/><BulletT>
-Subscribe to our service or publications</BulletT>
-<br/><BulletT>
-Request marketing to be sent to you</BulletT>
-<br/><BulletT>
-Enter a promotion or survey</BulletT>
-<br/><BulletT>
-Give us some feedback.</BulletT>
-<br/><BulletT> Automated technologies or interactions: As you interact with our website, we may automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this personal data by using cookies, server logs and other similar technologies. We may also receive Technical Data about you if you visit other websites employing our cookies. Please see our cookie policy.
-Third parties or publicly available sources: We may receive personal data about you from various third parties and public sources as set out below:</BulletT>
-<br/><br/>Technical Data from the following parties:
-<br/>
-<br/><BulletT>Analytics providers such as Google analytics, Google optimize, Google Webmaster tools, Google tag manager, Facebook, Instagram</BulletT>
-<br/><BulletT>
-Advertising networks such as Google Advertising Network, Facebook, Instagram, Bing and Linkedin based outside the EU and similar network we will be partnering with
-</BulletT><br/><BulletT>
-Search information providers such as Google, Bing and other search engines based inside and outside the EU, social media networks such as Facebook, Linkedin and Instagram, based inside  the EU and others providing similar services.
-</BulletT><br/><BulletT>
-Contact, Financial and Transaction Data from providers of technical, payment and delivery services such as Google Analytics, Facebook, Instagram, Bing, Linkedin and and any Payment Gateway that we intend to use in the future or amy other similar services we will partner with in future.
-</BulletT><br/><BulletT>
-Identity and Contact Data from data aggregators.
-</BulletT><br/><BulletT>
-Identity and Contact Data from publicly available sources such as the Electoral Register based inside the EU.
-</BulletT><br/><BulletT>
-Student Data from staff, administrative functions of other educational establishments, mentees or mentors, complainants.
-</BulletT>
-<br/><br/>Academic, contact, identity, marketing and communications and technical data from (i) publishers, who are owners of private websites, and are based in and outside Europe and (ii) agents, referring organisations such as other universities.
+                Apply for our products or services</BulletT>
+                <br/><BulletT>
+                Create an account on our website</BulletT>
+                <br/><BulletT>
+                Use our site</BulletT>
+                <br/><BulletT>
+                Subscribe to our service or publications</BulletT>
+                <br/><BulletT>
+                Request marketing to be sent to you</BulletT>
+                <br/><BulletT>
+                Enter a promotion or survey</BulletT>
+                <br/><BulletT>
+                Give us some feedback.</BulletT>
+                <br/><BulletT> Automated technologies or interactions: As you interact with our website, we may automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this personal data by using cookies, server logs and other similar technologies. We may also receive Technical Data about you if you visit other websites employing our cookies. Please see our cookie policy.
+                Third parties or publicly available sources: We may receive personal data about you from various third parties and public sources as set out below:</BulletT>
+                <br/><br/>Technical Data from the following parties:
+                <br/>
+                <br/><BulletT>Analytics providers such as Google analytics, Google optimize, Google Webmaster tools, Google tag manager, Facebook, Instagram</BulletT>
+                <br/><BulletT>
+                Advertising networks such as Google Advertising Network, Facebook, Instagram, Bing and Linkedin based outside the EU and similar network we will be partnering with
+                </BulletT><br/><BulletT>
+                Search information providers such as Google, Bing and other search engines based inside and outside the EU, social media networks such as Facebook, Linkedin and Instagram, based inside  the EU and others providing similar services.
+                </BulletT><br/><BulletT>
+                Contact, Financial and Transaction Data from providers of technical, payment and delivery services such as Google Analytics, Facebook, Instagram, Bing, Linkedin and and any Payment Gateway that we intend to use in the future or amy other similar services we will partner with in future.
+                </BulletT><br/><BulletT>
+                Identity and Contact Data from data aggregators.
+                </BulletT><br/><BulletT>
+                Identity and Contact Data from publicly available sources such as the Electoral Register based inside the EU.
+                </BulletT><br/><BulletT>
+                Student Data from staff, administrative functions of other educational establishments, mentees or mentors, complainants.
+                </BulletT>
+                <br/><br/>Academic, contact, identity, marketing and communications and technical data from (i) publishers, who are owners of private websites, and are based in and outside Europe and (ii) agents, referring organisations such as other universities.
 
                 </DescriptionContainer>
 
@@ -144,8 +137,8 @@ Student Data from staff, administrative functions of other educational establish
                 </Header>
                 <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
                 We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know. They will only process your personal data on our instructions and they are subject to a duty of confidentiality.
-                <br/>We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so. We do not use vulnerability scanning and/or scanning to PCI standards.
-                <br/>We use regular Malware Scanning.
+                <br/>
+                <br/>We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so. We do not use vulnerability scanning and/or scanning to PCI standards and we use regular Malware Scanning.
 
                 </DescriptionContainer>
 
@@ -159,9 +152,10 @@ Student Data from staff, administrative functions of other educational establish
                 </Header>
                 <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
 We will only retain your personal data for as long as necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.
+<br/>
                   <br/>To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorised use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements.
-                  <br/>In some circumstances you can ask us to delete your data:
-                  <br/>In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.
+                  <br/><br/>In some circumstances you can ask us to delete your data:
+                  <br/><br/>In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.
 
                 </DescriptionContainer>
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
@@ -185,8 +179,15 @@ We will only retain your personal data for as long as necessary to fulfil the pu
                       </div>
                 </Header>
                 <DescriptionContainer style={{fontSize: "14px", margin: "20px 0px", padding: "20px", textAlign: "left"}}>
-                  No we do not currently use any cookies for our systems or thrid party systems currently. 
-                  <br/>We will update our policy here when we do start using them.
+                Yes. Cookies are small files that a site or its service provider transfers to your computer’s hard drive through your Web browser (if you allow) that enables the site’s or service provider’s systems to recognize your browser and capture and remember certain information.
+                <br/><br/> For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.
+                <br/><br/>We use Cookies to Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third party services that track this information on our behalf.
+You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer) settings. Each browser is a little different, so look at your browser’s Help menu to learn the correct way to modify your cookies.
+If you disable cookies off, some features will be disabled It won’t affect the users experience that make your site experience more efficient and some of our services will not function properly.
+However, you can still place orders.
+<br/><br/>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others’ rights, property, or safety.
+<br/><br/>However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
+<br/><br/>This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit.
                 </DescriptionContainer>
 
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "34px"}}>
