@@ -32,7 +32,7 @@ const AboutPage = () => {
                 All course materials, tools, and ancillary content purchased will be delivered in digital form, unless otherwise  stipulated or promised prior to the course start date.
                 <br/><br/>Risk Warning! All content on londontradinginstitute.com and content communicated in email correspondence,  webinars, seminars, or other events, is intended for educational purposes only and should not be considered as  investment advice, nor should it be construed as a replacement for investment advice from Qualified Financial  Advisors. London Trading Institute, its directors, management, traders, instructors and coaches will not be held  
                 responsible for any losses incurred by the client
-                <br/><br/>All information provided by londontradinginstitute.com, London Traders Institute and its contractors is general  advice and the client will use to apply this general advice and trade at their own risk. 5 London Trading Institute  35 New Broad Street London EC2M 1NH +44 (0)20 3887 7398 www.londontradinginstitute.com.
+                <br/><br/>All information provided by londontradinginstitute.com, London Traders Institute and its contractors is general  advice and the client will use to apply this general advice and trade at their own risk. London Trading Institute  35 New Broad Street London EC2M 1NH +44 (0)20 3887 7398 www.londontradinginstitute.com.
                 <br/><br/>While our trade ideas, from our wider understanding of and experience from trading the financial markets hold  merit, they do not guarantee success or profit and you should not undertake the act of trading them unless you  are fully aware of risk management and how to place an order with the broker correctly.
                 <br/><br/>Users should understand that past performance is not indicative of future results, and that the value of  investments and income from them may go up as well as down and are not guaranteed.  You may lose the entire amount invested. With some leveraged investments such as spread bets and CFDs, your  losses may potentially be unlimited.  
 
@@ -75,7 +75,7 @@ const AboutPage = () => {
                       </div>
                 </Header>
                 <DescriptionContainer style={{fontSize:"14px", margin: "20px 0px", textAlign: "left"}}>
-                6 London Trading Institute 35 New Broad Street London EC2M 1NH +44  (0)20 3887 7398 www.londontradinginstitute.com edu.londontradinginstitute.com 
+                London Trading Institute 35 New Broad Street London EC2M 1NH +44  (0)20 3887 7398 www.londontradinginstitute.com edu.londontradinginstitute.com 
 ANY AND ALL INFORMATION PROVIDED BY LTI OR DERIVED FROM LTI’S WEBSITES IS  PROVIDED “AS IS” AND LTI MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,  INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS  FOR A PARTICULAR PURPOSE. 
 
                 </DescriptionContainer>
@@ -122,7 +122,7 @@ ANY AND ALL INFORMATION PROVIDED BY LTI OR DERIVED FROM LTI’S WEBSITES IS  PRO
                 <br/><BulletT>LTI reserves the right to suspend access to any/all  products, services, memberships, subscriptions, and other course materials, whether expressed or implied, in the  event that the student fails to pay any part of the instalments, fees, or associated costs as and when it falls due  for payment  </BulletT>
                 <br/><BulletT>In the event that a student cancels their membership, subscription, or enrolment in any of LTI’s products or  services beyond the statutory “cooling-off” period as stipulated by UK law, the balance of any/all agreed fees,  instalments, or other associated costs will be paid in full or will continue to be paid under the agreed payment  plan schedule and</BulletT>
                 <br/><BulletT>LTI will not certify completion of any course, grant continued access to any product or
-service under any circumstance, until course fees are paid in full. 7 London Trading Institute 35 New Broad  Street London EC2M 1NH +44 (0)20 3887 7398 www.londontradinginstitute.com  
+service under any circumstance, until course fees are paid in full. London Trading Institute 35 New Broad  Street London EC2M 1NH +44 (0)20 3887 7398 www.londontradinginstitute.com  
 edu.londontradinginstitute.com</BulletT>
                 </DescriptionContainer>
                 <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "20px", fontSize: "24px", color: "rgb(23, 38, 71)"}}>
