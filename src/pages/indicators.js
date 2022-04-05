@@ -53,7 +53,7 @@ const IndexPage = () => {
   const [name, setName]  = useState()
   const submitLead = () => {
     axios.post(
-        "https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv",
+        "https://hooks.zapier.com/hooks/catch/2431386/oznxxo0",
         email,
         {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
     );
