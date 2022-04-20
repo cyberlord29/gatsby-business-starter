@@ -51,9 +51,15 @@ const IndexPage = () => {
   const [show, toggleModal]  = useState(false)
   const [email, setEmail]  = useState()
   const [name, setName]  = useState()
+  const [mobile, setMobile]  = useState()
   const submitLead = () => {
     axios.post(
-        "https://hooks.zapier.com/hooks/catch/2431386/oznxxo0",
+      `https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv?course=${'none'}&email=${email}&name=${name}&mobile=${mobile}`,
+      email,
+      {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
+    );
+    axios.post(
+        `https://hooks.zapier.com/hooks/catch/2431386/oznxxo0?email=${email}&name=${name}&mobile=${mobile}`,
         email,
         {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
     );
@@ -86,7 +92,7 @@ const IndexPage = () => {
                           <Label>
                               Mobile
                           </Label>
-                          <InputField type="number" onChange={(e)=>{setName(e.target.value)}} id="mobile"/>
+                          <InputField type="number" onChange={(e)=>{setMobile(e.target.value)}} id="mobile"/>
                       </InputContainer>
                       <Button style={{fontSize: "30px"}} onClick={submitLead}>Send Indicators</Button>
                   </FormContainer>

@@ -17,6 +17,9 @@ const GlobalStyle = createGlobalStyle`
     display: none;
  }
 }
+body{
+    line-height: 1.5;
+}
 `;
 
 

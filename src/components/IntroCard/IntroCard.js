@@ -13,7 +13,7 @@ const IntroCard = (props) => {
 
     const submitLead = () => {
         axios.post(
-            `https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv?tag=website-lead&email=${email}`,
+            `https://hooks.zapier.com/hooks/catch/2431386/bd6vpsv?course=${'none'}&email=${email}&name=${''}&mobile=${''}`,
             email,
             {headers:  {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}}
         );
