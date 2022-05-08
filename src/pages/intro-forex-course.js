@@ -208,7 +208,7 @@ const IndexPage = () => {
 
     return (
         <Layout>
-            <Form emailInput={''} showInput={show} course={'Introductory Trading Course Access'}/>
+            <Form emailInput={''} showInput={show}/>
             <IntroCardCoursePage img={intro} title={'Introductory Forex Course'} description={''}/>
                 <CourseItem
                     mentors={<Mentors/>}

@@ -21,6 +21,20 @@ const TemplateWrapper = ({ children }) => {
       document.getElementById('trustpilot').appendChild(script)
     }
 
+    if (document.getElementById("elite")) {
+      const script = document.createElement('script');
+      script.src = 'https://link.elite360.io/js/embed.js';
+      script.async = true;
+      document.getElementById('elite').appendChild(script)
+    }
+
+    if (document.getElementById("eliteFromIntro")) {
+      const script = document.createElement('script');
+      script.src = 'https://link.elite360.io/js/form_embed.js';
+      script.async = true;
+      document.getElementById('eliteFromIntro').appendChild(script)
+    }
+
     if (document.getElementById("calendly")) {
       const calendlyScript = document.createElement('script');
       calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';

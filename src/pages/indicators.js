@@ -96,6 +96,8 @@ const IndexPage = () => {
                       </InputContainer>
                       <Button style={{fontSize: "30px"}} onClick={submitLead}>Send Indicators</Button>
                   </FormContainer>
+                  {/* <div id="eliteFormIntro"></div>
+                  <iframe src="https://link.elite360.io/widget/form/rRQbBvnftypR87rftR4F" style="border:none;width:100%;" scrolling="no" id="rRQbBvnftypR87rftR4F"></iframe> */}
                 </Modal>
             </ModalContainer>}
             <IntroCardIndicatorPage data={Content.introCard}/>

@@ -20,12 +20,12 @@ const IntroCard = ({title, description, img}) => {
     }
     const initCalendly = () => {
          window.Calendly.initPopupWidget({
-           url: 'https://calendly.com/dan-tyler-lti/general-enquiry',
-         });
+            url: 'https://link.elite360.io/widget/booking/fh0NtjPGmU7wuxVKQJLX',
+        });
       }
     return (
         <>
-        <Form emailInput={email} showInput={show}/>
+        <Form emailInput={email} showInput={show} isCourse={true}/>
         <IntroCardContainer>
             <IntroLeftContainerHeader>
                 <div>

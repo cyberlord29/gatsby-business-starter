@@ -11,7 +11,7 @@ const Booking = ({lone, close}) => {
     const initCalendly = () => {
       console.log(form)
        window.Calendly.initPopupWidget({
-         url: 'https://calendly.com/dan-tyler-lti/general-enquiry',
+         url: 'https://link.elite360.io/widget/booking/fh0NtjPGmU7wuxVKQJLX',
          prefill: form
        });
     }
@@ -28,6 +28,7 @@ const Booking = ({lone, close}) => {
             </div>
             <Underline width={10} style={{backgroundColor: "white"}}/>
           </div>
+          <div id="elite"></div>
               <FlexContainer style={{marginBottom: "30px" }}>
                 <div style={{marginRight: "10px", marginTop: "14px", marginBottom: "20px" }}>
                     <div style={{fontSize: "14px", textAlign: "left"}}>First Name</div>
