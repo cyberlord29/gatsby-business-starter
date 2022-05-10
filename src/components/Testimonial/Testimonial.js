@@ -174,7 +174,7 @@ The course fitted around my job and home life.
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 LTI are the real deal</IntroTitle>
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
-                                ~ Gavin Miller, UK</IntroTitle>
+                                ~ Paul, UK</IntroTitle>
                                 <DescriptionContainer style={{fontSize: "14px"}}>I have been a student of LTI for around six months.
 Andy Demi and LTI are the real deal. Since becoming a student, I have become profitable on an FX demo account (3:1 win rate, >1:1 Profit to loss), and have just made the transition to a cash account.
 The training, coaching and community have made the difference to my growth and development, and I am now set up to make Forex trading a second income.
@@ -186,7 +186,7 @@ Frankly, I think everybody should trade Forex, but solid education is critical t
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 11/10</IntroTitle>
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
-                                ~ Gavin Miller, UK</IntroTitle>
+                                ~ Vilius Simonavičius, UK</IntroTitle>
                                 <DescriptionContainer style={{fontSize: "14px"}}>Have joined the Forex course in this Institute mid of 2020, and long story short, I can clearly say, I have made greatest choice in my life. Mentor, team, educational programme, support and learning material is so amazing I could not have imagined.
 Just recently new Crypto course launched and guess what... Joined it without a doubt and invited my friends to start from scratch as this course and overall this Institute is very promising. Do not miss your chance :)
                                 </DescriptionContainer>
