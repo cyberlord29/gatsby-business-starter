@@ -6,7 +6,7 @@ import star from '../../img/star.png'
 
 import { Banner, AboutContainer } from './Testimonial.element'
 import { Bullet, CarouselBullet, FlexContainer, Header, Underline } from '../../globalStyles'
-import { DescriptionContainer, IntroTitle } from '../IntroCard/IntroCard.element'
+import { Button, DescriptionContainer, IntroTitle } from '../IntroCard/IntroCard.element'
 
 
 function useInterval(callback, delay) {
@@ -109,12 +109,14 @@ const Testimonial = () => {
                         <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">Trustpilot</a>
                         </div>
                         <div style={{marginTop: "5px"}}>Excellent</div>
-                        <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" >
+                        <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank">
                         <img style={{marginTop: "5px"}} height={50} alt="TrustScore 5 out of 5" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"></img>
                         </a>
-                        <div style={{display: "flex", flexDirection: "row", width: "100%", marginTop: "20px", display: "-webkit-inline-box"}}>
+                        <div style={{display: "flex", flexDirection: "row", width: "100%", marginTop: "0px", display: "-webkit-inline-box"}}>
+                        <a href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank">
+                            <Button style={{backgroundColor: "rgb(0, 182, 122)", margin: "10px 10px", height: "28px", borderRadius: "20px"}}>VIEW ALL REVIEWS</Button>
+                        </a>
                         <a style={{color: "inherit", textDecoration: "none"}} href="https://uk.trustpilot.com/review/www.londontradinginstitute.com" target="_blank" rel="noopener">
-
                             {carousel===0 &&  <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
                                 Confused trader to a confident trader and investor in Cryptos</IntroTitle>
@@ -163,7 +165,7 @@ Learning with the LTI has been a great experience and have no hesitation in reco
                             </div>}
                             {carousel===5 && <div style={{background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
                                 <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
-                                IFantastic course run by great people</IntroTitle>
+                                Fantastic course run by great people</IntroTitle>
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
                                 ~ Simon, UK</IntroTitle>
                                 <DescriptionContainer style={{fontSize: "14px"}}>Fantastic course run by great people. Huge amount of content and weekly zoom meetings where you can ask questions and get the answers by being shown on the charts.
