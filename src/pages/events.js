@@ -37,7 +37,7 @@ const AboutPage = () => {
                     Anyone can get lucky on a few trades but you are going to learn the secret to making profits over and over again. <br/><br/>
                     Follow a proven Trading Strategy and then leverage OPM to make a Six Figure Income in under 3 months.<br/><br/>
                     </div>
-                    <a href="https://event.webinarjam.com/register/1/zyx07cx">
+                    <a href="https://elite.londontradinginstitute.com/registration">
                         <Button onClick={()=>{}} style={{marginTop: "20px", padding: "5px 10px", fontSize: "20px", width: "280px"}}>
                         REGISTER
                         </Button>
