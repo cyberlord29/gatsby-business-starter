@@ -23,9 +23,9 @@ const AboutPage = () => {
                   {/* Meanwhile here is some of our content */}
                 </DescriptionContainer>
                   {/* <iframe style={{margin: "40px"}} src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAndyDemiLTG%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> */}
-                  <div class="video-wrapper">
+                  {/* <div class="video-wrapper">
                     <iframe src="https://www.youtube.com/embed/AcXBKvY0_S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <AboutContainerAboutPage style={{position: "static", margin: "0px 0px"}}>
