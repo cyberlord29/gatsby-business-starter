@@ -9,7 +9,7 @@ import andy2 from '../img/alberto1.png';
 const AboutPage = () => {
     return (
         <Layout>
-            <div style={{backgroundColor: "#F7F9FF", padding: "100px 9%"}}>
+            <div className="mobile-padding" style={{backgroundColor: "#F7F9FF", padding: "70px 25%"}}>
               <div style={{display: "flex", flexDirection: "column",justifyContent: "center", alignItems: "center"}}>
                 <IntroTitle style={{marginBottom: "20px", textAlign: "center"}}>
                   Thank you for your Interest
