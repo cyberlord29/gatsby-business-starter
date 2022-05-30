@@ -95,7 +95,7 @@ const Navbar = () => {
                  </NavItem>
                  <NavItem>
                     <NavLink to="/">
-                            <Button style={{padding: "5px 10px", marginTop: "0px"}} onClick={() =>{toggleModal(true)}}>
+                            <Button style={{padding: "10px 10px", marginTop: "0px"}} onClick={() =>{toggleModal(true)}}>
                             Free Consultation
                         </Button>
                     </NavLink>

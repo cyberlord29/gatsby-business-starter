@@ -9,7 +9,7 @@ import andy2 from '../img/alberto1.png';
 const AboutPage = () => {
     return (
         <Layout>
-            <div style={{backgroundColor: "#F7F9FF", padding: "100px 5%"}}>
+            <div style={{backgroundColor: "#F7F9FF", padding: "100px 9%"}}>
               <div style={{display: "flex", flexDirection: "column",justifyContent: "center", alignItems: "center"}}>
                 <IntroTitle style={{marginBottom: "20px", textAlign: "center"}}>
                   Thank you for your Interest
@@ -18,18 +18,18 @@ const AboutPage = () => {
                 <DescriptionContainer style={{margin: "20px 0px", padding: "20px", textAlign: "center"}}>
                 We've just sent you an email. Please check both your inbox and spam folder. If you don't receive an email within 30 minutes please  email us at info@londontradinginstitute.com or call us at 02038877398. 
                 </DescriptionContainer>
-                <div style={{margin: "30px 0px"}}>
+                <div style={{margin: "30px 0px", width: "100%"}}>
                 <DescriptionContainer style={{textAlign: "center", marginBottom: "40px"}}>
                   {/* Meanwhile here is some of our content */}
                 </DescriptionContainer>
-                <FlexContainer>
                   {/* <iframe style={{margin: "40px"}} src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAndyDemiLTG%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> */}
-                  {/* <iframe width="360" height="215" src="https://www.youtube.com/embed/fYxFINQo-gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  */}
-                </FlexContainer>
+                  <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/AcXBKvY0_S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                 </div>
               </div>
               <AboutContainerAboutPage style={{position: "static", margin: "0px 0px"}}>
-                <Header style={{padding: "0px",margin: "0px 0px", marginBottom: "50px", fontSize: "34px"}}>
+                <Header style={{padding: "0px",margin: "0px 0px", marginTop: "40px", marginBottom: "25px", fontSize: "34px"}}>
                       <div>
                           <div>
                               Our Team
