@@ -43,6 +43,12 @@
    border-radius: 20px;
 }
 
+body{
+   --chat-widget-primary-color: #FFAB00;
+   --chat-widget-active-color:#FFAB00;
+   --chat-widget-bubble-color: #FFAB00;
+}
+
 
 @media (max-width: 500px) {
    .mobile-padding{

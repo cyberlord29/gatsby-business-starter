@@ -50,6 +50,11 @@ const TemplateWrapper = ({ children }) => {
       document.getElementById('webinar').appendChild(calendlyScript)
     }
 
+
+    const chatWidget = document.createElement('script');
+    chatWidget.src = 'https://widgets.leadconnectorhq.com/loader.js';
+    chatWidget.setAttribute('data-resources-url', 'https://widgets.leadconnectorhq.com/chat-widget/loader.js');
+    document.getElementById('chat-widget').appendChild(chatWidget);
     // if(document.getElementById("fb-root")){
     //   const fbScript = document.createElement('script');
     //   fbScript.nonce = "TE7pYs94";
@@ -133,6 +138,12 @@ const TemplateWrapper = ({ children }) => {
       }}>
         {children}
       </div>
+      <div id="chat-widget"></div>
+      <chat-widget
+        className="#chat-widget"
+        location-id="cikP5PBhdRcZG8DtLEDD"
+        prompt-avatar="https://widgets.leadconnectorhq.com/chat-widget/assets/defaultAvatar.png">
+      </chat-widget>
       <Footer />
     </div>
   )
