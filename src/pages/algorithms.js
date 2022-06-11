@@ -130,7 +130,7 @@ const OverView = () => {
               <Bullet/>1-hour Q and A session per week
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px"}}>
-              <Bullet/>2 hours of prerecorded classes per week
+              <Bullet/>2 hours of pre-recorded classes per week
             </DescriptionContainer>
             <DescriptionContainer style={{fontSize: "16px", color: "#4B586A", marginTop: "10px", marginBottom: "40px"}}>
               <Bullet/>Ongoing Support from your teacher
@@ -167,7 +167,7 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage img={algo} title={'Algorithmic Trading Course'} description={'Learn how to buid automated trading systems'}/>
+            <IntroCardCoursePage img={algo} title={'Algorithmic Trading Course'} description={'Learn how to build automated trading systems'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}

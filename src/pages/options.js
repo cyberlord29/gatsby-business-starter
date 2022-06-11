@@ -128,7 +128,7 @@ const OverView = () => {
 const IndexPage = () => {
     return (
         <Layout>
-            <IntroCardCoursePage img={options} title={'Options'} description={'Learn how to buid automated trading systems'}/>
+            <IntroCardCoursePage img={options} title={'Options'} description={'Learn Options theory and build trading strategies for all market conditions'}/>
                 <CourseItem
                     mentors={<Mentors/>}
                     overview={<OverView/>}
