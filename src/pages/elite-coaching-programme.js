@@ -121,8 +121,8 @@ const OverView = () => {
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              This programme is a mastery trading programme designed for all levels of trader who
-              are ready to get into the elite group of professional traders who make money on a
+              This programme is forex mastery trading programme designed for all levels of trader who
+              are ready to get into the elite group of professional FX traders who make money on a
               consistent basis. <br/><br/>If you aren’t fully committed to this goal, then this programme may
               not be for you.
             </DescriptionContainer>
@@ -139,8 +139,7 @@ const OverView = () => {
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
               Whether you are a complete beginner or a seasoned pro, this programme is
-              customised for your needs, and completely focussed towards getting you the results
-              you desire.
+              customised for your needs, and completely focussed towards getting consistently profitable.
             </DescriptionContainer>
         </div>
         <CourseBanner style={{padding: "20px 20px"}}>
@@ -149,7 +148,7 @@ const OverView = () => {
         <div style={{padding: "0px 40px"}}>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
               The opportunity to have direct access to an elite level senior trader is very rare, but
-              this is exactly what you get on the Elite Trader Coaching Programme.
+              this is exactly what you get on the Elite Trader Programme (FX).
               <br/>
               <br/>
                 If you have a question no need to wait for a group coaching session or to post in a
@@ -160,7 +159,7 @@ const OverView = () => {
                 you get it.
               <br/>
               <br/>
-                That’s what the Elite Trader Coaching Programme is all about. Ask as many questions
+                That’s what the Elite Trader Programme (FX) is all about. Ask as many questions
                 as you like and get the support and help you need to become a consistent trader.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
@@ -177,7 +176,7 @@ const OverView = () => {
                 a popular choice with beginner traders.
               <br/>
               <br/>
-                The Elite Trader Coaching Programme is for those looking for one to one support to
+                The  Elite Trader Programme (FX) is for those looking for one to one support to
                 progress quickly to trading a six-figure trading account.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
@@ -221,7 +220,7 @@ accepted on the programme.
             data. Most importantly though, this is the area where we dive deep into some of the
             advanced mindset techniques utilised by institutional traders in order to allow their
             trading strategies to operate how they are meant to. Upon completion of this pillar,
-            you’ll be ready to take your assessment to receive a funded account available for you
+            you’ll be ready to take your assessment to receive a funded trading account available for you
             to trade with up to $200k.
             </DescriptionContainer>
         </div>
@@ -230,7 +229,7 @@ accepted on the programme.
         </CourseBanner>
         <div style={{padding: "0px 40px"}}>
         <IntroTitle style={{fontSize: "24px", marginTop: "0px"}}>
-            Training for Beginners and Season Pro’s
+            Training for Beginners and Seasoned Pro’s
           </IntroTitle>
           <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
           We assume that you have zero knowledge of financial markets, and you will be
@@ -274,7 +273,7 @@ the market.
         </IntroTitle>
           <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
           The best way to learn is by observing and modelling. During your programme you will
-be receiving regular videos and screenshots with trade setups (pre-trade) and
+be receiving regular trading videos and screenshots with trade setups (pre-trade) and
 educational follow-ups on trades taken. These will be sent to you personally and you
 will be able to instantly ask questions if anything is unclear, and you can choose to
 take the same trade if you wish.
@@ -290,18 +289,9 @@ preferred method of trading.
           me to build my own trading strategy that I am so far consistently profitable on. I am on
           course to pass my funded challenge and trade a $200K account.’ - Alex Yallouros
           </div>
-          <div style={{display: "flex", flexDirection: "column",alignItems: "center",background: "rgb(247, 249, 255)", padding: "20px 40px", borderRadius: "10px", marginLeft: "10"}}>
-                <IntroTitle style={{fontSize: "20px", marginBottom: "15px"}}>
-                Priceless
-                </IntroTitle>
-                <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
-                ~ Alex Yallouros, UK</IntroTitle>
-                <DescriptionContainer style={{fontSize: "14px"}}>
-                The daily videos sent by Dan and Andy have been priceless for me and it’s allowed
-          me to build my own trading strategy that I am so far consistently profitable on. I am on
-          course to pass my funded challenge and trade a $200K account.
-                </DescriptionContainer>
-            </div>
+          <div style={{fontStyle: "italic", border: "1px dashed rgb(0, 182, 122)",marginTop: "10px", borderRadius: "20px", padding: "20px"}}>
+                    ‘The last 3 months have been the most rewarding 3 months in my 4 years of learning to trade’ - Anita Moore
+          </div>
           </DescriptionContainer>
           <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
           Trading for a living
@@ -343,7 +333,7 @@ const IndexPage = () => {
      }
     return (
         <Layout>
-            <IntroCardCoursePage title={'Elite Coaching Programme'} img={atp}
+            <IntroCardCoursePage title={'Elite Trader Programme (FX)'} img={atp}
             description={'Learn the tools you need to become a consistantly profitable trader in the Forex markets'}/>
                 <CourseItem
                     mentors={<Mentors/>}
