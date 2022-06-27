@@ -16,14 +16,14 @@ import intro from '../img/intro.jpg'
 import etp from '../img/etp.png'
 import { CourseItem } from '../components/Courses/Courses.elements';
 
-const Course = ({title, duration, img, page, difficulty, crypto}) => {
+const Course = ({title, duration, img, page, difficulty, crypto, small}) => {
   return (
       <CourseItem onClick={()=>navigate(page)}>
           <div style={{height: "185px"}}>
               <img
                   src={img}
                   alt="course"
-                  height={"100%"}
+                  height={small?"85%":"100%"}
               >
               </img>
           </div>
@@ -74,7 +74,6 @@ const Beginner = () => {
             page={'/crypto-like-a-pro'}
             crypto="CRYPTO"
         />
-        <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"} crypto="CRYPTO"/>
       </FlexContainer>
     </>
   )
@@ -88,9 +87,9 @@ const Intermediate = () => {
         <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
         <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
       </FlexContainer>
-                <FlexContainer>
-                    <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"}/>
-                </FlexContainer>
+      <FlexContainer>
+          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"}/>
+      </FlexContainer>
     </>
   )
 }
