@@ -10,14 +10,14 @@ import clpt from '../../img/clpt.jpg'
 import intro from '../../img/intro.jpg'
 import etp from '../../img/etp.png'
 
-const Course = ({title, duration, img, page, difficulty, crypto}) => {
+const Course = ({title, duration, img, page, difficulty, crypto, small}) => {
     return (
         <CourseItem onClick={()=>navigate(page)}>
             <div style={{height: "185px"}}>
                 <img
                     src={img}
                     alt="course"
-                    height={"100%"}
+                    height={small?"85%":"100%"}
                 >
                 </img>
             </div>
@@ -86,7 +86,7 @@ const Courses = (props) => {
                 </FlexContainer>
                 <FlexContainer>
                     <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"} crypto/>
-                          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"} crypto="FOREX"/>
+                          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} small={true} duration={"3 months"} difficulty={"intermediate"} crypto="FOREX"/>
                     {/* <Course title="Algorithms" img={algo} duration={"1 month"} difficulty={"intermediate"}/>
                     <Course title="Advanced Forex" img={atp1} duration={"1 month"} difficulty={"intermediate"}/> */}
                 </FlexContainer>
