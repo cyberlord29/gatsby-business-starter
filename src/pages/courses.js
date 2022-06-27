@@ -87,8 +87,10 @@ const Intermediate = () => {
         <Course title="Algorithmic Trading Course" img={algo} duration={"3 months"} page={'/algorithms'} difficulty={"intermediate"}/>
         <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
         <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
-        <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
       </FlexContainer>
+                <FlexContainer>
+                    <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"} crypto="FOREX"/>
+                </FlexContainer>
     </>
   )
 }
@@ -116,9 +118,6 @@ const All = () => {
                     <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"} crypto="CRYPTO"/>
                     <Course title="Algorithmic Trading Course" img={algo} duration={"3 months"} page={'/algorithms'} difficulty={"intermediate"} crypto="ALGO"/>
                     <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
-                </FlexContainer>
-                <FlexContainer>
-                    <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"} crypto="FOREX"/>
                 </FlexContainer>
     </>
   )
