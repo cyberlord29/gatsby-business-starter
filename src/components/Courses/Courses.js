@@ -86,7 +86,7 @@ const Courses = (props) => {
                 </FlexContainer>
                 <FlexContainer>
                     <Course title="Crypto Like a Pro Trading System" img={clpt} page={'/crypto-like-a-pro-system'} duration={"3 months"} crypto/>
-                          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} small={true} duration={"3 months"} difficulty={"intermediate"} crypto="FOREX"/>
+                          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} small={true} duration={"3 months"} difficulty={"intermediate"}/>
                     {/* <Course title="Algorithms" img={algo} duration={"1 month"} difficulty={"intermediate"}/>
                     <Course title="Advanced Forex" img={atp1} duration={"1 month"} difficulty={"intermediate"}/> */}
                 </FlexContainer>
