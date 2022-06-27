@@ -8,7 +8,7 @@ import clp from '../../img/clp.jpg'
 import atp from '../../img/atp1.jpg'
 import clpt from '../../img/clpt.jpg'
 import intro from '../../img/intro.jpg'
-import etp from '../img/etp.png'
+import etp from '../../img/etp.png'
 
 const Course = ({title, duration, img, page, difficulty, crypto}) => {
     return (
