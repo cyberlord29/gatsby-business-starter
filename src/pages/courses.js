@@ -13,6 +13,7 @@ import clpt from '../img/clpt.jpg'
 import algo from '../img/algorithms.jpg'
 import options from '../img/options.jpg'
 import intro from '../img/intro.jpg'
+import etp from '../img/etp.png'
 import { CourseItem } from '../components/Courses/Courses.elements';
 
 const Course = ({title, duration, img, page, difficulty, crypto}) => {
@@ -86,6 +87,7 @@ const Intermediate = () => {
         <Course title="Algorithmic Trading Course" img={algo} duration={"3 months"} page={'/algorithms'} difficulty={"intermediate"}/>
         <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
         <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
+        <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
       </FlexContainer>
     </>
   )
@@ -116,7 +118,7 @@ const All = () => {
                     <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
                 </FlexContainer>
                 <FlexContainer>
-                    <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"} crypto="OPTIONS"/>
+                    <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"} crypto="FOREX"/>
                 </FlexContainer>
     </>
   )
