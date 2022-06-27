@@ -13,7 +13,7 @@ const CourseList = (props) => {
   const [page, setPage] = useState("All")
   return(
     <div style={{backgroundColor:"#F7F9FF", paddingBottom: "50px", display: "flex", flexDirection: "column",
-      alignItems: "center"
+      padding: 2% 10%;
     }}>
       <Navbar style={{paddingTop: "0px" ,background: "none",color: "white",position: "relative", top: "-38px"}}>
         {
