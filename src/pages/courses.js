@@ -88,7 +88,7 @@ const Intermediate = () => {
         <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
       </FlexContainer>
       <FlexContainer>
-          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"} small={true}/>
+          <Course title="Elite Trader Programme (1:1)" img={etp} page={'/elite-trader-programme'} duration={"4 months"} difficulty={"intermediate"} small={true}/>
       </FlexContainer>
     </>
   )
