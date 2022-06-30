@@ -290,7 +290,7 @@ preferred method of trading.
           course to pass my funded challenge and trade a $200K account.’ - Alex Yallouros
           </div>
           <div style={{fontStyle: "italic", border: "1px dashed rgb(0, 182, 122)",marginTop: "10px", borderRadius: "20px", padding: "20px"}}>
-                    ‘The last 3 months have been the most rewarding 3 months in my 4 years of learning to trade’ - Anita Moore
+                    ‘The last 4 months have been the most rewarding 4 months in my 4 years of learning to trade’ - Anita Moore
           </div>
           </DescriptionContainer>
           <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
