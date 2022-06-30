@@ -148,7 +148,7 @@ const OverView = () => {
         <div style={{padding: "0px 40px"}}>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
               The opportunity to have direct access to an elite level senior trader is very rare, but
-              this is exactly what you get on the Elite Trader Programme (FX).
+              this is exactly what you get on the Elite Trader Programme (1:1).
               <br/>
               <br/>
                 If you have a question no need to wait for a group coaching session or to post in a
@@ -159,7 +159,7 @@ const OverView = () => {
                 you get it.
               <br/>
               <br/>
-                That’s what the Elite Trader Programme (FX) is all about. Ask as many questions
+                That’s what the Elite Trader Programme (1:1) is all about. Ask as many questions
                 as you like and get the support and help you need to become a consistent trader.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
@@ -176,7 +176,7 @@ const OverView = () => {
                 a popular choice with beginner traders.
               <br/>
               <br/>
-                The  Elite Trader Programme (FX) is for those looking for one to one support to
+                The  Elite Trader Programme (1:1) is for those looking for one to one support to
                 progress quickly to trading a six-figure trading account.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
@@ -333,7 +333,7 @@ const IndexPage = () => {
      }
     return (
         <Layout>
-            <IntroCardCoursePage title={'Elite Trader Programme (FX)'} img={atp}
+            <IntroCardCoursePage title={'Elite Trader Programme (1:1)'} img={atp}
             description={'Learn the tools you need to become a consistantly profitable trader in the Forex markets'}/>
                 <CourseItem
                     mentors={<Mentors/>}
