@@ -119,7 +119,7 @@ const All = () => {
                     <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
                 </FlexContainer>
       <FlexContainer>
-          <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} duration={"3 months"} difficulty={"intermediate"} small={true}/>
+          <Course title="Elite Trader Programme (1:1)" img={etp} page={'/elite-trader-programme'} duration={"4 months"} difficulty={"intermediate"} small={true}/>
       </FlexContainer>
     </>
   )
