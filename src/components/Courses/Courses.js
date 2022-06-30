@@ -76,7 +76,7 @@ const Courses = (props) => {
                         duration={"3 months"}
                         page={'/associate-trader-programme'}
                     />
-                    <Course title="Elite Trader Programme (FX)" img={etp} page={'/elite-trader-programme'} small={true} duration={"4 months"} difficulty={"intermediate"}/>
+                    <Course title="Elite Trader Programme (1:1)" img={etp} page={'/elite-trader-programme'} small={true} duration={"4 months"} difficulty={"intermediate"}/>
                         {/*<Course 
                         title="Crypto Like a Pro Investing"
                         duration={"6 months"}
