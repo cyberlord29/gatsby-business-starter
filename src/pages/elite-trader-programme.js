@@ -121,7 +121,7 @@ const OverView = () => {
                 About this Course
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
-              This programme is forex mastery trading programme designed for all levels of trader who
+              This programme is a forex mastery trading programme designed for all levels of trader who
               are ready to get into the elite group of professional FX traders who make money on a
               consistent basis. <br/><br/>If you aren’t fully committed to this goal, then this programme may
               not be for you.
@@ -139,7 +139,7 @@ const OverView = () => {
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
               Whether you are a complete beginner or a seasoned pro, this programme is
-              customised for your needs, and completely focussed towards getting consistently profitable.
+              customised for your needs, and completely focussed towards getting you consistently profitable.
             </DescriptionContainer>
         </div>
         <CourseBanner style={{padding: "20px 20px"}}>
@@ -269,7 +269,7 @@ your own trading plan and you will be fully competent in implementing it consist
 the market.
           </DescriptionContainer>
           <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-          Trade Steps and Educational Videos
+          Trade Setups and Educational Videos
         </IntroTitle>
           <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
           The best way to learn is by observing and modelling. During your programme you will
