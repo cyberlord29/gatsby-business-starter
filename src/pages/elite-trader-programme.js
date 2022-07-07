@@ -206,7 +206,7 @@ accepted on the programme.
             <IntroTitle style={{fontSize: "24px", marginTop: "0px"}}>
             <Bullet/>Pillar 1
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "26px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "25px"}}>
             Foundational Market Necessities - We will start things off by running you through the
             baseline fundamentals that you NEED to know before getting into trading the forex
             markets. Foundational Knowledge such as a solid understanding of how the market
@@ -217,7 +217,7 @@ accepted on the programme.
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
             <Bullet/>Pillar 2
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "26px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "25px"}}>
             Advanced Technical Trading Tactics - Once you’ve formulated a solid understanding of
             the Foundations of Trading, it’s time to craft a profitable trading strategy. You’ll learn
             how to develop a trading strategy of your own, how to manage your money and
