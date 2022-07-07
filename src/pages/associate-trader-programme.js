@@ -2,7 +2,7 @@ import React from 'react'
 import { Layout ,Testimonial, Booking, IntroCardCoursePage, CourseItem } from '../components'
 import { CourseBanner } from '../components/Courses/Courses.elements'
 import { DescriptionContainer, IntroTitle } from '../components/IntroCard/IntroCard.element'
-import { Bullet, FlexContainer } from '../globalStyles'
+import { Bullet, FlexContainer, RDiv } from '../globalStyles'
 import andy1 from '../img/andy1.png'
 import atp from '../img/atp1.jpg'
 
@@ -173,7 +173,12 @@ Crucially, you will learn how to piece all these together to form your very own 
                 <br/><br/>
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-            <Bullet/>Risk and Money Management
+            <div style={{display: "flex"}}>
+                <Bullet style={{margin: "10px"}}/>
+                    <div>
+                        Risk and Money Management
+                    </div>
+            </div>
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
             Risk and money management is a fundamental component to trade successfully.

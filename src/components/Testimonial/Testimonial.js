@@ -178,7 +178,7 @@ The course fitted around my job and home life.
                                 <IntroTitle style={{fontSize: "16px", marginBottom: "15px"}}>
                                 ~ Paul, UK</IntroTitle>
                                 <DescriptionContainer style={{fontSize: "14px"}}>I have been a student of LTI for around six months.
-Andy Demi and LTI are the real deal. Since becoming a student, I have become profitable on an FX demo account (3:1 win rate, >1:1 Profit to loss), and have just made the transition to a cash account.
+Andy Demi and LTI are the real deal. Since becoming a student, I have become profitable on an FX demo account (3:1 win rate, >one-to-one Profit to loss), and have just made the transition to a cash account.
 The training, coaching and community have made the difference to my growth and development, and I am now set up to make Forex trading a second income.
 The cost of joining LTI is good value and comparable to professional training courses in my primary career.
 Frankly, I think everybody should trade Forex, but solid education is critical to ensure the market doesn't eat you up, and LTI provide that.

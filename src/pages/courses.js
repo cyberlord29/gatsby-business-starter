@@ -88,7 +88,7 @@ const Intermediate = () => {
         <Course title="Options Trading Course" img={options} page={'/options'} duration={"3 months"} difficulty={"intermediate"}/>
       </FlexContainer>
       <FlexContainer>
-          <Course title="Elite Trader Programme (1:1)" img={etp} page={'/elite-trader-programme'} duration={"4 months"} difficulty={"intermediate"} small={true}/>
+          <Course title="Elite Trader Programme (one-to-one)" img={etp} page={'/elite-trader-programme'} duration={"4 months"} difficulty={"intermediate"} small={true}/>
       </FlexContainer>
     </>
   )
@@ -119,7 +119,7 @@ const All = () => {
                     <Course title="Advanced Forex" img={atp1} page={'/advanced-forex'} duration={"1 month"} difficulty={"intermediate"}/>
                 </FlexContainer>
       <FlexContainer>
-          <Course title="Elite Trader Programme (1:1)" img={etp} page={'/elite-trader-programme'} duration={"4 months"} difficulty={"intermediate"} small={true}/>
+          <Course title="Elite Trader Programme (one-to-one)" img={etp} page={'/elite-trader-programme'} duration={"4 months"} difficulty={"intermediate"} small={true}/>
       </FlexContainer>
     </>
   )

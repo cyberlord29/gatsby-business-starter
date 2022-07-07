@@ -148,7 +148,7 @@ const OverView = () => {
         <div style={{padding: "0px 40px"}}>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px"}}>
               The opportunity to have direct access to an elite level senior trader is very rare, but
-              this is exactly what you get on the Elite Trader Programme (1:1).
+              this is exactly what you get on the Elite Trader Programme (one-to-one).
               <br/>
               <br/>
                 If you have a question no need to wait for a group coaching session or to post in a
@@ -159,11 +159,16 @@ const OverView = () => {
                 you get it.
               <br/>
               <br/>
-                That’s what the Elite Trader Programme (1:1) is all about. Ask as many questions
+                That’s what the Elite Trader Programme (one-to-one) is all about. Ask as many questions
                 as you like and get the support and help you need to become a consistent trader.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-               <Bullet/>Apply to be part of the Programme
+               <div style={{display: "flex"}}>
+                <Bullet style={{margin: "10px", marginLeft: "0px",marginRight: "16px", width: "11px"}}/>
+                    <div>
+                        Apply to be part of the Programme
+                    </div>
+            </div>
             </IntroTitle>
             <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
               In order to join this programme, you will need to apply and speak with one of our
@@ -176,13 +181,13 @@ const OverView = () => {
                 a popular choice with beginner traders.
               <br/>
               <br/>
-                The  Elite Trader Programme (1:1) is for those looking for one to one support to
+                The  Elite Trader Programme (one-to-one) is for those looking for one to one support to
                 progress quickly to trading a six-figure trading account.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
             <Bullet/>Course Commitment
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "26px"}}>
             The course can be completed on a part time basis and the coaching is conducted
 remotely. We expect you to be able to dedicate a minimum of 10 hours a week to be
 accepted on the programme.
@@ -199,9 +204,9 @@ accepted on the programme.
             The Associate Trading Programme aims to give you a solid foundation in Forex trading. You are going to learn forex trading strategies that are used by our professional traders, and you will become proficient in the 4 pillars of trading; technical analysis, fundamental analysis, risk and money management and trading psychology.<br/><br/>
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "0px"}}>
-            <Bullet/> Pillar 1
+            <Bullet/>Pillar 1
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "26px"}}>
             Foundational Market Necessities - We will start things off by running you through the
             baseline fundamentals that you NEED to know before getting into trading the forex
             markets. Foundational Knowledge such as a solid understanding of how the market
@@ -210,9 +215,9 @@ accepted on the programme.
             market psychology.
             </DescriptionContainer>
             <IntroTitle style={{fontSize: "24px", marginTop: "20px"}}>
-            <Bullet/> Pillar 2
+            <Bullet/>Pillar 2
             </IntroTitle>
-            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "28px"}}>
+            <DescriptionContainer style={{fontSize: "14px", color: "#4B586A", marginTop: "10px", paddingLeft: "26px"}}>
             Advanced Technical Trading Tactics - Once you’ve formulated a solid understanding of
             the Foundations of Trading, it’s time to craft a profitable trading strategy. You’ll learn
             how to develop a trading strategy of your own, how to manage your money and
@@ -333,7 +338,7 @@ const IndexPage = () => {
      }
     return (
         <Layout>
-            <IntroCardCoursePage title={'Elite Trader Programme (1:1)'} img={atp}
+            <IntroCardCoursePage title={'Elite Trader Programme (one-to-one)'} img={atp}
             description={'Learn the tools you need to become a consistantly profitable trader in the Forex markets'}/>
                 <CourseItem
                     mentors={<Mentors/>}
