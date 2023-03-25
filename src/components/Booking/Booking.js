@@ -11,7 +11,7 @@ const Booking = ({lone, close}) => {
     const initCalendly = () => {
       console.log(form)
        window.Calendly.initPopupWidget({
-         url: 'https://link.elite360.io/widget/booking/fh0NtjPGmU7wuxVKQJLX',
+         url: 'https://link.elite360.io/widget/bookings/lti-strategy-call',
          prefill: form
        });
     }

@@ -111,7 +111,7 @@ const OverView = () => {
 
     const initCalendly = () => {
         window.Calendly.initPopupWidget({
-           url: 'https://link.elite360.io/widget/booking/fh0NtjPGmU7wuxVKQJLX',
+           url: 'https://link.elite360.io/widget/bookings/lti-strategy-call',
        });
      }
     return(
@@ -333,7 +333,7 @@ const IndexPage = () => {
 
     const initCalendly = () => {
         window.Calendly.initPopupWidget({
-           url: 'https://link.elite360.io/widget/booking/fh0NtjPGmU7wuxVKQJLX',
+           url: 'https://link.elite360.io/widget/bookings/lti-strategy-call',
        });
      }
     return (

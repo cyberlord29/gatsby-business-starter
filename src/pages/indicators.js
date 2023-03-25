@@ -200,6 +200,24 @@ const IndexPage = () => {
                     </Button>
                   </div>
               </Card>
+              <Card>
+              <div style={{flexBasis: "30%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <iframe className="yt-video" src="https://www.youtube.com/embed/Cvx8gAlzSuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div style={{flexDirection: "column", marginLeft: "10px",flexBasis: "70%", padding: "10px"}}>
+                    <div style={{fontSize: "24px",padding: "12px 0px"}}>
+                      {`Position Risk Manager`}
+                    </div>
+                    <div style={{fontSize: "14px",padding: "0px 0px", color: "#172647"}}>
+                      An intuitive tool that helps you manage risk on your position and calculate the position size for you based on your appetite.<br/><br/>                    </div>
+                    <div style={{fontSize: "14px",padding: "0px 0px", color: "#4B586A", fontWeight: "normal"}}>
+                      This indicator is very intuitive – it will enable you to slash the time it takes for identifying your position size and risk to reward ratio, without much effort, allowing you to focus on your trade setup instead. Use sensible Risk to Reward ratios and leave the calculation to this Tool.
+                    </div>
+                    <Button onClick={()=>toggleModal(true)} style={{marginTop: "20px", padding: "5px 10px", fontSize: "20px"}}>
+                      Download Free Trial
+                    </Button>
+                  </div>
+              </Card>
             </RDiv>
             <Testimonial/>
             <Booking/>
