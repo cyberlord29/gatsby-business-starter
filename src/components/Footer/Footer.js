@@ -53,13 +53,13 @@ const Footer = () => {
                             info@londontradinginstitute.com
                         </div>
                         <div style={{fontSize: "12px", textAlign: "end"}}>
-                            35 New Broad Street
+                            167-169 5th Floor
                         </div>
                         <div style={{fontSize: "12px", textAlign: "end"}}>
-                            London
+                            Great Portland Street
                         </div>
                         <div style={{fontSize: "12px", textAlign: "end"}}>
-                            EC2M 1 NH
+                            London, W1W 5PF
                         </div>
                     </div> 
                 </div>
